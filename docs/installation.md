@@ -201,4 +201,4 @@ npm i github:icdesign-bt/ic-kit#v0.2.0
 - [README](../README.md) — обзор
 - [Introduction в Storybook](https://icdesign-bt.github.io/ic-kit/?path=/docs/introduction--docs)
 - [Guides → Quick start](https://icdesign-bt.github.io/ic-kit/?path=/docs/guides-quick-start--docs)
-- [icons.md](./icons.md) — каталог иконок
+- [Foundations → Icons в Storybook](https://icdesign-bt.github.io/ic-kit/?path=/story/foundations-icons--gallery) — каталог иконок

@@ -56,7 +56,7 @@ npm run dev              # http://localhost:6006
 | | |
 |---|---|
 | [installation.md](docs/installation.md) | подключение в проект |
-| [icons.md](docs/icons.md) | иконки `<Icon />` |
+| [Storybook → Foundations → Icons](https://icdesign-bt.github.io/ic-kit/?path=/story/foundations-icons--gallery) | каталог иконок `<Icon />` |
 | [CHANGELOG.md](CHANGELOG.md) | история версий |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | для команды кита |
 | [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) | лицензии зависимостей |

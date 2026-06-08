@@ -21,4 +21,4 @@
 - Каркас проекта: React + TypeScript + Vite (lib) + Storybook
 - Moscow Sans W в `src/assets/fonts/`
 - Каталог иконок `tokens/icon-catalog.json`
-- LICENSE, CONTRIBUTING, `docs/installation.md`, `docs/icons.md`
+- LICENSE, CONTRIBUTING, `docs/installation.md`
