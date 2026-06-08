@@ -1,0 +1,18 @@
+/* Progress / Spinner tokens — Figma progress/* variables */
+:root {
+  --progress-border-width: 2px;
+
+  --progress-xsm-size: 12px;
+  --progress-sm-size: 16px;
+  --progress-md-size: 18px;
+  --progress-lg-size: 20px;
+
+  --progress-linear-xsm-height: 2px;
+  --progress-linear-sm-height: 4px;
+  --progress-linear-md-height: 6px;
+  --progress-linear-lg-height: 8px;
+
+  --progress-track-bg: var(--surfaces-surface-toner);
+  --progress-fill-bg: var(--primary-main);
+  --progress-radius: 999px;
+}

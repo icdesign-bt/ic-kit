@@ -1,0 +1,37 @@
+.root {
+  display: block;
+  background: var(--skeleton-bg);
+  overflow: hidden;
+}
+
+.root[data-variant='text'] {
+  border-radius: var(--skeleton-radius-sm);
+  transform: scale(1, 0.6);
+  transform-origin: 0 55%;
+}
+
+.root[data-variant='rectangular'] {
+  border-radius: var(--skeleton-radius-md);
+}
+
+.root[data-variant='circular'] {
+  border-radius: var(--skeleton-radius-round);
+}
+
+.root[data-animation='pulse'] {
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes skeletonPulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.45;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

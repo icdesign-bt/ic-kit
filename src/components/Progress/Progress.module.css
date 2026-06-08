@@ -1,0 +1,119 @@
+.root {
+  display: block;
+  width: 100%;
+  border: none;
+  appearance: none;
+  background: var(--progress-track-bg);
+  border-radius: var(--progress-radius);
+  overflow: hidden;
+  color: var(--progress-fill-color, var(--progress-fill-bg));
+}
+
+.root[data-size='xsm'] {
+  height: var(--progress-linear-xsm-height);
+}
+
+.root[data-size='sm'] {
+  height: var(--progress-linear-sm-height);
+}
+
+.root[data-size='md'] {
+  height: var(--progress-linear-md-height);
+}
+
+.root[data-size='lg'] {
+  height: var(--progress-linear-lg-height);
+}
+
+.root[data-color='primary'] {
+  --progress-fill-color: var(--primary-main);
+}
+
+.root[data-color='secondary'] {
+  --progress-fill-color: var(--secondary-main);
+}
+
+.root[data-color='neutral'] {
+  --progress-fill-color: var(--neutral-main);
+}
+
+.root[data-color='inherit'] {
+  --progress-fill-color: currentColor;
+}
+
+.root::-webkit-progress-bar {
+  background: var(--progress-track-bg);
+  border-radius: var(--progress-radius);
+}
+
+.root::-webkit-progress-value {
+  background: var(--progress-fill-color);
+  border-radius: var(--progress-radius);
+  transition: width 0.2s ease;
+}
+
+.root::-moz-progress-bar {
+  background: var(--progress-fill-color);
+  border-radius: var(--progress-radius);
+  transition: width 0.2s ease;
+}
+
+.indeterminate {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: var(--progress-track-bg);
+  border-radius: var(--progress-radius);
+  overflow: hidden;
+}
+
+.indeterminate[data-size='xsm'] {
+  height: var(--progress-linear-xsm-height);
+}
+
+.indeterminate[data-size='sm'] {
+  height: var(--progress-linear-sm-height);
+}
+
+.indeterminate[data-size='md'] {
+  height: var(--progress-linear-md-height);
+}
+
+.indeterminate[data-size='lg'] {
+  height: var(--progress-linear-lg-height);
+}
+
+.indeterminate[data-color='primary'] {
+  --progress-fill-color: var(--primary-main);
+}
+
+.indeterminate[data-color='secondary'] {
+  --progress-fill-color: var(--secondary-main);
+}
+
+.indeterminate[data-color='neutral'] {
+  --progress-fill-color: var(--neutral-main);
+}
+
+.indeterminate[data-color='inherit'] {
+  --progress-fill-color: currentColor;
+}
+
+.bar {
+  position: absolute;
+  inset-block: 0;
+  width: 40%;
+  background: var(--progress-fill-color);
+  border-radius: var(--progress-radius);
+  animation: progressIndeterminate 1.2s ease-in-out infinite;
+}
+
+@keyframes progressIndeterminate {
+  0% {
+    left: -40%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}

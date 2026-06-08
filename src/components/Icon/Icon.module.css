@@ -1,0 +1,28 @@
+.wrap {
+  display: inline-flex;
+  line-height: 0;
+  vertical-align: middle;
+  color: inherit;
+}
+
+.root {
+  display: block;
+  color: currentColor;
+  flex-shrink: 0;
+}
+
+/* Figma exports use fill="#070707"; inherit from parent (e.g. button text color). */
+.root :is(path, circle, rect, ellipse, line, polyline, polygon) {
+  fill: currentColor;
+}
+
+.root :is(path, circle, rect, ellipse, line, polyline, polygon)[stroke]:not([stroke='none']) {
+  stroke: currentColor;
+}
+
+.missing {
+  display: inline-block;
+  border: 1px dashed var(--outlines-border, #ccc);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--surfaces-surface-2, #eee) 60%, transparent);
+}

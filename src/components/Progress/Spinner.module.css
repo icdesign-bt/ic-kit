@@ -1,0 +1,88 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--spinner-color, var(--primary-main));
+  flex-shrink: 0;
+}
+
+.root[data-size='xsm'] {
+  width: var(--progress-xsm-size);
+  height: var(--progress-xsm-size);
+}
+
+.root[data-size='sm'] {
+  width: var(--progress-sm-size);
+  height: var(--progress-sm-size);
+}
+
+.root[data-size='md'] {
+  width: var(--progress-md-size);
+  height: var(--progress-md-size);
+}
+
+.root[data-size='lg'] {
+  width: var(--progress-lg-size);
+  height: var(--progress-lg-size);
+}
+
+.root[data-color='primary'] {
+  --spinner-color: var(--primary-main);
+}
+
+.root[data-color='secondary'] {
+  --spinner-color: var(--secondary-main);
+}
+
+.root[data-color='neutral'] {
+  --spinner-color: var(--neutral-main);
+}
+
+.root[data-color='inherit'] {
+  --spinner-color: currentColor;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  animation: spinnerRotate 0.9s linear infinite;
+}
+
+.track {
+  fill: none;
+  stroke: var(--progress-track-bg);
+  stroke-width: var(--progress-border-width);
+}
+
+.indicator {
+  fill: none;
+  stroke: var(--spinner-color);
+  stroke-width: var(--progress-border-width);
+  stroke-linecap: round;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: spinnerDash 1.4s ease-in-out infinite;
+}
+
+@keyframes spinnerRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinnerDash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35;
+  }
+
+  100% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -125;
+  }
+}

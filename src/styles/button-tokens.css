@@ -1,0 +1,47 @@
+/* Semantic aliases for button components — map to KURS DS tokens */
+:root {
+  --btn-primary-bg: var(--primary-main);
+  --btn-primary-fg: var(--primary-main-contrast-text);
+  --btn-primary-hover: var(--primary-main-hover);
+  --btn-primary-tonal-bg: var(--primary-tonal);
+  --btn-primary-tonal-fg: var(--primary-tonal-contrast-text);
+  --btn-primary-tonal-hover: var(--primary-tonal-hover);
+
+  --btn-secondary-bg: var(--secondary-main);
+  --btn-secondary-fg: var(--secondary-main-contrast-text);
+  --btn-secondary-hover: var(--secondary-main-hover);
+  --btn-secondary-tonal-bg: var(--secondary-tonal);
+  --btn-secondary-tonal-fg: var(--secondary-tonal-contrast-text);
+  --btn-secondary-tonal-hover: var(--secondary-tonal-hover-2);
+
+  --btn-neutral-bg: var(--neutral-main);
+  --btn-neutral-fg: var(--neutral-main-contrast-text);
+  --btn-neutral-hover: var(--neutral-main-hover);
+  --btn-neutral-tonal-bg: var(--neutral-tonal);
+  --btn-neutral-tonal-fg: var(--neutral-tonal-contrast-text);
+
+  --btn-success-bg: var(--success-main);
+  --btn-success-fg: var(--success-main-contrast-text);
+  --btn-success-hover: var(--success-main-hover);
+  --btn-success-tonal-bg: var(--success-tonal);
+  --btn-success-tonal-fg: var(--success-tonal-contrast-text);
+
+  --btn-warning-bg: var(--warning-main);
+  --btn-warning-fg: var(--warning-main-contrast-text);
+  --btn-warning-hover: var(--warning-main-hover);
+  --btn-warning-tonal-bg: var(--warning-tonal);
+  --btn-warning-tonal-fg: var(--warning-tonal-contrast-text);
+
+  --btn-error-bg: var(--error-main);
+  --btn-error-fg: var(--error-main-contrast-text);
+  --btn-error-hover: var(--error-main-hover);
+  --btn-error-tonal-bg: var(--error-tonal);
+  --btn-error-tonal-fg: var(--error-tonal-contrast-text);
+
+  --btn-group-divider: var(--divider);
+  --btn-group-selected-contained: var(--btn-selected-contained);
+  --btn-group-selected-tonal: var(--btn-selected-tonal);
+  --btn-group-selected-outlined: var(--btn-selected-outlined);
+
+  --btn-focus-ring: var(--outlines-focused);
+}

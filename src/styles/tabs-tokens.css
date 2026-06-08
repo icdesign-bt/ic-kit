@@ -1,0 +1,45 @@
+/* Semantic aliases for Tabs — map to KURS DS tokens */
+:root {
+  --tab-indicator: var(--primary-main);
+  --tab-text-selected-bg: var(--surfaces-surface-toner);
+  --tab-hover-bg: var(--surfaces-surface-hover);
+  --tab-focus-ring: var(--outlines-focused);
+  --tab-filled-gap: 4px;
+  --tab-list-filled-gap: 4px;
+
+  --tab-text-xlg-height: 60px;
+  --tab-text-xlg-gap: 8px;
+  --tab-text-xlg-px: 16px;
+
+  --tab-text-lg-height: 48px;
+  --tab-text-lg-gap: 6px;
+  --tab-text-lg-px: 16px;
+
+  --tab-text-md-height: 40px;
+  --tab-text-md-gap: 6px;
+  --tab-text-md-px: 16px;
+
+  --tab-text-sm-height: 32px;
+  --tab-text-sm-gap: 4px;
+  --tab-text-sm-px: 16px;
+
+  --tab-filled-xlg-height: 60px;
+  --tab-filled-xlg-sublabel-height: 80px;
+  --tab-filled-xlg-px: 24px;
+  --tab-filled-xlg-radius: 12px;
+
+  --tab-filled-lg-height: 48px;
+  --tab-filled-lg-sublabel-height: 72px;
+  --tab-filled-lg-px: 20px;
+  --tab-filled-lg-radius: 10px;
+
+  --tab-filled-md-height: 40px;
+  --tab-filled-md-sublabel-height: 60px;
+  --tab-filled-md-px: 16px;
+  --tab-filled-md-radius: 8px;
+
+  --tab-filled-sm-height: 32px;
+  --tab-filled-sm-sublabel-height: 48px;
+  --tab-filled-sm-px: 12px;
+  --tab-filled-sm-radius: 6px;
+}

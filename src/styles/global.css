@@ -1,0 +1,37 @@
+@import './fonts.css';
+@import './tokens.css';
+@import './typography.css';
+@import './button-tokens.css';
+@import './text-field-tokens.css';
+@import './selection-tokens.css';
+@import './switch-tokens.css';
+@import './tabs-tokens.css';
+@import './tips-tokens.css';
+@import './snackbar-tokens.css';
+@import './tooltip-tokens.css';
+@import './progress-tokens.css';
+@import './badge-tokens.css';
+@import './breadcrumbs-tokens.css';
+@import './pagination-tokens.css';
+@import './empty-state-tokens.css';
+@import './skeleton-tokens.css';
+@import './alert-tokens.css';
+@import './avatar-tokens.css';
+@import './chip-tokens.css';
+@import './dialog-tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-md);
+  color: var(--color-text-primary);
+  background: var(--color-surface-background);
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,185 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--switch-gap);
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.root[data-disabled='true'] {
+  cursor: not-allowed;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+.control {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.track {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: var(--switch-border-width) solid var(--switch-border);
+  border-radius: var(--switch-radius);
+  padding: var(--switch-padding);
+  background: var(--switch-track-off);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.sizeSm .track {
+  width: var(--switch-sm-width);
+  height: var(--switch-sm-height);
+}
+
+.sizeMd .track {
+  width: var(--switch-md-width);
+  height: var(--switch-md-height);
+}
+
+.sizeLg .track {
+  width: var(--switch-lg-width);
+  height: var(--switch-lg-height);
+}
+
+.handle {
+  position: relative;
+  border-radius: var(--switch-radius);
+  background: var(--switch-handle);
+  box-shadow: var(--switch-handle-shadow);
+  transition: transform 0.15s ease, background 0.15s ease;
+  flex-shrink: 0;
+}
+
+.sizeSm .handle {
+  width: var(--switch-sm-handle);
+  height: var(--switch-sm-handle);
+}
+
+.sizeMd .handle {
+  width: var(--switch-md-handle);
+  height: var(--switch-md-handle);
+}
+
+.sizeLg .handle {
+  width: var(--switch-lg-handle);
+  height: var(--switch-lg-handle);
+}
+
+.handle::before {
+  content: '';
+  position: absolute;
+  border-radius: var(--switch-radius);
+  background: var(--switch-hover-halo);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+.sizeSm .handle::before {
+  inset: -25% -12.5% -25% -12.5%;
+}
+
+.sizeMd .handle::before {
+  inset: -30% -15% -30% -15%;
+}
+
+.sizeLg .handle::before {
+  inset: -33.33% -16.67% -33.33% -16.67%;
+}
+
+.root:not([data-disabled='true']):hover .handle::before {
+  opacity: 1;
+}
+
+.input:checked + .control .track.colorPrimary {
+  background: var(--primary-main);
+  justify-content: flex-end;
+}
+
+.input:checked + .control .track.colorSuccess {
+  background: var(--success-main);
+  justify-content: flex-end;
+}
+
+.root:not([data-disabled='true']):hover .input:checked + .control .track.colorPrimary {
+  background: var(--primary-main-hover);
+}
+
+.root:not([data-disabled='true']):hover .input:checked + .control .track.colorSuccess {
+  background: var(--success-main-hover);
+}
+
+.root[data-disabled='true'] .track {
+  border-color: var(--action-disabled);
+}
+
+.root[data-disabled='true'] .input:not(:checked) + .control .track {
+  background: transparent;
+}
+
+.root[data-disabled='true'] .input:checked + .control .track {
+  background: var(--action-disabled-background);
+  border-color: var(--action-disabled);
+  justify-content: flex-end;
+}
+
+.sizeMd.root[data-disabled='true'] .input:checked + .control .track {
+  background: var(--action-disabled);
+  border-color: var(--switch-border);
+}
+
+.root[data-disabled='true'] .handle {
+  background: var(--action-disabled);
+  box-shadow: none;
+}
+
+.label {
+  font-family: var(--font-family-sans);
+  color: var(--color-text-primary);
+}
+
+.sizeSm .label {
+  font-size: var(--font-size-body-sm);
+  line-height: var(--line-height-body-sm);
+}
+
+.sizeMd .label,
+.sizeLg .label {
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-md);
+}
+
+.root[data-disabled='true'] .label {
+  color: var(--color-text-disabled);
+}
+
+.sizeSm .input:focus-visible + .control {
+  outline: 3px solid var(--switch-focus-ring);
+  outline-offset: 3px;
+  border-radius: var(--switch-radius);
+}
+
+.sizeMd .input:focus-visible + .control {
+  outline: 3px solid var(--switch-focus-ring);
+  outline-offset: 4px;
+  border-radius: var(--switch-radius);
+}
+
+.sizeLg .input:focus-visible + .control {
+  outline: 3px solid var(--switch-focus-ring);
+  outline-offset: 5px;
+  border-radius: var(--switch-radius);
+}

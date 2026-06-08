@@ -1,0 +1,92 @@
+.inner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.trigger {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.trigger:disabled {
+  cursor: not-allowed;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.placeholder {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-md);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.overflowCount {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-md);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.endActions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.errorIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-error);
+}
+
+.caret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease;
+}
+
+.caretUp {
+  transform: rotate(180deg);
+}
+
+.menuCheckboxItem {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 4px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menuCheckboxItem[data-disabled='true'] {
+  opacity: var(--tf-disabled-opacity);
+  pointer-events: none;
+}
+
+.menuCheckboxItem[data-active='true'] {
+  background: var(--tf-menu-item-active-bg, var(--surfaces-surface-toner));
+}

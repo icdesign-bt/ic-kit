@@ -1,0 +1,16 @@
+/* Tips layout tokens — Figma 6169:5561 */
+:root {
+  --tips-radius: 12px;
+  --tips-padding: 12px;
+  --tips-gap: 12px;
+  --tips-header-gap: 8px;
+  --tips-actions-gap: 8px;
+  --tips-max-width: 352px;
+  --tips-start-icon-size: 16px;
+  --tips-action-size: 16px;
+  --tips-action-icon-size: 12px;
+  --tips-action-radius: 4px;
+  --tips-action-padding: 2px;
+  --tips-body-pl: 24px;
+  --tips-body-pr: 20px;
+}

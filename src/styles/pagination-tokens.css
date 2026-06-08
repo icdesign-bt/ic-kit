@@ -1,0 +1,5 @@
+:root {
+  --pagination-gap: 4px;
+  --pagination-page-size: 24px;
+  --pagination-page-radius: 6px;
+}

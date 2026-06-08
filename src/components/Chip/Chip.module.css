@@ -1,0 +1,269 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--chip-gap);
+  box-sizing: border-box;
+  border: 1px solid var(--chip-border, transparent);
+  background: var(--chip-bg, transparent);
+  color: var(--chip-fg, inherit);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.root:disabled,
+.root[data-disabled='true'] {
+  background: var(--action-disabled-background);
+  border-color: transparent;
+  color: var(--action-disabled);
+  cursor: not-allowed;
+}
+
+.root:not(:disabled):not([data-disabled='true']):hover {
+  background: var(--chip-bg-hover, var(--chip-bg));
+  border-color: var(--chip-border-hover, var(--chip-border));
+  color: var(--chip-fg-hover, var(--chip-fg));
+}
+
+.root:focus-visible {
+  outline: 3px solid var(--outlines-focused);
+  outline-offset: 2px;
+}
+
+.sizeMd {
+  height: var(--chip-md-height);
+  padding-inline: var(--chip-md-padding-x);
+  font-size: var(--font-size-label-md);
+  line-height: var(--line-height-label-md);
+  letter-spacing: var(--tracking-label-md);
+}
+
+.sizeSm {
+  height: var(--chip-sm-height);
+  padding-inline: var(--chip-sm-padding-x);
+  font-size: var(--font-size-label-md);
+  line-height: var(--line-height-label-md);
+  letter-spacing: var(--tracking-label-md);
+}
+
+.sizeXsm {
+  height: var(--chip-xsm-height);
+  padding-inline: var(--chip-xsm-padding-x);
+  font-size: var(--font-size-label-sm);
+  line-height: var(--line-height-label-sm);
+  letter-spacing: var(--tracking-label-sm);
+}
+
+.shapeRounded {
+  border-radius: var(--chip-rounded-radius);
+}
+
+.shapeSquare {
+  border-radius: var(--chip-square-radius);
+}
+
+/* Contained */
+.variantContained.colorPrimary {
+  --chip-bg: var(--primary-main);
+  --chip-fg: var(--primary-main-contrast-text);
+  --chip-bg-hover: var(--primary-main-hover);
+}
+
+.variantContained.colorNeutral {
+  --chip-bg: var(--neutral-main);
+  --chip-fg: var(--neutral-main-contrast-text);
+  --chip-bg-hover: var(--neutral-main-hover);
+}
+
+.variantContained.colorSuccess {
+  --chip-bg: var(--success-main);
+  --chip-fg: var(--success-main-contrast-text);
+  --chip-bg-hover: var(--success-main-hover);
+}
+
+.variantContained.colorError {
+  --chip-bg: var(--error-main);
+  --chip-fg: var(--error-main-contrast-text);
+  --chip-bg-hover: var(--error-main-hover);
+}
+
+/* Tonal */
+.variantTonal.colorPrimary {
+  --chip-bg: var(--primary-tonal);
+  --chip-fg: var(--primary-tonal-contrast-text);
+  --chip-bg-hover: var(--primary-tonal-hover);
+}
+
+.variantTonal.colorNeutral {
+  --chip-bg: var(--neutral-tonal);
+  --chip-fg: var(--neutral-tonal-contrast-text);
+  --chip-bg-hover: var(--neutral-tonal-hover);
+}
+
+.variantTonal.colorSuccess {
+  --chip-bg: var(--success-tonal);
+  --chip-fg: var(--success-tonal-contrast-text);
+  --chip-bg-hover: var(--success-tonal-hover);
+}
+
+.variantTonal.colorError {
+  --chip-bg: var(--error-tonal);
+  --chip-fg: var(--error-tonal-contrast-text);
+  --chip-bg-hover: var(--error-tonal-hover);
+}
+
+/* Outlined */
+.variantOutlined.colorPrimary {
+  --chip-bg: transparent;
+  --chip-border: var(--primary-main);
+  --chip-fg: var(--primary-main);
+  --chip-bg-hover: var(--primary-tonal);
+  --chip-fg-hover: var(--primary-tonal-contrast-text);
+  --chip-border-hover: var(--primary-main-hover);
+}
+
+.variantOutlined.colorNeutral {
+  --chip-bg: transparent;
+  --chip-border: var(--neutral-main);
+  --chip-fg: var(--neutral-main);
+  --chip-bg-hover: var(--neutral-tonal);
+  --chip-fg-hover: var(--neutral-tonal-contrast-text);
+  --chip-border-hover: var(--neutral-main-hover);
+}
+
+.variantOutlined.colorSuccess {
+  --chip-bg: transparent;
+  --chip-border: var(--success-main);
+  --chip-fg: var(--success-main);
+  --chip-bg-hover: var(--success-tonal);
+  --chip-fg-hover: var(--success-tonal-contrast-text);
+  --chip-border-hover: var(--success-main-hover);
+}
+
+.variantOutlined.colorError {
+  --chip-bg: transparent;
+  --chip-border: var(--error-main);
+  --chip-fg: var(--error-main);
+  --chip-bg-hover: var(--error-tonal);
+  --chip-fg-hover: var(--error-tonal-contrast-text);
+  --chip-border-hover: var(--error-main-hover);
+}
+
+/* Text */
+.variantText.colorPrimary {
+  --chip-bg: transparent;
+  --chip-border: transparent;
+  --chip-fg: var(--primary-main);
+  --chip-bg-hover: var(--primary-tonal);
+  --chip-fg-hover: var(--primary-tonal-contrast-text);
+}
+
+.variantText.colorNeutral {
+  --chip-bg: transparent;
+  --chip-border: transparent;
+  --chip-fg: var(--neutral-main);
+  --chip-bg-hover: var(--neutral-tonal);
+  --chip-fg-hover: var(--neutral-tonal-contrast-text);
+}
+
+.variantText.colorSuccess {
+  --chip-bg: transparent;
+  --chip-border: transparent;
+  --chip-fg: var(--success-main);
+  --chip-bg-hover: var(--success-tonal);
+  --chip-fg-hover: var(--success-tonal-contrast-text);
+}
+
+.variantText.colorError {
+  --chip-bg: transparent;
+  --chip-border: transparent;
+  --chip-fg: var(--error-main);
+  --chip-bg-hover: var(--error-tonal);
+  --chip-fg-hover: var(--error-tonal-contrast-text);
+}
+
+.body {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--chip-gap);
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.body:disabled {
+  cursor: not-allowed;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px;
+  line-height: inherit;
+}
+
+.startIcon {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  line-height: 0;
+}
+
+.sizeMd .startIcon {
+  width: var(--chip-md-start-icon);
+  height: var(--chip-md-start-icon);
+}
+
+.sizeSm .startIcon {
+  width: var(--chip-sm-start-icon);
+  height: var(--chip-sm-start-icon);
+}
+
+.sizeXsm .startIcon {
+  width: var(--chip-xsm-start-icon);
+  height: var(--chip-xsm-start-icon);
+}
+
+.close {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: var(--chip-close-size);
+  height: var(--chip-close-size);
+  padding: 0;
+  border: none;
+  border-radius: var(--chip-close-radius);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.close:hover {
+  opacity: 0.85;
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--outlines-focused);
+  outline-offset: 1px;
+}
+
+.root:disabled .close,
+.root[data-disabled='true'] .close {
+  cursor: not-allowed;
+  opacity: 1;
+}

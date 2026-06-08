@@ -1,0 +1,7 @@
+:root {
+  --skeleton-radius-sm: 4px;
+  --skeleton-radius-md: 8px;
+  --skeleton-radius-round: 9999px;
+  --skeleton-bg: var(--surfaces-surface-toner);
+  --skeleton-highlight: var(--surfaces-surface-hover);
+}

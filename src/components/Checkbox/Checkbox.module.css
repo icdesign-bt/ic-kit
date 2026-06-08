@@ -1,0 +1,198 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.root[data-disabled='true'] {
+  cursor: not-allowed;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+.control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.control::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  border-radius: 9999px;
+  background: var(--selection-hover-halo);
+  opacity: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  pointer-events: none;
+}
+
+.root:not([data-disabled='true']):hover .control::before,
+.root:not([data-disabled='true']) .input:focus-visible + .control::before {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.sizeSm .control::before {
+  width: var(--radio-sm-halo);
+  height: var(--radio-sm-halo);
+}
+
+.sizeMd .control::before {
+  width: var(--radio-md-halo);
+  height: var(--radio-md-halo);
+}
+
+.sizeLg .control::before {
+  width: var(--radio-lg-halo);
+  height: var(--radio-lg-halo);
+}
+
+.box {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid var(--selection-border);
+  background: var(--selection-surface);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.sizeSm {
+  gap: var(--checkbox-sm-gap);
+}
+
+.sizeSm .box {
+  width: var(--checkbox-sm-size);
+  height: var(--checkbox-sm-size);
+  border-radius: var(--checkbox-sm-radius);
+}
+
+.sizeMd {
+  gap: var(--checkbox-md-gap);
+}
+
+.sizeMd .box {
+  width: var(--checkbox-md-size);
+  height: var(--checkbox-md-size);
+  border-radius: var(--checkbox-md-radius);
+}
+
+.sizeLg {
+  gap: var(--checkbox-lg-gap);
+}
+
+.sizeLg .box {
+  width: var(--checkbox-lg-size);
+  height: var(--checkbox-lg-size);
+  border-radius: var(--checkbox-lg-radius);
+}
+
+.root:not([data-disabled='true']):hover .box {
+  border-color: var(--selection-border-hover);
+}
+
+.input:checked + .control .box,
+.input:indeterminate + .control .box {
+  border-color: var(--selection-fill);
+  background: var(--selection-fill);
+}
+
+.root:not([data-disabled='true']):hover .input:checked + .control .box,
+.root:not([data-disabled='true']):hover .input:indeterminate + .control .box {
+  border-color: var(--selection-fill-hover);
+  background: var(--selection-fill-hover);
+}
+
+/* Disabled: same gray box for unchecked, checked and indeterminate (DS 126:169332) */
+.root[data-disabled='true'] .box,
+.root[data-disabled='true'] .input:checked + .control .box,
+.root[data-disabled='true'] .input:indeterminate + .control .box {
+  border-color: var(--selection-disabled-border);
+  background: var(--selection-disabled-bg);
+}
+
+.icon,
+.indeterminate {
+  display: none;
+}
+
+.input:checked + .control .icon {
+  display: inline-flex;
+  color: var(--selection-icon);
+  line-height: 0;
+}
+
+.input:indeterminate + .control .indeterminate {
+  display: block;
+  border-radius: 3px;
+  background: var(--selection-icon);
+}
+
+.root[data-disabled='true'] .input:checked + .control .icon {
+  color: var(--selection-disabled-icon);
+}
+
+.root[data-disabled='true'] .input:indeterminate + .control .indeterminate {
+  background: var(--selection-disabled-icon);
+}
+
+.indeterminate {
+  border-radius: 3px;
+  background: var(--selection-icon);
+}
+
+.sizeSm .indeterminate {
+  width: 8px;
+  height: 1.6px;
+}
+
+.sizeMd .indeterminate {
+  width: 10px;
+  height: 2px;
+}
+
+.sizeLg .indeterminate {
+  width: 12px;
+  height: 2px;
+}
+
+.label {
+  font-family: var(--font-family-sans);
+  color: var(--color-text-primary);
+}
+
+.sizeSm .label {
+  font-size: var(--font-size-body-sm);
+  line-height: var(--line-height-body-sm);
+}
+
+.sizeMd .label,
+.sizeLg .label {
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-md);
+}
+
+.root[data-disabled='true'] .label {
+  color: var(--color-text-disabled);
+}
+
+.root:not([data-disabled='true']) .input:focus-visible + .control .box {
+  outline: 3px solid var(--selection-focus-ring);
+  outline-offset: 2px;
+}

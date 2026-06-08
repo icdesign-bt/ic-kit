@@ -1,0 +1,9 @@
+/* Avatar layout tokens — Figma 6169:5244 */
+:root {
+  --avatar-sm-size: 24px;
+  --avatar-md-size: 32px;
+  --avatar-sm-icon: 12px;
+  --avatar-md-icon: 16px;
+  --avatar-radius: 99999px;
+  --avatar-photo-hover-overlay: rgb(255 255 255 / 0.1);
+}

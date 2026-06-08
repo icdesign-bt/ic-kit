@@ -1,0 +1,24 @@
+/* Dialog layout tokens — Figma 2293:43919 */
+:root {
+  --dialog-radius: 16px;
+  --dialog-header-padding: 24px;
+  --dialog-header-gap: 16px;
+  --dialog-header-inner-gap: 8px;
+  --dialog-header-leading-offset: 12px;
+  --dialog-body-padding-x: 24px;
+  --dialog-body-padding-top: 40px;
+  --dialog-body-padding-bottom: 40px;
+  --dialog-footer-padding: 24px;
+  --dialog-footer-gap: 8px;
+  --dialog-width-sm: 360px;
+  --dialog-width-md: 480px;
+  --dialog-width-lg: 600px;
+  --dialog-width-xlg: 720px;
+  --dialog-width-full: 840px;
+  --dialog-overlay-bg: rgb(7 7 7 / 0.48);
+  --dialog-z-index: 1300;
+}
+
+[data-theme='dark'] {
+  --dialog-overlay-bg: rgb(0 0 0 / 0.64);
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+storybook-static/
+*.tsbuildinfo
+*.local
+.env
+.env.*
+.env.example
+docs/internal/
+examples/vite-starter/node_modules/
+examples/vite-starter/dist/
+.DS_Store
+*.log
+coverage/
+.turbo/
+*.tsbuildinfo

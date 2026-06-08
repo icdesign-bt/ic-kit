@@ -1,0 +1,29 @@
+/* Snackbar layout tokens — Figma 6155:13982 */
+:root {
+  --snackbar-radius: 12px;
+  --snackbar-padding: 10px;
+  --snackbar-gap: 12px;
+  --snackbar-max-width: 286px;
+  --snackbar-start-gap: 6px;
+  --snackbar-end-gap: 4px;
+  --snackbar-icon-size: 16px;
+  --snackbar-shadow: 0 0 3px var(--shadows-low-orbit), 0 2px 2px var(--shadows-medium-orbit);
+
+  --snackbar-light-bg: var(--surfaces-surface-1);
+  --snackbar-light-fg: var(--color-text-primary);
+  --snackbar-light-action: var(--primary-main);
+
+  --snackbar-dark-bg: #100f12;
+  --snackbar-dark-fg: #ffffffed;
+  --snackbar-dark-action: #ffffffed;
+
+  --snackbar-action-min-width: 44px;
+  --snackbar-action-radius: 6px;
+  --snackbar-action-px: 8px;
+  --snackbar-action-py: 2px;
+
+  --snackbar-close-size: 24px;
+  --snackbar-close-padding: 4px;
+  --snackbar-close-radius: 6px;
+  --snackbar-close-icon-size: 16px;
+}

@@ -1,0 +1,6 @@
+:root {
+  --empty-state-gap: 12px;
+  --empty-state-padding: 24px;
+  --empty-state-icon-size: 48px;
+  --empty-state-max-width: 360px;
+}

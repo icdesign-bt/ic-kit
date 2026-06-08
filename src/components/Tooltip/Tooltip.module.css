@@ -1,0 +1,109 @@
+.bubble {
+  position: fixed;
+  z-index: 1400;
+  display: flex;
+  flex-direction: column;
+  gap: var(--tooltip-gap);
+  align-items: flex-start;
+  min-width: var(--tooltip-min-width);
+  max-width: var(--tooltip-max-width);
+  padding: var(--tooltip-padding);
+  border-radius: var(--tooltip-radius);
+  background: var(--tooltip-bg);
+  color: var(--tooltip-fg);
+  box-shadow: var(--tooltip-shadow);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-label-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-label-sm);
+  letter-spacing: var(--tracking-label-sm);
+  word-break: break-word;
+}
+
+.slot {
+  width: 100%;
+}
+
+.pointer {
+  position: absolute;
+  width: var(--tooltip-pointer-size);
+  height: var(--tooltip-pointer-size);
+  background: var(--tooltip-bg);
+  border-radius: 1px;
+  transform: rotate(45deg);
+}
+
+/* Pointer on the edge facing the trigger (opposite to tooltip placement) */
+.bubble[data-position='top'][data-alignment='start'] .pointer {
+  bottom: calc(var(--tooltip-pointer-size) / -2);
+  left: var(--tooltip-padding);
+}
+
+.bubble[data-position='top'][data-alignment='middle'] .pointer {
+  bottom: calc(var(--tooltip-pointer-size) / -2);
+  left: 50%;
+  margin-left: calc(var(--tooltip-pointer-size) / -2);
+}
+
+.bubble[data-position='top'][data-alignment='end'] .pointer {
+  bottom: calc(var(--tooltip-pointer-size) / -2);
+  right: var(--tooltip-padding);
+}
+
+.bubble[data-position='bottom'][data-alignment='start'] .pointer {
+  top: calc(var(--tooltip-pointer-size) / -2);
+  left: var(--tooltip-padding);
+}
+
+.bubble[data-position='bottom'][data-alignment='middle'] .pointer {
+  top: calc(var(--tooltip-pointer-size) / -2);
+  left: 50%;
+  margin-left: calc(var(--tooltip-pointer-size) / -2);
+}
+
+.bubble[data-position='bottom'][data-alignment='end'] .pointer {
+  top: calc(var(--tooltip-pointer-size) / -2);
+  right: var(--tooltip-padding);
+}
+
+.bubble[data-position='left'][data-alignment='start'] .pointer {
+  right: calc(var(--tooltip-pointer-size) / -2);
+  top: var(--tooltip-padding);
+}
+
+.bubble[data-position='left'][data-alignment='middle'] .pointer {
+  right: calc(var(--tooltip-pointer-size) / -2);
+  top: 50%;
+  margin-top: calc(var(--tooltip-pointer-size) / -2);
+}
+
+.bubble[data-position='left'][data-alignment='end'] .pointer {
+  right: calc(var(--tooltip-pointer-size) / -2);
+  bottom: var(--tooltip-padding);
+}
+
+.bubble[data-position='right'][data-alignment='start'] .pointer {
+  left: calc(var(--tooltip-pointer-size) / -2);
+  top: var(--tooltip-padding);
+}
+
+.bubble[data-position='right'][data-alignment='middle'] .pointer {
+  left: calc(var(--tooltip-pointer-size) / -2);
+  top: 50%;
+  margin-top: calc(var(--tooltip-pointer-size) / -2);
+}
+
+.bubble[data-position='right'][data-alignment='end'] .pointer {
+  left: calc(var(--tooltip-pointer-size) / -2);
+  bottom: var(--tooltip-padding);
+}
+
+.trigger {
+  display: inline-flex;
+}

@@ -1,0 +1,117 @@
+.root {
+  position: relative;
+  width: 100%;
+  min-width: 160px;
+}
+
+.wrapper {
+  position: relative;
+  padding: 8px 0;
+  touch-action: none;
+}
+
+.track {
+  height: 4px;
+  width: 100%;
+  border-radius: 100px;
+  background: var(--action-focus);
+  opacity: 0.38;
+}
+
+.root[data-disabled='true'] .track {
+  background: var(--action-disabled-background);
+}
+
+.fill {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  border-radius: 100px;
+  background: var(--primary-main);
+  pointer-events: none;
+}
+
+.root[data-disabled='true'] .fill {
+  background: var(--slider-disabled-fill);
+}
+
+.thumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: var(--action-hover);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.thumb:hover::before,
+.thumb:focus-visible::before,
+.thumb[data-active='true']::before {
+  opacity: 1;
+}
+
+.thumb:focus-visible {
+  outline: none;
+}
+
+.thumb:focus-visible .thumbDot {
+  outline: 3px solid var(--outlines-focused);
+  outline-offset: 2px;
+}
+
+.thumb[data-active='true'] {
+  cursor: grabbing;
+}
+
+.root[data-disabled='true'] .thumb {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.thumbDot {
+  position: relative;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: var(--primary-main);
+  flex-shrink: 0;
+}
+
+.root[data-disabled='true'] .thumbDot {
+  background: var(--slider-disabled-handle);
+}
+
+.counter {
+  position: absolute;
+  top: 24px;
+  transform: translateX(-50%);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-label-md);
+  line-height: var(--line-height-label-md);
+  letter-spacing: var(--tracking-label-md);
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.root[data-disabled='true'] .counter {
+  color: var(--color-text-disabled);
+}

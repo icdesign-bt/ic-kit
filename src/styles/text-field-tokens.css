@@ -1,0 +1,43 @@
+/* Semantic aliases for TextField family — map to KURS DS tokens */
+:root {
+  --tf-stack-gap: 4px;
+  --tf-gap: 8px;
+  --tf-start-gap: 4px;
+  --tf-padding-x: 12px;
+  --tf-padding-y: 8px;
+
+  --tf-outlined-bg: var(--surfaces-surface-1);
+  --tf-filled-bg: var(--surfaces-surface-1);
+  --tf-bg-hover: var(--surfaces-surface-toner);
+  --tf-border-default: var(--outlines-border);
+  --tf-border-hover: var(--outlines-border-hover);
+  --tf-border-focus-primary: var(--primary-main);
+  --tf-border-focus-info: var(--secondary-main);
+  --tf-readonly-bg: var(--surfaces-surface-2);
+  --tf-disabled-opacity: 0.48;
+
+  --tf-radius-sm: 8px;
+  --tf-radius-md: 8px;
+  --tf-radius-lg: 10px;
+
+  --tf-min-height-sm: 36px;
+  --tf-min-height-md: 40px;
+  --tf-min-height-lg: 48px;
+
+  --tf-icon-sm: 16px;
+  --tf-icon-md: 20px;
+  --tf-icon-lg: 20px;
+
+  --tf-menu-bg: var(--surfaces-surface-1);
+  --tf-menu-shadow: 0 0 3px var(--shadows-low-orbit), 0 2px 2px var(--shadows-medium-orbit);
+  --tf-menu-radius: 8px;
+  --tf-menu-padding: 12px;
+  --tf-menu-gap: 8px;
+  --tf-menu-item-hover: var(--surfaces-surface-toner);
+  --tf-menu-item-selected: var(--action-selected);
+  --tf-menu-footer-bg: var(--surfaces-surface-toner);
+  --tf-menu-footer-padding: 12px;
+  --tf-menu-footer-gap: 8px;
+  --tf-menu-footer-radius: 8px;
+  --tf-menu-max-height: 240px;
+}

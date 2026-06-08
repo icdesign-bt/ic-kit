@@ -1,0 +1,163 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  border-radius: var(--avatar-radius);
+  background: var(--avatar-bg, transparent);
+  color: var(--avatar-fg, inherit);
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+}
+
+.root[data-size='sm'] {
+  width: var(--avatar-sm-size);
+  height: var(--avatar-sm-size);
+}
+
+.root[data-size='md'] {
+  width: var(--avatar-md-size);
+  height: var(--avatar-md-size);
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+.interactive:hover {
+  background: var(--avatar-bg-hover, var(--avatar-bg));
+}
+
+.interactive:focus-visible {
+  outline: 3px solid var(--outlines-focused);
+  outline-offset: 2px;
+}
+
+/* Contained */
+.root[data-variant='contained'][data-color='primary'] {
+  --avatar-bg: var(--primary-main);
+  --avatar-bg-hover: var(--primary-main-hover);
+  --avatar-fg: var(--primary-main-contrast-text);
+}
+
+.root[data-variant='contained'][data-color='secondary'] {
+  --avatar-bg: var(--secondary-main);
+  --avatar-bg-hover: var(--secondary-main-hover);
+  --avatar-fg: var(--secondary-main-contrast-text);
+}
+
+.root[data-variant='contained'][data-color='success'] {
+  --avatar-bg: var(--success-main);
+  --avatar-bg-hover: var(--success-main-hover);
+  --avatar-fg: var(--success-main-contrast-text);
+}
+
+.root[data-variant='contained'][data-color='error'] {
+  --avatar-bg: var(--error-main);
+  --avatar-bg-hover: var(--error-main-hover);
+  --avatar-fg: var(--error-main-contrast-text);
+}
+
+.root[data-variant='contained'][data-color='warning'] {
+  --avatar-bg: var(--warning-main);
+  --avatar-bg-hover: var(--warning-main-hover);
+  --avatar-fg: var(--warning-main-contrast-text);
+}
+
+/* Tonal */
+.root[data-variant='tonal'][data-color='primary'] {
+  --avatar-bg: var(--primary-tonal);
+  --avatar-bg-hover: var(--primary-tonal-hover);
+  --avatar-fg: var(--primary-tonal-contrast-text);
+}
+
+.root[data-variant='tonal'][data-color='secondary'] {
+  --avatar-bg: var(--secondary-tonal);
+  --avatar-bg-hover: var(--secondary-tonal-hover-2);
+  --avatar-fg: var(--secondary-tonal-contrast-text);
+}
+
+.root[data-variant='tonal'][data-color='success'] {
+  --avatar-bg: var(--success-tonal);
+  --avatar-bg-hover: var(--success-tonal-hover);
+  --avatar-fg: var(--success-tonal-contrast-text);
+}
+
+.root[data-variant='tonal'][data-color='error'] {
+  --avatar-bg: var(--error-tonal);
+  --avatar-bg-hover: var(--error-tonal-hover);
+  --avatar-fg: var(--error-tonal-contrast-text);
+}
+
+.root[data-variant='tonal'][data-color='warning'] {
+  --avatar-bg: var(--warning-tonal);
+  --avatar-bg-hover: var(--warning-tonal-hover);
+  --avatar-fg: var(--warning-tonal-contrast-text);
+}
+
+.icon {
+  display: inline-flex;
+  line-height: 0;
+  color: var(--avatar-fg);
+}
+
+.root[data-size='sm'] .icon {
+  width: var(--avatar-sm-icon);
+  height: var(--avatar-sm-icon);
+}
+
+.root[data-size='md'] .icon {
+  width: var(--avatar-md-icon);
+  height: var(--avatar-md-icon);
+}
+
+.initials {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  white-space: nowrap;
+  color: var(--avatar-fg);
+}
+
+.root[data-size='sm'] .initials {
+  font-size: var(--font-size-label-lg);
+  line-height: var(--line-height-label-lg);
+  letter-spacing: var(--tracking-label-lg);
+  padding-top: 1px;
+}
+
+.root[data-size='md'] .initials {
+  font-size: var(--font-size-label-xlg);
+  line-height: var(--line-height-label-xlg);
+  letter-spacing: var(--tracking-label-xlg);
+  padding-top: 2px;
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--avatar-radius);
+  pointer-events: none;
+}
+
+.photoOverlay {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--avatar-radius);
+  background: var(--avatar-photo-hover-overlay);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.interactive[data-type='photo']:hover .photoOverlay,
+.root[data-type='photo']:hover .photoOverlay {
+  opacity: 1;
+}

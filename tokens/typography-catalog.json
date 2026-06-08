@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "figmaScale": "6181:16002",
+    "figmaSurfaces": "6181:16620",
+    "fontFamily": "Moscow Sans W"
+  },
+  "groups": [
+    {
+      "id": "heading",
+      "title": "Заголовки Heading",
+      "description": [
+        "Высота строки: размер шрифта × 1,2 (округляем до чётного значения).",
+        "Придерживаемся чётных значений для упрощения выравнивания макета.",
+        "Верхнеуровневые заголовки и заглавный текст в описательных блоках."
+      ],
+      "styles": [
+        { "name": "Heading/h1", "slug": "heading-h1", "sizePx": 48, "linePx": 52, "weight": "bold", "trackingVar": "--tracking-heading-h1" },
+        { "name": "Heading/h2", "slug": "heading-h2", "sizePx": 40, "linePx": 44, "weight": "bold", "trackingVar": "--tracking-heading-h2" },
+        { "name": "Heading/h3", "slug": "heading-h3", "sizePx": 32, "linePx": 38, "weight": "bold", "trackingVar": "--tracking-heading-h3" },
+        { "name": "Heading/h4", "slug": "heading-h4", "sizePx": 24, "linePx": 28, "weight": "bold", "trackingVar": "--tracking-heading-h4" },
+        { "name": "Heading/h5", "slug": "heading-h5", "sizePx": 20, "linePx": 24, "weight": "bold", "trackingVar": "--tracking-heading-h5" },
+        { "name": "Heading/h6", "slug": "heading-h6", "sizePx": 18, "linePx": 22, "weight": "bold", "trackingVar": "--tracking-heading-h6" }
+      ]
+    },
+    {
+      "id": "subtitle",
+      "title": "Подзаголовок Subtitle",
+      "description": [
+        "Высота строки: размер шрифта × 1,1 (округляем до чётного значения).",
+        "Заголовки в карточках, подразделы, элементы навигации."
+      ],
+      "styles": [
+        { "name": "Subtitle/xlg", "slug": "subtitle-xlg", "sizePx": 21, "linePx": 28, "weight": "regular", "trackingVar": "--tracking-subtitle-lg" },
+        { "name": "Subtitle/xlg-bold", "slug": "subtitle-xlg-bold", "sizePx": 21, "linePx": 28, "weight": "bold", "trackingVar": "--tracking-subtitle-lg" },
+        { "name": "Subtitle/md", "slug": "subtitle-md", "sizePx": 16, "linePx": 18, "weight": "regular", "trackingVar": "--tracking-subtitle-md" },
+        { "name": "Subtitle/md-bold", "slug": "subtitle-md-bold", "sizePx": 16, "linePx": 18, "weight": "bold", "trackingVar": "--tracking-subtitle-md" },
+        { "name": "Subtitle/sm", "slug": "subtitle-sm", "sizePx": 14, "linePx": 16, "weight": "regular", "trackingVar": "--tracking-subtitle-sm" },
+        { "name": "Subtitle/sm-bold", "slug": "subtitle-sm-bold", "sizePx": 14, "linePx": 16, "weight": "bold", "trackingVar": "--tracking-subtitle-sm" }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Описательный текст Body",
+      "description": [
+        "Высота строки: размер шрифта × 1,3 (округляем до чётного значения).",
+        "Описательные блоки, значения в полях ввода, основной текст интерфейса."
+      ],
+      "styles": [
+        { "name": "Body/lg", "slug": "body-lg", "sizePx": 16, "linePx": 20, "weight": "regular" },
+        { "name": "Body/md", "slug": "body-md", "sizePx": 14, "linePx": 18, "weight": "regular", "trackingVar": "--tracking-body-md" },
+        { "name": "Body/md-mono-num", "slug": "body-md-mono-num", "sizePx": 14, "linePx": 18, "weight": "regular", "trackingVar": "--tracking-body-md", "mono": true },
+        { "name": "Body/sm", "slug": "body-sm", "sizePx": 12, "linePx": 16, "weight": "regular", "trackingVar": "--tracking-body-sm" },
+        { "name": "Body/sm-mono-num", "slug": "body-sm-mono-num", "sizePx": 12, "linePx": 16, "weight": "regular", "trackingVar": "--tracking-body-sm", "mono": true }
+      ]
+    },
+    {
+      "id": "label",
+      "title": "Ярлыки Label",
+      "description": [
+        "Высота строки: размер шрифта × 1,1 (округляем до чётного значения).",
+        "Подписи полей, текст кнопок, подсказки и ошибки под полями, служебные элементы."
+      ],
+      "styles": [
+        { "name": "Label/xlg", "slug": "label-xlg", "sizePx": 16, "linePx": 18, "weight": "regular", "trackingVar": "--tracking-label-xlg" },
+        { "name": "Label/xlg-bold", "slug": "label-xlg-bold", "sizePx": 16, "linePx": 18, "weight": "bold", "trackingVar": "--tracking-label-xlg" },
+        { "name": "Label/lg", "slug": "label-lg", "sizePx": 14, "linePx": 16, "weight": "regular", "trackingVar": "--tracking-label-lg" },
+        { "name": "Label/lg-bold", "slug": "label-lg-bold", "sizePx": 14, "linePx": 16, "weight": "bold", "trackingVar": "--tracking-label-lg" },
+        { "name": "Label/md", "slug": "label-md", "sizePx": 12, "linePx": 14, "weight": "regular", "trackingVar": "--tracking-label-md" },
+        { "name": "Label/md-bold", "slug": "label-md-bold", "sizePx": 12, "linePx": 14, "weight": "bold", "trackingVar": "--tracking-label-md" },
+        { "name": "Label/sm", "slug": "label-sm", "sizePx": 10, "linePx": 12, "weight": "regular", "trackingVar": "--tracking-label-sm" },
+        { "name": "Label/sm-bold", "slug": "label-sm-bold", "sizePx": 10, "linePx": 12, "weight": "bold", "trackingVar": "--tracking-label-sm" }
+      ]
+    }
+  ],
+  "textColors": [
+    { "token": "text/main-on-surface", "cssVar": "--text-main-on-surface", "description": "Основной текст на поверхностях" },
+    { "token": "text/secondary-on-surface", "cssVar": "--text-secondary-on-surface", "description": "Вторичный текст, подписи, метаданные" },
+    { "token": "text/disabled-on-surface", "cssVar": "--text-disabled-on-surface", "description": "Неактивный текст" },
+    { "token": "text/main-on-inverse-bg", "cssVar": "--text-main-on-inverse-bg", "description": "Основной текст на инверсном фоне" }
+  ],
+  "surfaceTokens": [
+    { "token": "Surfaces.background", "cssVar": "--surfaces-background", "description": "Фоновый цвет. Им красим общий фон блока" },
+    { "token": "Surfaces.surface-1", "cssVar": "--surfaces-surface-1", "description": "Цвет любой карточки поверх фона (кроме уведомлений и прочих тональных сущностей)" },
+    { "token": "Surfaces.surface-2", "cssVar": "--surfaces-surface-2", "description": "Красим элементы вложенные в карточки с фоном surface-1" },
+    { "token": "Surfaces.surface-toner", "cssVar": "--surfaces-surface-toner", "description": "Чередующиеся цвета в списках и таблицах для удобства считывания" },
+    { "token": "Surfaces.surface-hover", "cssVar": "--surfaces-surface-hover", "description": "Hover-эффект на поверхностях списков и инпутов" },
+    { "token": "Surfaces.surface-gradient-start", "cssVar": "--surfaces-surface-gradient-start", "description": "Начало градиента для плоскости с эффектом объёма" },
+    { "token": "Surfaces.surface-gradient-finish", "cssVar": "--surfaces-surface-gradient-finish", "description": "Окончание градиента для плоскости с эффектом объёма" }
+  ]
+}

@@ -1,0 +1,15 @@
+/* Alert layout tokens — Figma 2292:41417 */
+:root {
+  --alert-padding: 12px;
+  --alert-radius: 12px;
+  --alert-gap: 8px;
+  --alert-gap-inner: 4px;
+  --alert-gap-end: 2px;
+  --alert-icon-size: 20px;
+  --alert-close-size: 16px;
+  --alert-action-min-width: 44px;
+  --alert-action-radius: 6px;
+  --alert-action-padding-x: 8px;
+  --alert-action-padding-y: 2px;
+  --alert-close-padding: 4px;
+}

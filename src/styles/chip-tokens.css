@@ -1,0 +1,19 @@
+/* Chip layout tokens — Figma 6143:10328 */
+:root {
+  --chip-gap: 2px;
+  --chip-md-height: 32px;
+  --chip-sm-height: 24px;
+  --chip-xsm-height: 16px;
+  --chip-md-padding-x: 8px;
+  --chip-sm-padding-x: 6px;
+  --chip-xsm-padding-x: 4px;
+  --chip-rounded-radius: 9999px;
+  --chip-square-radius: 8px;
+  --chip-md-start-icon: 20px;
+  --chip-sm-start-icon: 16px;
+  --chip-xsm-start-icon: 12px;
+  --chip-close-size: 16px;
+  --chip-close-icon: 12px;
+  --chip-close-radius: 4px;
+  --chip-close-padding: 6px;
+}

@@ -1,0 +1,7291 @@
+{
+  "meta": {
+    "source": "KURS v2. Components",
+    "fileKey": "XFvebxoecl7DX4Oxm9GVJO",
+    "canvasNodeId": "6558:15814",
+    "url": "https://www.figma.com/design/XFvebxoecl7DX4Oxm9GVJO/KURS-v2.-Components?node-id=6558-15814",
+    "size": 24,
+    "variants": [
+      "Outline/Regular",
+      "Outline/Bold",
+      "Outline/Fill"
+    ],
+    "exportedAt": "2026-06-05",
+    "count": 661,
+    "weightsParsedAt": "2026-06-05",
+    "withWeightNodeIds": 661
+  },
+  "icons": [
+    {
+      "name": "ArrowArcLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowArcLeft",
+      "figmaNodeId": "3:5178",
+      "weights": {
+        "regular": "3:5179",
+        "bold": "3:5181",
+        "fill": "3:5183"
+      }
+    },
+    {
+      "name": "ArrowArcRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowArcRight",
+      "figmaNodeId": "3:5185",
+      "weights": {
+        "regular": "3:5186",
+        "bold": "3:5188",
+        "fill": "3:5190"
+      }
+    },
+    {
+      "name": "ArrowBendDoubleUpLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendDoubleUpLeft",
+      "figmaNodeId": "3:5192",
+      "weights": {
+        "regular": "3:5193",
+        "bold": "3:5195",
+        "fill": "3:5197"
+      }
+    },
+    {
+      "name": "ArrowBendDoubleUpRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendDoubleUpRight",
+      "figmaNodeId": "3:5199",
+      "weights": {
+        "regular": "3:5200",
+        "bold": "3:5202",
+        "fill": "3:5204"
+      }
+    },
+    {
+      "name": "ArrowBendDownLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendDownLeft",
+      "figmaNodeId": "3:5206",
+      "weights": {
+        "regular": "3:5207",
+        "bold": "3:5209",
+        "fill": "3:5211"
+      }
+    },
+    {
+      "name": "ArrowBendDownRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendDownRight",
+      "figmaNodeId": "3:5213",
+      "weights": {
+        "regular": "3:5214",
+        "bold": "3:5216",
+        "fill": "3:5218"
+      }
+    },
+    {
+      "name": "ArrowBendLeftDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendLeftDown",
+      "figmaNodeId": "3:5220",
+      "weights": {
+        "regular": "3:5221",
+        "bold": "3:5223",
+        "fill": "3:5225"
+      }
+    },
+    {
+      "name": "ArrowBendLeftUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendLeftUp",
+      "figmaNodeId": "3:5227",
+      "weights": {
+        "regular": "3:5228",
+        "bold": "3:5230",
+        "fill": "3:5232"
+      }
+    },
+    {
+      "name": "ArrowBendRightDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendRightDown",
+      "figmaNodeId": "3:5234",
+      "weights": {
+        "regular": "3:5235",
+        "bold": "3:5237",
+        "fill": "3:5239"
+      }
+    },
+    {
+      "name": "ArrowBendRightUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowBendRightUp",
+      "figmaNodeId": "3:5241",
+      "weights": {
+        "regular": "3:5242",
+        "bold": "3:5244",
+        "fill": "3:5246"
+      }
+    },
+    {
+      "name": "ArrowClockwise",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowClockwise",
+      "figmaNodeId": "3:4926",
+      "weights": {
+        "regular": "3:4927",
+        "bold": "3:4929",
+        "fill": "3:4931"
+      }
+    },
+    {
+      "name": "ArrowCounterClockwise",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowCounterClockwise",
+      "figmaNodeId": "3:4933",
+      "weights": {
+        "regular": "3:4934",
+        "bold": "3:4936",
+        "fill": "3:4938"
+      }
+    },
+    {
+      "name": "ArrowDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowDown",
+      "figmaNodeId": "3:4940",
+      "weights": {
+        "regular": "3:4941",
+        "bold": "3:4943",
+        "fill": "3:4945"
+      }
+    },
+    {
+      "name": "ArrowDownLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowDownLeft",
+      "figmaNodeId": "3:4947",
+      "weights": {
+        "regular": "3:4948",
+        "bold": "3:4950",
+        "fill": "3:4952"
+      }
+    },
+    {
+      "name": "ArrowDownRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowDownRight",
+      "figmaNodeId": "3:4954",
+      "weights": {
+        "regular": "3:4955",
+        "bold": "3:4957",
+        "fill": "3:4959"
+      }
+    },
+    {
+      "name": "ArrowElbowDownLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowDownLeft",
+      "figmaNodeId": "3:5248",
+      "weights": {
+        "regular": "3:5249",
+        "bold": "3:5251",
+        "fill": "3:5253"
+      }
+    },
+    {
+      "name": "ArrowElbowDownRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowDownRight",
+      "figmaNodeId": "3:5255",
+      "weights": {
+        "regular": "3:5256",
+        "bold": "3:5258",
+        "fill": "3:5260"
+      }
+    },
+    {
+      "name": "ArrowElbowLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowLeft",
+      "figmaNodeId": "3:5262",
+      "weights": {
+        "regular": "3:5263",
+        "bold": "3:5265",
+        "fill": "3:5267"
+      }
+    },
+    {
+      "name": "ArrowElbowLeftDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowLeftDown",
+      "figmaNodeId": "3:5269",
+      "weights": {
+        "regular": "3:5270",
+        "bold": "3:5272",
+        "fill": "3:5274"
+      }
+    },
+    {
+      "name": "ArrowElbowLeftUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowLeftUp",
+      "figmaNodeId": "3:5276",
+      "weights": {
+        "regular": "3:5277",
+        "bold": "3:5279",
+        "fill": "3:5281"
+      }
+    },
+    {
+      "name": "ArrowElbowRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowRight",
+      "figmaNodeId": "3:5283",
+      "weights": {
+        "regular": "3:5284",
+        "bold": "3:5286",
+        "fill": "3:5288"
+      }
+    },
+    {
+      "name": "ArrowElbowRightDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowRightDown",
+      "figmaNodeId": "3:5290",
+      "weights": {
+        "regular": "3:5291",
+        "bold": "3:5293",
+        "fill": "3:5295"
+      }
+    },
+    {
+      "name": "ArrowElbowRightUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowRightUp",
+      "figmaNodeId": "3:5297",
+      "weights": {
+        "regular": "3:5298",
+        "bold": "3:5300",
+        "fill": "3:5302"
+      }
+    },
+    {
+      "name": "ArrowElbowUpLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowUpLeft",
+      "figmaNodeId": "3:5304",
+      "weights": {
+        "regular": "3:5305",
+        "bold": "3:5307",
+        "fill": "3:5309"
+      }
+    },
+    {
+      "name": "ArrowElbowUpRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowElbowUpRight",
+      "figmaNodeId": "3:5311",
+      "weights": {
+        "regular": "3:5312",
+        "bold": "3:5314",
+        "fill": "3:5316"
+      }
+    },
+    {
+      "name": "ArrowFatDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowFatDown",
+      "figmaNodeId": "3:4961",
+      "weights": {
+        "regular": "3:4962",
+        "bold": "3:4964",
+        "fill": "3:4966"
+      }
+    },
+    {
+      "name": "ArrowFatLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowFatLeft",
+      "figmaNodeId": "3:4968",
+      "weights": {
+        "regular": "3:4969",
+        "bold": "3:4971",
+        "fill": "3:4973"
+      }
+    },
+    {
+      "name": "ArrowFatRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowFatRight",
+      "figmaNodeId": "3:4975",
+      "weights": {
+        "regular": "3:4976",
+        "bold": "3:4978",
+        "fill": "3:4980"
+      }
+    },
+    {
+      "name": "ArrowFatUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowFatUp",
+      "figmaNodeId": "3:4982",
+      "weights": {
+        "regular": "3:4983",
+        "bold": "3:4985",
+        "fill": "3:4987"
+      }
+    },
+    {
+      "name": "ArrowLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowLeft",
+      "figmaNodeId": "3:4989",
+      "weights": {
+        "regular": "3:4990",
+        "bold": "3:4992",
+        "fill": "3:4994"
+      }
+    },
+    {
+      "name": "ArrowRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowRight",
+      "figmaNodeId": "3:4996",
+      "weights": {
+        "regular": "3:4997",
+        "bold": "3:4999",
+        "fill": "3:5001"
+      }
+    },
+    {
+      "name": "ArrowSquareOut",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowSquareOut",
+      "figmaNodeId": "3:5003",
+      "weights": {
+        "regular": "3:5004",
+        "bold": "3:5006",
+        "fill": "3:5008"
+      }
+    },
+    {
+      "name": "ArrowUUpLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowUUpLeft",
+      "figmaNodeId": "3:5010",
+      "weights": {
+        "regular": "3:5011",
+        "bold": "3:5013",
+        "fill": "3:5015"
+      }
+    },
+    {
+      "name": "ArrowUUpRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowUUpRight",
+      "figmaNodeId": "3:5017",
+      "weights": {
+        "regular": "3:5018",
+        "bold": "3:5020",
+        "fill": "3:5022"
+      }
+    },
+    {
+      "name": "ArrowUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowUp",
+      "figmaNodeId": "3:5024",
+      "weights": {
+        "regular": "3:5025",
+        "bold": "3:5027",
+        "fill": "3:5029"
+      }
+    },
+    {
+      "name": "ArrowUpLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowUpLeft",
+      "figmaNodeId": "3:5031",
+      "weights": {
+        "regular": "3:5032",
+        "bold": "3:5034",
+        "fill": "3:5036"
+      }
+    },
+    {
+      "name": "ArrowUpRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowUpRight",
+      "figmaNodeId": "3:5038",
+      "weights": {
+        "regular": "3:5039",
+        "bold": "3:5041",
+        "fill": "3:5043"
+      }
+    },
+    {
+      "name": "ArrowsClockwise",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsClockwise",
+      "figmaNodeId": "3:5045",
+      "weights": {
+        "regular": "3:5046",
+        "bold": "3:5048",
+        "fill": "3:5050"
+      }
+    },
+    {
+      "name": "ArrowsCounterClockwise",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsCounterClockwise",
+      "figmaNodeId": "3:5052",
+      "weights": {
+        "regular": "3:5053",
+        "bold": "3:5055",
+        "fill": "3:5057"
+      }
+    },
+    {
+      "name": "ArrowsHorizontal",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsHorizontal",
+      "figmaNodeId": "3:5059",
+      "weights": {
+        "regular": "3:5060",
+        "bold": "3:5062",
+        "fill": "3:5064"
+      }
+    },
+    {
+      "name": "ArrowsInSimple",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsInSimple",
+      "figmaNodeId": "3:5066",
+      "weights": {
+        "regular": "3:5067",
+        "bold": "3:5069",
+        "fill": "3:5071"
+      }
+    },
+    {
+      "name": "ArrowsOutSimple",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsOutSimple",
+      "figmaNodeId": "3:5073",
+      "weights": {
+        "regular": "3:5074",
+        "bold": "3:5076",
+        "fill": "3:5078"
+      }
+    },
+    {
+      "name": "ArrowsVertical",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/ArrowsVertical",
+      "figmaNodeId": "3:5080",
+      "weights": {
+        "regular": "3:5081",
+        "bold": "3:5083",
+        "fill": "3:5085"
+      }
+    },
+    {
+      "name": "CaretCircleDoubleDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleDoubleDown",
+      "figmaNodeId": "3:5087",
+      "weights": {
+        "regular": "3:5088",
+        "bold": "3:5090",
+        "fill": "3:5092"
+      }
+    },
+    {
+      "name": "CaretCircleDoubleLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleDoubleLeft",
+      "figmaNodeId": "3:5094",
+      "weights": {
+        "regular": "3:5095",
+        "bold": "3:5097",
+        "fill": "3:5099"
+      }
+    },
+    {
+      "name": "CaretCircleDoubleRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleDoubleRight",
+      "figmaNodeId": "3:5101",
+      "weights": {
+        "regular": "3:5102",
+        "bold": "3:5104",
+        "fill": "3:5106"
+      }
+    },
+    {
+      "name": "CaretCircleDoubleUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleDoubleUp",
+      "figmaNodeId": "3:5108",
+      "weights": {
+        "regular": "3:5109",
+        "bold": "3:5111",
+        "fill": "3:5113"
+      }
+    },
+    {
+      "name": "CaretCircleDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleDown",
+      "figmaNodeId": "3:5115",
+      "weights": {
+        "regular": "3:5116",
+        "bold": "3:5118",
+        "fill": "3:5120"
+      }
+    },
+    {
+      "name": "CaretCircleLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleLeft",
+      "figmaNodeId": "3:5122",
+      "weights": {
+        "regular": "3:5123",
+        "bold": "3:5125",
+        "fill": "3:5127"
+      }
+    },
+    {
+      "name": "CaretCircleRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleRight",
+      "figmaNodeId": "3:5129",
+      "weights": {
+        "regular": "3:5130",
+        "bold": "3:5132",
+        "fill": "3:5134"
+      }
+    },
+    {
+      "name": "CaretCircleUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleUp",
+      "figmaNodeId": "3:5136",
+      "weights": {
+        "regular": "3:5137",
+        "bold": "3:5139",
+        "fill": "3:5141"
+      }
+    },
+    {
+      "name": "CaretCircleUpDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretCircleUpDown",
+      "figmaNodeId": "3:5143",
+      "weights": {
+        "regular": "3:5144",
+        "bold": "3:5146",
+        "fill": "3:5148"
+      }
+    },
+    {
+      "name": "CaretDoubleDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretDoubleDown",
+      "figmaNodeId": "3:5150",
+      "weights": {
+        "regular": "3:5151",
+        "bold": "3:5153",
+        "fill": "3:5155"
+      }
+    },
+    {
+      "name": "CaretDoubleLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretDoubleLeft",
+      "figmaNodeId": "3:5157",
+      "weights": {
+        "regular": "3:5158",
+        "bold": "3:5160",
+        "fill": "3:5162"
+      }
+    },
+    {
+      "name": "CaretDoubleRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretDoubleRight",
+      "figmaNodeId": "3:5164",
+      "weights": {
+        "regular": "3:5165",
+        "bold": "3:5167",
+        "fill": "3:5169"
+      }
+    },
+    {
+      "name": "CaretDoubleUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretDoubleUp",
+      "figmaNodeId": "3:5171",
+      "weights": {
+        "regular": "3:5172",
+        "bold": "3:5174",
+        "fill": "3:5176"
+      }
+    },
+    {
+      "name": "CaretDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretDown",
+      "figmaNodeId": "3:4905",
+      "weights": {
+        "regular": "3:4906",
+        "bold": "3:4908",
+        "fill": "3:4910"
+      }
+    },
+    {
+      "name": "CaretLeft",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretLeft",
+      "figmaNodeId": "3:4912",
+      "weights": {
+        "regular": "3:4913",
+        "bold": "3:4915",
+        "fill": "3:4917"
+      }
+    },
+    {
+      "name": "CaretRight",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretRight",
+      "figmaNodeId": "3:4898",
+      "weights": {
+        "regular": "3:4899",
+        "bold": "3:4901",
+        "fill": "3:4903"
+      }
+    },
+    {
+      "name": "CaretUp",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretUp",
+      "figmaNodeId": "3:4891",
+      "weights": {
+        "regular": "3:4892",
+        "bold": "3:4894",
+        "fill": "3:4896"
+      }
+    },
+    {
+      "name": "CaretUpDown",
+      "category": "Arrows & Directions",
+      "path": "Arrows & Directions/CaretUpDown",
+      "figmaNodeId": "3:4919",
+      "weights": {
+        "regular": "3:4920",
+        "bold": "3:4922",
+        "fill": "3:4924"
+      }
+    },
+    {
+      "name": "Bag",
+      "category": "Commerce",
+      "path": "Commerce/Bag",
+      "figmaNodeId": "3:4545",
+      "weights": {
+        "regular": "3:4546",
+        "bold": "3:4548",
+        "fill": "3:4550"
+      }
+    },
+    {
+      "name": "Barcode",
+      "category": "Commerce",
+      "path": "Commerce/Barcode",
+      "figmaNodeId": "3:4552",
+      "weights": {
+        "regular": "3:4553",
+        "bold": "3:4555",
+        "fill": "3:4557"
+      }
+    },
+    {
+      "name": "Basket",
+      "category": "Commerce",
+      "path": "Commerce/Basket",
+      "figmaNodeId": "3:4559",
+      "weights": {
+        "regular": "3:4560",
+        "bold": "3:4562",
+        "fill": "3:4564"
+      }
+    },
+    {
+      "name": "Binoculars",
+      "category": "Commerce",
+      "path": "Commerce/Binoculars",
+      "figmaNodeId": "3:4566",
+      "weights": {
+        "regular": "3:4567",
+        "bold": "3:4569",
+        "fill": "3:4571"
+      }
+    },
+    {
+      "name": "BowlFood",
+      "category": "Commerce",
+      "path": "Commerce/BowlFood",
+      "figmaNodeId": "3:4573",
+      "weights": {
+        "regular": "3:4574",
+        "bold": "3:4576",
+        "fill": "3:4578"
+      }
+    },
+    {
+      "name": "BowlSteam",
+      "category": "Commerce",
+      "path": "Commerce/BowlSteam",
+      "figmaNodeId": "3:4580",
+      "weights": {
+        "regular": "3:4581",
+        "bold": "3:4583",
+        "fill": "3:4585"
+      }
+    },
+    {
+      "name": "Brandy",
+      "category": "Commerce",
+      "path": "Commerce/Brandy",
+      "figmaNodeId": "3:4587",
+      "weights": {
+        "regular": "3:4588",
+        "bold": "3:4590",
+        "fill": "3:4592"
+      }
+    },
+    {
+      "name": "Bread",
+      "category": "Commerce",
+      "path": "Commerce/Bread",
+      "figmaNodeId": "3:4594",
+      "weights": {
+        "regular": "3:4595",
+        "bold": "3:4597",
+        "fill": "3:4599"
+      }
+    },
+    {
+      "name": "Broom",
+      "category": "Commerce",
+      "path": "Commerce/Broom",
+      "figmaNodeId": "3:4601",
+      "weights": {
+        "regular": "3:4602",
+        "bold": "3:4604",
+        "fill": "3:4606"
+      }
+    },
+    {
+      "name": "BuildingApartment",
+      "category": "Commerce",
+      "path": "Commerce/BuildingApartment",
+      "figmaNodeId": "3:4608",
+      "weights": {
+        "regular": "3:4609",
+        "bold": "3:4611",
+        "fill": "3:4613"
+      }
+    },
+    {
+      "name": "BuildingOffice",
+      "category": "Commerce",
+      "path": "Commerce/BuildingOffice",
+      "figmaNodeId": "3:4615",
+      "weights": {
+        "regular": "3:4616",
+        "bold": "3:4618",
+        "fill": "3:4620"
+      }
+    },
+    {
+      "name": "Buildings",
+      "category": "Commerce",
+      "path": "Commerce/Buildings",
+      "figmaNodeId": "3:4489",
+      "weights": {
+        "regular": "3:4490",
+        "bold": "3:4492",
+        "fill": "3:4494"
+      }
+    },
+    {
+      "name": "Cigarette",
+      "category": "Commerce",
+      "path": "Commerce/Cigarette",
+      "figmaNodeId": "3:4622",
+      "weights": {
+        "regular": "3:4623",
+        "bold": "3:4625",
+        "fill": "3:4627"
+      }
+    },
+    {
+      "name": "CigaretteSlash",
+      "category": "Commerce",
+      "path": "Commerce/CigaretteSlash",
+      "figmaNodeId": "3:4629",
+      "weights": {
+        "regular": "3:4630",
+        "bold": "3:4632",
+        "fill": "3:4634"
+      }
+    },
+    {
+      "name": "Coin",
+      "category": "Commerce",
+      "path": "Commerce/Coin",
+      "figmaNodeId": "3:4636",
+      "weights": {
+        "regular": "3:4637",
+        "bold": "3:4639",
+        "fill": "3:4641"
+      }
+    },
+    {
+      "name": "CoinVertical",
+      "category": "Commerce",
+      "path": "Commerce/CoinVertical",
+      "figmaNodeId": "3:4643",
+      "weights": {
+        "regular": "3:4644",
+        "bold": "3:4646",
+        "fill": "3:4648"
+      }
+    },
+    {
+      "name": "Coins",
+      "category": "Commerce",
+      "path": "Commerce/Coins",
+      "figmaNodeId": "3:4650",
+      "weights": {
+        "regular": "3:4651",
+        "bold": "3:4653",
+        "fill": "3:4655"
+      }
+    },
+    {
+      "name": "Cookie",
+      "category": "Commerce",
+      "path": "Commerce/Cookie",
+      "figmaNodeId": "3:4657",
+      "weights": {
+        "regular": "3:4658",
+        "bold": "3:4660",
+        "fill": "3:4662"
+      }
+    },
+    {
+      "name": "CreditCard",
+      "category": "Commerce",
+      "path": "Commerce/CreditCard",
+      "figmaNodeId": "3:4496",
+      "weights": {
+        "regular": "3:4497",
+        "bold": "3:4499",
+        "fill": "3:4501"
+      }
+    },
+    {
+      "name": "CurrencyBtc",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyBtc",
+      "figmaNodeId": "3:4503",
+      "weights": {
+        "regular": "3:4504",
+        "bold": "3:4506",
+        "fill": "3:4508"
+      }
+    },
+    {
+      "name": "CurrencyCircleDollar",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyCircleDollar",
+      "figmaNodeId": "3:4510",
+      "weights": {
+        "regular": "3:4511",
+        "bold": "3:4513",
+        "fill": "3:4515"
+      }
+    },
+    {
+      "name": "CurrencyDollarSimple",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyDollarSimple",
+      "figmaNodeId": "3:4517",
+      "weights": {
+        "regular": "3:4518",
+        "bold": "3:4520",
+        "fill": "3:4522"
+      }
+    },
+    {
+      "name": "CurrencyEth",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyEth",
+      "figmaNodeId": "3:4664",
+      "weights": {
+        "regular": "3:4665",
+        "bold": "3:4667",
+        "fill": "3:4669"
+      }
+    },
+    {
+      "name": "CurrencyEur",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyEur",
+      "figmaNodeId": "3:4524",
+      "weights": {
+        "regular": "3:4525",
+        "bold": "3:4527",
+        "fill": "3:4529"
+      }
+    },
+    {
+      "name": "CurrencyGbp",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyGbp",
+      "figmaNodeId": "3:4531",
+      "weights": {
+        "regular": "3:4532",
+        "bold": "3:4534",
+        "fill": "3:4536"
+      }
+    },
+    {
+      "name": "CurrencyInr",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyInr",
+      "figmaNodeId": "3:4671",
+      "weights": {
+        "regular": "3:4672",
+        "bold": "3:4674",
+        "fill": "3:4676"
+      }
+    },
+    {
+      "name": "CurrencyJpy",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyJpy",
+      "figmaNodeId": "3:4678",
+      "weights": {
+        "regular": "3:4679",
+        "bold": "3:4681",
+        "fill": "3:4683"
+      }
+    },
+    {
+      "name": "CurrencyRub",
+      "category": "Commerce",
+      "path": "Commerce/CurrencyRub",
+      "figmaNodeId": "3:4685",
+      "weights": {
+        "regular": "3:4686",
+        "bold": "3:4688",
+        "fill": "3:4690"
+      }
+    },
+    {
+      "name": "Dress",
+      "category": "Commerce",
+      "path": "Commerce/Dress",
+      "figmaNodeId": "3:4692",
+      "weights": {
+        "regular": "3:4693",
+        "bold": "3:4695",
+        "fill": "3:4697"
+      }
+    },
+    {
+      "name": "Dresser",
+      "category": "Commerce",
+      "path": "Commerce/Dresser",
+      "figmaNodeId": "3:4699",
+      "weights": {
+        "regular": "3:4700",
+        "bold": "3:4702",
+        "fill": "3:4704"
+      }
+    },
+    {
+      "name": "Eyeglasses",
+      "category": "Commerce",
+      "path": "Commerce/Eyeglasses",
+      "figmaNodeId": "3:4706",
+      "weights": {
+        "regular": "3:4707",
+        "bold": "3:4709",
+        "fill": "3:4711"
+      }
+    },
+    {
+      "name": "Factory",
+      "category": "Commerce",
+      "path": "Commerce/Factory",
+      "figmaNodeId": "3:4713",
+      "weights": {
+        "regular": "3:4714",
+        "bold": "3:4716",
+        "fill": "3:4718"
+      }
+    },
+    {
+      "name": "ForkKnife",
+      "category": "Commerce",
+      "path": "Commerce/ForkKnife",
+      "figmaNodeId": "3:4720",
+      "weights": {
+        "regular": "3:4721",
+        "bold": "3:4723",
+        "fill": "3:4725"
+      }
+    },
+    {
+      "name": "Gavel",
+      "category": "Commerce",
+      "path": "Commerce/Gavel",
+      "figmaNodeId": "3:4727",
+      "weights": {
+        "regular": "3:4728",
+        "bold": "3:4730",
+        "fill": "3:4732"
+      }
+    },
+    {
+      "name": "Gift",
+      "category": "Commerce",
+      "path": "Commerce/Gift",
+      "figmaNodeId": "3:4734",
+      "weights": {
+        "regular": "3:4735",
+        "bold": "3:4737",
+        "fill": "3:4739"
+      }
+    },
+    {
+      "name": "Hamburger",
+      "category": "Commerce",
+      "path": "Commerce/Hamburger",
+      "figmaNodeId": "3:4741",
+      "weights": {
+        "regular": "3:4742",
+        "bold": "3:4744",
+        "fill": "3:4746"
+      }
+    },
+    {
+      "name": "Hammer",
+      "category": "Commerce",
+      "path": "Commerce/Hammer",
+      "figmaNodeId": "3:4748",
+      "weights": {
+        "regular": "3:4749",
+        "bold": "3:4751",
+        "fill": "3:4753"
+      }
+    },
+    {
+      "name": "HandCoins",
+      "category": "Commerce",
+      "path": "Commerce/HandCoins",
+      "figmaNodeId": "3:4755",
+      "weights": {
+        "regular": "3:4756",
+        "bold": "3:4758",
+        "fill": "3:4760"
+      }
+    },
+    {
+      "name": "Invoice",
+      "category": "Commerce",
+      "path": "Commerce/Invoice",
+      "figmaNodeId": "3:4762",
+      "weights": {
+        "regular": "3:4763",
+        "bold": "3:4765",
+        "fill": "3:4767"
+      }
+    },
+    {
+      "name": "Jar",
+      "category": "Commerce",
+      "path": "Commerce/Jar",
+      "figmaNodeId": "3:4769",
+      "weights": {
+        "regular": "3:4770",
+        "bold": "3:4772",
+        "fill": "3:4774"
+      }
+    },
+    {
+      "name": "Knife",
+      "category": "Commerce",
+      "path": "Commerce/Knife",
+      "figmaNodeId": "3:4776",
+      "weights": {
+        "regular": "3:4777",
+        "bold": "3:4779",
+        "fill": "3:4781"
+      }
+    },
+    {
+      "name": "Money",
+      "category": "Commerce",
+      "path": "Commerce/Money",
+      "figmaNodeId": "3:4783",
+      "weights": {
+        "regular": "3:4784",
+        "bold": "3:4786",
+        "fill": "3:4788"
+      }
+    },
+    {
+      "name": "MoneyWavy",
+      "category": "Commerce",
+      "path": "Commerce/MoneyWavy",
+      "figmaNodeId": "3:4790",
+      "weights": {
+        "regular": "3:4791",
+        "bold": "3:4793",
+        "fill": "3:4795"
+      }
+    },
+    {
+      "name": "Package",
+      "category": "Commerce",
+      "path": "Commerce/Package",
+      "figmaNodeId": "3:4797",
+      "weights": {
+        "regular": "3:4798",
+        "bold": "3:4800",
+        "fill": "3:4802"
+      }
+    },
+    {
+      "name": "PiggyBank",
+      "category": "Commerce",
+      "path": "Commerce/PiggyBank",
+      "figmaNodeId": "3:4804",
+      "weights": {
+        "regular": "3:4805",
+        "bold": "3:4807",
+        "fill": "3:4809"
+      }
+    },
+    {
+      "name": "Pizza",
+      "category": "Commerce",
+      "path": "Commerce/Pizza",
+      "figmaNodeId": "3:4811",
+      "weights": {
+        "regular": "3:4812",
+        "bold": "3:4814",
+        "fill": "3:4816"
+      }
+    },
+    {
+      "name": "Receipt",
+      "category": "Commerce",
+      "path": "Commerce/Receipt",
+      "figmaNodeId": "3:4818",
+      "weights": {
+        "regular": "3:4819",
+        "bold": "3:4821",
+        "fill": "3:4823"
+      }
+    },
+    {
+      "name": "ReceiptX",
+      "category": "Commerce",
+      "path": "Commerce/ReceiptX",
+      "figmaNodeId": "3:4825",
+      "weights": {
+        "regular": "3:4826",
+        "bold": "3:4828",
+        "fill": "3:4830"
+      }
+    },
+    {
+      "name": "Scales",
+      "category": "Commerce",
+      "path": "Commerce/Scales",
+      "figmaNodeId": "3:4832",
+      "weights": {
+        "regular": "3:4833",
+        "bold": "3:4835",
+        "fill": "3:4837"
+      }
+    },
+    {
+      "name": "ShoppingCartSimple",
+      "category": "Commerce",
+      "path": "Commerce/ShoppingCartSimple",
+      "figmaNodeId": "3:4538",
+      "weights": {
+        "regular": "3:4539",
+        "bold": "3:4541",
+        "fill": "3:4543"
+      }
+    },
+    {
+      "name": "Storefront",
+      "category": "Commerce",
+      "path": "Commerce/Storefront",
+      "figmaNodeId": "3:4839",
+      "weights": {
+        "regular": "3:4840",
+        "bold": "3:4842",
+        "fill": "3:4844"
+      }
+    },
+    {
+      "name": "TShirt",
+      "category": "Commerce",
+      "path": "Commerce/TShirt",
+      "figmaNodeId": "3:4846",
+      "weights": {
+        "regular": "3:4847",
+        "bold": "3:4849",
+        "fill": "3:4851"
+      }
+    },
+    {
+      "name": "Tag",
+      "category": "Commerce",
+      "path": "Commerce/Tag",
+      "figmaNodeId": "3:4853",
+      "weights": {
+        "regular": "3:4854",
+        "bold": "3:4856",
+        "fill": "3:4858"
+      }
+    },
+    {
+      "name": "TeaBag",
+      "category": "Commerce",
+      "path": "Commerce/TeaBag",
+      "figmaNodeId": "3:4860",
+      "weights": {
+        "regular": "3:4861",
+        "bold": "3:4863",
+        "fill": "3:4865"
+      }
+    },
+    {
+      "name": "Ticket",
+      "category": "Commerce",
+      "path": "Commerce/Ticket",
+      "figmaNodeId": "3:4867",
+      "weights": {
+        "regular": "3:4868",
+        "bold": "3:4870",
+        "fill": "3:4872"
+      }
+    },
+    {
+      "name": "TipJar",
+      "category": "Commerce",
+      "path": "Commerce/TipJar",
+      "figmaNodeId": "3:4874",
+      "weights": {
+        "regular": "3:4875",
+        "bold": "3:4877",
+        "fill": "3:4879"
+      }
+    },
+    {
+      "name": "Wallet",
+      "category": "Commerce",
+      "path": "Commerce/Wallet",
+      "figmaNodeId": "3:4881",
+      "weights": {
+        "regular": "3:4882",
+        "bold": "3:4884",
+        "fill": "3:4886"
+      }
+    },
+    {
+      "name": "AddressBook",
+      "category": "Communication",
+      "path": "Communication/AddressBook",
+      "figmaNodeId": "3:1537",
+      "weights": {
+        "regular": "3:1538",
+        "bold": "3:1540",
+        "fill": "3:1542"
+      }
+    },
+    {
+      "name": "At",
+      "category": "Communication",
+      "path": "Communication/At",
+      "figmaNodeId": "3:1544",
+      "weights": {
+        "regular": "3:1545",
+        "bold": "3:1547",
+        "fill": "3:1549"
+      }
+    },
+    {
+      "name": "Chat",
+      "category": "Communication",
+      "path": "Communication/Chat",
+      "figmaNodeId": "3:1551",
+      "weights": {
+        "regular": "3:1552",
+        "bold": "3:1554",
+        "fill": "3:1556"
+      }
+    },
+    {
+      "name": "ChatCircle",
+      "category": "Communication",
+      "path": "Communication/ChatCircle",
+      "figmaNodeId": "3:1649",
+      "weights": {
+        "regular": "3:1650",
+        "bold": "3:1652",
+        "fill": "3:1654"
+      }
+    },
+    {
+      "name": "ChatCircleDots",
+      "category": "Communication",
+      "path": "Communication/ChatCircleDots",
+      "figmaNodeId": "3:1656",
+      "weights": {
+        "regular": "3:1657",
+        "bold": "3:1659",
+        "fill": "3:1661"
+      }
+    },
+    {
+      "name": "ChatCircleSlash",
+      "category": "Communication",
+      "path": "Communication/ChatCircleSlash",
+      "figmaNodeId": "3:1663",
+      "weights": {
+        "regular": "3:1664",
+        "bold": "3:1666",
+        "fill": "3:1668"
+      }
+    },
+    {
+      "name": "ChatCircleText",
+      "category": "Communication",
+      "path": "Communication/ChatCircleText",
+      "figmaNodeId": "3:1670",
+      "weights": {
+        "regular": "3:1671",
+        "bold": "3:1673",
+        "fill": "3:1675"
+      }
+    },
+    {
+      "name": "ChatDots",
+      "category": "Communication",
+      "path": "Communication/ChatDots",
+      "figmaNodeId": "3:1677",
+      "weights": {
+        "regular": "3:1678",
+        "bold": "3:1680",
+        "fill": "3:1682"
+      }
+    },
+    {
+      "name": "ChatSlash",
+      "category": "Communication",
+      "path": "Communication/ChatSlash",
+      "figmaNodeId": "3:1684",
+      "weights": {
+        "regular": "3:1685",
+        "bold": "3:1687",
+        "fill": "3:1689"
+      }
+    },
+    {
+      "name": "ChatTeardrop",
+      "category": "Communication",
+      "path": "Communication/ChatTeardrop",
+      "figmaNodeId": "3:1691",
+      "weights": {
+        "regular": "3:1692",
+        "bold": "3:1694",
+        "fill": "3:1696"
+      }
+    },
+    {
+      "name": "ChatTeardropDots",
+      "category": "Communication",
+      "path": "Communication/ChatTeardropDots",
+      "figmaNodeId": "3:1698",
+      "weights": {
+        "regular": "3:1699",
+        "bold": "3:1701",
+        "fill": "3:1703"
+      }
+    },
+    {
+      "name": "ChatTeardropSlash",
+      "category": "Communication",
+      "path": "Communication/ChatTeardropSlash",
+      "figmaNodeId": "3:1705",
+      "weights": {
+        "regular": "3:1706",
+        "bold": "3:1708",
+        "fill": "3:1710"
+      }
+    },
+    {
+      "name": "ChatTeardropText",
+      "category": "Communication",
+      "path": "Communication/ChatTeardropText",
+      "figmaNodeId": "3:1712",
+      "weights": {
+        "regular": "3:1713",
+        "bold": "3:1715",
+        "fill": "3:1717"
+      }
+    },
+    {
+      "name": "ChatsTeardrop",
+      "category": "Communication",
+      "path": "Communication/ChatsTeardrop",
+      "figmaNodeId": "3:1719",
+      "weights": {
+        "regular": "3:1720",
+        "bold": "3:1722",
+        "fill": "3:1724"
+      }
+    },
+    {
+      "name": "EnvelopeSimple",
+      "category": "Communication",
+      "path": "Communication/EnvelopeSimple",
+      "figmaNodeId": "3:1565",
+      "weights": {
+        "regular": "3:1566",
+        "bold": "3:1568",
+        "fill": "3:1570"
+      }
+    },
+    {
+      "name": "Export",
+      "category": "Communication",
+      "path": "Communication/Export",
+      "figmaNodeId": "3:1572",
+      "weights": {
+        "regular": "3:1573",
+        "bold": "3:1575",
+        "fill": "3:1577"
+      }
+    },
+    {
+      "name": "Globe",
+      "category": "Communication",
+      "path": "Communication/Globe",
+      "figmaNodeId": "3:1845",
+      "weights": {
+        "regular": "3:1846",
+        "bold": "3:1848",
+        "fill": "3:1850"
+      }
+    },
+    {
+      "name": "GpsFix",
+      "category": "Communication",
+      "path": "Communication/GpsFix",
+      "figmaNodeId": "3:1810",
+      "weights": {
+        "regular": "3:1811",
+        "bold": "3:1813",
+        "fill": "3:1815"
+      }
+    },
+    {
+      "name": "Hash",
+      "category": "Communication",
+      "path": "Communication/Hash",
+      "figmaNodeId": "3:1726",
+      "weights": {
+        "regular": "3:1727",
+        "bold": "3:1729",
+        "fill": "3:1731"
+      }
+    },
+    {
+      "name": "HashStraight",
+      "category": "Communication",
+      "path": "Communication/HashStraight",
+      "figmaNodeId": "3:1733",
+      "weights": {
+        "regular": "3:1734",
+        "bold": "3:1736",
+        "fill": "3:1738"
+      }
+    },
+    {
+      "name": "HouseSimple",
+      "category": "Communication",
+      "path": "Communication/HouseSimple",
+      "figmaNodeId": "3:1817",
+      "weights": {
+        "regular": "3:1818",
+        "bold": "3:1820",
+        "fill": "3:1822"
+      }
+    },
+    {
+      "name": "Mailbox",
+      "category": "Communication",
+      "path": "Communication/Mailbox",
+      "figmaNodeId": "3:1579",
+      "weights": {
+        "regular": "3:1580",
+        "bold": "3:1582",
+        "fill": "3:1584"
+      }
+    },
+    {
+      "name": "MapPin",
+      "category": "Communication",
+      "path": "Communication/MapPin",
+      "figmaNodeId": "3:1824",
+      "weights": {
+        "regular": "3:1825",
+        "bold": "3:1827",
+        "fill": "3:1829"
+      }
+    },
+    {
+      "name": "MapPinArea",
+      "category": "Communication",
+      "path": "Communication/MapPinArea",
+      "figmaNodeId": "3:1831",
+      "weights": {
+        "regular": "3:1832",
+        "bold": "3:1834",
+        "fill": "3:1836"
+      }
+    },
+    {
+      "name": "MapPinLine",
+      "category": "Communication",
+      "path": "Communication/MapPinLine",
+      "figmaNodeId": "3:1838",
+      "weights": {
+        "regular": "3:1839",
+        "bold": "3:1841",
+        "fill": "3:1843"
+      }
+    },
+    {
+      "name": "MegaphoneSimple",
+      "category": "Communication",
+      "path": "Communication/MegaphoneSimple",
+      "figmaNodeId": "3:1740",
+      "weights": {
+        "regular": "3:1741",
+        "bold": "3:1743",
+        "fill": "3:1745"
+      }
+    },
+    {
+      "name": "Numpad",
+      "category": "Communication",
+      "path": "Communication/Numpad",
+      "figmaNodeId": "3:1747",
+      "weights": {
+        "regular": "3:1748",
+        "bold": "3:1750",
+        "fill": "3:1752"
+      }
+    },
+    {
+      "name": "PaperPlane",
+      "category": "Communication",
+      "path": "Communication/PaperPlane",
+      "figmaNodeId": "3:1754",
+      "weights": {
+        "regular": "3:1755",
+        "bold": "3:1757",
+        "fill": "3:1759"
+      }
+    },
+    {
+      "name": "PaperPlaneRight",
+      "category": "Communication",
+      "path": "Communication/PaperPlaneRight",
+      "figmaNodeId": "3:1586",
+      "weights": {
+        "regular": "3:1587",
+        "bold": "3:1589",
+        "fill": "3:1591"
+      }
+    },
+    {
+      "name": "PaperPlaneTilt",
+      "category": "Communication",
+      "path": "Communication/PaperPlaneTilt",
+      "figmaNodeId": "3:1761",
+      "weights": {
+        "regular": "3:1762",
+        "bold": "3:1764",
+        "fill": "3:1766"
+      }
+    },
+    {
+      "name": "Phone",
+      "category": "Communication",
+      "path": "Communication/Phone",
+      "figmaNodeId": "3:1593",
+      "weights": {
+        "regular": "3:1594",
+        "bold": "3:1596",
+        "fill": "3:1598"
+      }
+    },
+    {
+      "name": "PhoneDisconnect",
+      "category": "Communication",
+      "path": "Communication/PhoneDisconnect",
+      "figmaNodeId": "3:1600",
+      "weights": {
+        "regular": "3:1601",
+        "bold": "3:1603",
+        "fill": "3:1605"
+      }
+    },
+    {
+      "name": "PhoneIncoming",
+      "category": "Communication",
+      "path": "Communication/PhoneIncoming",
+      "figmaNodeId": "3:1768",
+      "weights": {
+        "regular": "3:1769",
+        "bold": "3:1771",
+        "fill": "3:1773"
+      }
+    },
+    {
+      "name": "PhoneOutgoing",
+      "category": "Communication",
+      "path": "Communication/PhoneOutgoing",
+      "figmaNodeId": "3:1775",
+      "weights": {
+        "regular": "3:1776",
+        "bold": "3:1778",
+        "fill": "3:1780"
+      }
+    },
+    {
+      "name": "Quotes",
+      "category": "Communication",
+      "path": "Communication/Quotes",
+      "figmaNodeId": "3:1607",
+      "weights": {
+        "regular": "3:1608",
+        "bold": "3:1610",
+        "fill": "3:1612"
+      }
+    },
+    {
+      "name": "Share",
+      "category": "Communication",
+      "path": "Communication/Share",
+      "figmaNodeId": "3:1782",
+      "weights": {
+        "regular": "3:1783",
+        "bold": "3:1785",
+        "fill": "3:1787"
+      }
+    },
+    {
+      "name": "ShareFat",
+      "category": "Communication",
+      "path": "Communication/ShareFat",
+      "figmaNodeId": "3:1789",
+      "weights": {
+        "regular": "3:1790",
+        "bold": "3:1792",
+        "fill": "3:1794"
+      }
+    },
+    {
+      "name": "ShareNetwork",
+      "category": "Communication",
+      "path": "Communication/ShareNetwork",
+      "figmaNodeId": "3:1614",
+      "weights": {
+        "regular": "3:1615",
+        "bold": "3:1617",
+        "fill": "3:1619"
+      }
+    },
+    {
+      "name": "Star",
+      "category": "Communication",
+      "path": "Communication/Star",
+      "figmaNodeId": "3:1621",
+      "weights": {
+        "regular": "3:1622",
+        "bold": "3:1624",
+        "fill": "3:1626"
+      }
+    },
+    {
+      "name": "StarHalf",
+      "category": "Communication",
+      "path": "Communication/StarHalf",
+      "figmaNodeId": "3:1796",
+      "weights": {
+        "regular": "3:1797",
+        "bold": "3:1799",
+        "fill": "3:1801"
+      }
+    },
+    {
+      "name": "Sticker",
+      "category": "Communication",
+      "path": "Communication/Sticker",
+      "figmaNodeId": "3:1628",
+      "weights": {
+        "regular": "3:1629",
+        "bold": "3:1631",
+        "fill": "3:1633"
+      }
+    },
+    {
+      "name": "ThumbsDown",
+      "category": "Communication",
+      "path": "Communication/ThumbsDown",
+      "figmaNodeId": "3:1635",
+      "weights": {
+        "regular": "3:1636",
+        "bold": "3:1638",
+        "fill": "3:1640"
+      }
+    },
+    {
+      "name": "ThumbsUp",
+      "category": "Communication",
+      "path": "Communication/ThumbsUp",
+      "figmaNodeId": "3:1642",
+      "weights": {
+        "regular": "3:1643",
+        "bold": "3:1645",
+        "fill": "3:1647"
+      }
+    },
+    {
+      "name": "Translate",
+      "category": "Communication",
+      "path": "Communication/Translate",
+      "figmaNodeId": "3:1803",
+      "weights": {
+        "regular": "3:1804",
+        "bold": "3:1806",
+        "fill": "3:1808"
+      }
+    },
+    {
+      "name": "AlignBottom",
+      "category": "Design",
+      "path": "Design/AlignBottom",
+      "figmaNodeId": "3:2925",
+      "weights": {
+        "regular": "3:2926",
+        "bold": "3:2928",
+        "fill": "3:2930"
+      }
+    },
+    {
+      "name": "AlignBottomSimple",
+      "category": "Design",
+      "path": "Design/AlignBottomSimple",
+      "figmaNodeId": "3:2932",
+      "weights": {
+        "regular": "3:2933",
+        "bold": "3:2935",
+        "fill": "3:2937"
+      }
+    },
+    {
+      "name": "AlignCenterHorizontal",
+      "category": "Design",
+      "path": "Design/AlignCenterHorizontal",
+      "figmaNodeId": "3:2939",
+      "weights": {
+        "regular": "3:2940",
+        "bold": "3:2942",
+        "fill": "3:2944"
+      }
+    },
+    {
+      "name": "AlignCenterHorizontalSimple",
+      "category": "Design",
+      "path": "Design/AlignCenterHorizontalSimple",
+      "figmaNodeId": "3:2946",
+      "weights": {
+        "regular": "3:2947",
+        "bold": "3:2949",
+        "fill": "3:2951"
+      }
+    },
+    {
+      "name": "AlignCenterVertical",
+      "category": "Design",
+      "path": "Design/AlignCenterVertical",
+      "figmaNodeId": "3:2953",
+      "weights": {
+        "regular": "3:2954",
+        "bold": "3:2956",
+        "fill": "3:2958"
+      }
+    },
+    {
+      "name": "AlignCenterVerticalSimple",
+      "category": "Design",
+      "path": "Design/AlignCenterVerticalSimple",
+      "figmaNodeId": "3:2960",
+      "weights": {
+        "regular": "3:2961",
+        "bold": "3:2963",
+        "fill": "3:2965"
+      }
+    },
+    {
+      "name": "AlignLeft",
+      "category": "Design",
+      "path": "Design/AlignLeft",
+      "figmaNodeId": "3:2967",
+      "weights": {
+        "regular": "3:2968",
+        "bold": "3:2970",
+        "fill": "3:2972"
+      }
+    },
+    {
+      "name": "AlignLeftSimple",
+      "category": "Design",
+      "path": "Design/AlignLeftSimple",
+      "figmaNodeId": "3:2974",
+      "weights": {
+        "regular": "3:2975",
+        "bold": "3:2977",
+        "fill": "3:2979"
+      }
+    },
+    {
+      "name": "AlignRight",
+      "category": "Design",
+      "path": "Design/AlignRight",
+      "figmaNodeId": "3:2981",
+      "weights": {
+        "regular": "3:2982",
+        "bold": "3:2984",
+        "fill": "3:2986"
+      }
+    },
+    {
+      "name": "AlignRightSimple",
+      "category": "Design",
+      "path": "Design/AlignRightSimple",
+      "figmaNodeId": "3:2988",
+      "weights": {
+        "regular": "3:2989",
+        "bold": "3:2991",
+        "fill": "3:2993"
+      }
+    },
+    {
+      "name": "AlignTop",
+      "category": "Design",
+      "path": "Design/AlignTop",
+      "figmaNodeId": "3:2995",
+      "weights": {
+        "regular": "3:2996",
+        "bold": "3:2998",
+        "fill": "3:3000"
+      }
+    },
+    {
+      "name": "AlignTopSimple",
+      "category": "Design",
+      "path": "Design/AlignTopSimple",
+      "figmaNodeId": "3:3002",
+      "weights": {
+        "regular": "3:3003",
+        "bold": "3:3005",
+        "fill": "3:3007"
+      }
+    },
+    {
+      "name": "Angle",
+      "category": "Design",
+      "path": "Design/Angle",
+      "figmaNodeId": "3:3009",
+      "weights": {
+        "regular": "3:3010",
+        "bold": "3:3012",
+        "fill": "3:3014"
+      }
+    },
+    {
+      "name": "BezierCurve",
+      "category": "Design",
+      "path": "Design/BezierCurve",
+      "figmaNodeId": "3:3016",
+      "weights": {
+        "regular": "3:3017",
+        "bold": "3:3019",
+        "fill": "3:3021"
+      }
+    },
+    {
+      "name": "BoundingBox",
+      "category": "Design",
+      "path": "Design/BoundingBox",
+      "figmaNodeId": "3:3023",
+      "weights": {
+        "regular": "3:3024",
+        "bold": "3:3026",
+        "fill": "3:3028"
+      }
+    },
+    {
+      "name": "Circle",
+      "category": "Design",
+      "path": "Design/Circle",
+      "figmaNodeId": "3:2848",
+      "weights": {
+        "regular": "3:2849",
+        "bold": "3:2851",
+        "fill": "3:2853"
+      }
+    },
+    {
+      "name": "CircleDashed",
+      "category": "Design",
+      "path": "Design/CircleDashed",
+      "figmaNodeId": "3:3030",
+      "weights": {
+        "regular": "3:3031",
+        "bold": "3:3033",
+        "fill": "3:3035"
+      }
+    },
+    {
+      "name": "CirclesFour",
+      "category": "Design",
+      "path": "Design/CirclesFour",
+      "figmaNodeId": "3:2855",
+      "weights": {
+        "regular": "3:2856",
+        "bold": "3:2858",
+        "fill": "3:2860"
+      }
+    },
+    {
+      "name": "Columns",
+      "category": "Design",
+      "path": "Design/Columns",
+      "figmaNodeId": "3:3037",
+      "weights": {
+        "regular": "3:3038",
+        "bold": "3:3040",
+        "fill": "3:3042"
+      }
+    },
+    {
+      "name": "Crop",
+      "category": "Design",
+      "path": "Design/Crop",
+      "figmaNodeId": "3:3044",
+      "weights": {
+        "regular": "3:3045",
+        "bold": "3:3047",
+        "fill": "3:3049"
+      }
+    },
+    {
+      "name": "Cube",
+      "category": "Design",
+      "path": "Design/Cube",
+      "figmaNodeId": "3:2862",
+      "weights": {
+        "regular": "3:2863",
+        "bold": "3:2865",
+        "fill": "3:2867"
+      }
+    },
+    {
+      "name": "Cylinder",
+      "category": "Design",
+      "path": "Design/Cylinder",
+      "figmaNodeId": "3:3051",
+      "weights": {
+        "regular": "3:3052",
+        "bold": "3:3054",
+        "fill": "3:3056"
+      }
+    },
+    {
+      "name": "DiamondsFour",
+      "category": "Design",
+      "path": "Design/DiamondsFour",
+      "figmaNodeId": "3:2869",
+      "weights": {
+        "regular": "3:2870",
+        "bold": "3:2872",
+        "fill": "3:2874"
+      }
+    },
+    {
+      "name": "DropHalf",
+      "category": "Design",
+      "path": "Design/DropHalf",
+      "figmaNodeId": "3:3058",
+      "weights": {
+        "regular": "3:3059",
+        "bold": "3:3061",
+        "fill": "3:3063"
+      }
+    },
+    {
+      "name": "DropHalfBottom",
+      "category": "Design",
+      "path": "Design/DropHalfBottom",
+      "figmaNodeId": "3:3065",
+      "weights": {
+        "regular": "3:3066",
+        "bold": "3:3068",
+        "fill": "3:3070"
+      }
+    },
+    {
+      "name": "DropSlash",
+      "category": "Design",
+      "path": "Design/DropSlash",
+      "figmaNodeId": "3:3072",
+      "weights": {
+        "regular": "3:3073",
+        "bold": "3:3075",
+        "fill": "3:3077"
+      }
+    },
+    {
+      "name": "Eraser",
+      "category": "Design",
+      "path": "Design/Eraser",
+      "figmaNodeId": "3:3079",
+      "weights": {
+        "regular": "3:3080",
+        "bold": "3:3082",
+        "fill": "3:3084"
+      }
+    },
+    {
+      "name": "ExcludeSquare",
+      "category": "Design",
+      "path": "Design/ExcludeSquare",
+      "figmaNodeId": "3:3086",
+      "weights": {
+        "regular": "3:3087",
+        "bold": "3:3089",
+        "fill": "3:3091"
+      }
+    },
+    {
+      "name": "Eye",
+      "category": "Design",
+      "path": "Design/Eye",
+      "figmaNodeId": "3:2876",
+      "weights": {
+        "regular": "3:2877",
+        "bold": "3:2879",
+        "fill": "3:2881"
+      }
+    },
+    {
+      "name": "EyeClosed",
+      "category": "Design",
+      "path": "Design/EyeClosed",
+      "figmaNodeId": "3:3093",
+      "weights": {
+        "regular": "3:3094",
+        "bold": "3:3096",
+        "fill": "3:3098"
+      }
+    },
+    {
+      "name": "EyeSlash",
+      "category": "Design",
+      "path": "Design/EyeSlash",
+      "figmaNodeId": "3:2883",
+      "weights": {
+        "regular": "3:2884",
+        "bold": "3:2886",
+        "fill": "3:2888"
+      }
+    },
+    {
+      "name": "EyedropperSample",
+      "category": "Design",
+      "path": "Design/EyedropperSample",
+      "figmaNodeId": "3:3100",
+      "weights": {
+        "regular": "3:3101",
+        "bold": "3:3103",
+        "fill": "3:3105"
+      }
+    },
+    {
+      "name": "FlipHorizontal",
+      "category": "Design",
+      "path": "Design/FlipHorizontal",
+      "figmaNodeId": "3:3107",
+      "weights": {
+        "regular": "3:3108",
+        "bold": "3:3110",
+        "fill": "3:3112"
+      }
+    },
+    {
+      "name": "FlipVertical",
+      "category": "Design",
+      "path": "Design/FlipVertical",
+      "figmaNodeId": "3:3114",
+      "weights": {
+        "regular": "3:3115",
+        "bold": "3:3117",
+        "fill": "3:3119"
+      }
+    },
+    {
+      "name": "FlowArrow",
+      "category": "Design",
+      "path": "Design/FlowArrow",
+      "figmaNodeId": "3:3121",
+      "weights": {
+        "regular": "3:3122",
+        "bold": "3:3124",
+        "fill": "3:3126"
+      }
+    },
+    {
+      "name": "Gradient",
+      "category": "Design",
+      "path": "Design/Gradient",
+      "figmaNodeId": "3:3128",
+      "weights": {
+        "regular": "3:3129",
+        "bold": "3:3131",
+        "fill": "3:3133"
+      }
+    },
+    {
+      "name": "GridFour",
+      "category": "Design",
+      "path": "Design/GridFour",
+      "figmaNodeId": "3:3135",
+      "weights": {
+        "regular": "3:3136",
+        "bold": "3:3138",
+        "fill": "3:3140"
+      }
+    },
+    {
+      "name": "Highlighter",
+      "category": "Design",
+      "path": "Design/Highlighter",
+      "figmaNodeId": "3:3142",
+      "weights": {
+        "regular": "3:3143",
+        "bold": "3:3145",
+        "fill": "3:3147"
+      }
+    },
+    {
+      "name": "IntersectSquare",
+      "category": "Design",
+      "path": "Design/IntersectSquare",
+      "figmaNodeId": "3:3149",
+      "weights": {
+        "regular": "3:3150",
+        "bold": "3:3152",
+        "fill": "3:3154"
+      }
+    },
+    {
+      "name": "Lasso",
+      "category": "Design",
+      "path": "Design/Lasso",
+      "figmaNodeId": "3:3156",
+      "weights": {
+        "regular": "3:3157",
+        "bold": "3:3159",
+        "fill": "3:3161"
+      }
+    },
+    {
+      "name": "Layout",
+      "category": "Design",
+      "path": "Design/Layout",
+      "figmaNodeId": "3:3164",
+      "weights": {
+        "regular": "3:3165",
+        "bold": "3:3167",
+        "fill": "3:3169"
+      }
+    },
+    {
+      "name": "LineSegment",
+      "category": "Design",
+      "path": "Design/LineSegment",
+      "figmaNodeId": "3:3171",
+      "weights": {
+        "regular": "3:3172",
+        "bold": "3:3174",
+        "fill": "3:3176"
+      }
+    },
+    {
+      "name": "LineSegments",
+      "category": "Design",
+      "path": "Design/LineSegments",
+      "figmaNodeId": "3:3178",
+      "weights": {
+        "regular": "3:3179",
+        "bold": "3:3181",
+        "fill": "3:3183"
+      }
+    },
+    {
+      "name": "MagicWand",
+      "category": "Design",
+      "path": "Design/MagicWand",
+      "figmaNodeId": "3:3185",
+      "weights": {
+        "regular": "3:3186",
+        "bold": "3:3188",
+        "fill": "3:3190"
+      }
+    },
+    {
+      "name": "Notches",
+      "category": "Design",
+      "path": "Design/Notches",
+      "figmaNodeId": "3:2918",
+      "weights": {
+        "regular": "3:2919",
+        "bold": "3:2921",
+        "fill": "3:2923"
+      }
+    },
+    {
+      "name": "PaintBrush",
+      "category": "Design",
+      "path": "Design/PaintBrush",
+      "figmaNodeId": "3:3192",
+      "weights": {
+        "regular": "3:3193",
+        "bold": "3:3195",
+        "fill": "3:3197"
+      }
+    },
+    {
+      "name": "PaintBrushHousehold",
+      "category": "Design",
+      "path": "Design/PaintBrushHousehold",
+      "figmaNodeId": "3:2890",
+      "weights": {
+        "regular": "3:2891",
+        "bold": "3:2893",
+        "fill": "3:2895"
+      }
+    },
+    {
+      "name": "Palette",
+      "category": "Design",
+      "path": "Design/Palette",
+      "figmaNodeId": "3:2897",
+      "weights": {
+        "regular": "3:2898",
+        "bold": "3:2900",
+        "fill": "3:2902"
+      }
+    },
+    {
+      "name": "PenNib",
+      "category": "Design",
+      "path": "Design/PenNib",
+      "figmaNodeId": "3:3199",
+      "weights": {
+        "regular": "3:3200",
+        "bold": "3:3202",
+        "fill": "3:3204"
+      }
+    },
+    {
+      "name": "PenNibStraight",
+      "category": "Design",
+      "path": "Design/PenNibStraight",
+      "figmaNodeId": "3:3206",
+      "weights": {
+        "regular": "3:3207",
+        "bold": "3:3209",
+        "fill": "3:3211"
+      }
+    },
+    {
+      "name": "PencilSimple",
+      "category": "Design",
+      "path": "Design/PencilSimple",
+      "figmaNodeId": "3:2904",
+      "weights": {
+        "regular": "3:2905",
+        "bold": "3:2907",
+        "fill": "3:2909"
+      }
+    },
+    {
+      "name": "PencilSimpleLine",
+      "category": "Design",
+      "path": "Design/PencilSimpleLine",
+      "figmaNodeId": "3:2911",
+      "weights": {
+        "regular": "3:2912",
+        "bold": "3:2914",
+        "fill": "3:2916"
+      }
+    },
+    {
+      "name": "PencilSimpleSlash",
+      "category": "Design",
+      "path": "Design/PencilSimpleSlash",
+      "figmaNodeId": "3:3213",
+      "weights": {
+        "regular": "3:3214",
+        "bold": "3:3216",
+        "fill": "3:3218"
+      }
+    },
+    {
+      "name": "RectangleDashed",
+      "category": "Design",
+      "path": "Design/RectangleDashed",
+      "figmaNodeId": "3:3220",
+      "weights": {
+        "regular": "3:3221",
+        "bold": "3:3223",
+        "fill": "3:3225"
+      }
+    },
+    {
+      "name": "Rows",
+      "category": "Design",
+      "path": "Design/Rows",
+      "figmaNodeId": "3:3227",
+      "weights": {
+        "regular": "3:3228",
+        "bold": "3:3230",
+        "fill": "3:3232"
+      }
+    },
+    {
+      "name": "Ruler",
+      "category": "Design",
+      "path": "Design/Ruler",
+      "figmaNodeId": "3:3234",
+      "weights": {
+        "regular": "3:3235",
+        "bold": "3:3237",
+        "fill": "3:3239"
+      }
+    },
+    {
+      "name": "Scissors",
+      "category": "Design",
+      "path": "Design/Scissors",
+      "figmaNodeId": "3:3241",
+      "weights": {
+        "regular": "3:3242",
+        "bold": "3:3244",
+        "fill": "3:3246"
+      }
+    },
+    {
+      "name": "Shapes",
+      "category": "Design",
+      "path": "Design/Shapes",
+      "figmaNodeId": "3:3248",
+      "weights": {
+        "regular": "3:3249",
+        "bold": "3:3251",
+        "fill": "3:3253"
+      }
+    },
+    {
+      "name": "Sidebar",
+      "category": "Design",
+      "path": "Design/Sidebar",
+      "figmaNodeId": "3:3255",
+      "weights": {
+        "regular": "3:3256",
+        "bold": "3:3258",
+        "fill": "3:3260"
+      }
+    },
+    {
+      "name": "SidebarSimple",
+      "category": "Design",
+      "path": "Design/SidebarSimple",
+      "figmaNodeId": "3:3262",
+      "weights": {
+        "regular": "3:3263",
+        "bold": "3:3265",
+        "fill": "3:3267"
+      }
+    },
+    {
+      "name": "Sphere",
+      "category": "Design",
+      "path": "Design/Sphere",
+      "figmaNodeId": "3:3269",
+      "weights": {
+        "regular": "3:3270",
+        "bold": "3:3272",
+        "fill": "3:3274"
+      }
+    },
+    {
+      "name": "SplitHorizontal",
+      "category": "Design",
+      "path": "Design/SplitHorizontal",
+      "figmaNodeId": "3:3276",
+      "weights": {
+        "regular": "3:3277",
+        "bold": "3:3279",
+        "fill": "3:3281"
+      }
+    },
+    {
+      "name": "SplitVertical",
+      "category": "Design",
+      "path": "Design/SplitVertical",
+      "figmaNodeId": "3:3283",
+      "weights": {
+        "regular": "3:3284",
+        "bold": "3:3286",
+        "fill": "3:3288"
+      }
+    },
+    {
+      "name": "SquareSplitHorizontal",
+      "category": "Design",
+      "path": "Design/SquareSplitHorizontal",
+      "figmaNodeId": "3:3290",
+      "weights": {
+        "regular": "3:3291",
+        "bold": "3:3293",
+        "fill": "3:3295"
+      }
+    },
+    {
+      "name": "SquareSplitVertical",
+      "category": "Design",
+      "path": "Design/SquareSplitVertical",
+      "figmaNodeId": "3:3297",
+      "weights": {
+        "regular": "3:3298",
+        "bold": "3:3300",
+        "fill": "3:3302"
+      }
+    },
+    {
+      "name": "Stack",
+      "category": "Design",
+      "path": "Design/Stack",
+      "figmaNodeId": "3:3304",
+      "weights": {
+        "regular": "3:3305",
+        "bold": "3:3307",
+        "fill": "3:3309"
+      }
+    },
+    {
+      "name": "StackSimple",
+      "category": "Design",
+      "path": "Design/StackSimple",
+      "figmaNodeId": "3:3313",
+      "weights": {
+        "regular": "3:3314",
+        "bold": "3:3316",
+        "fill": "3:3318"
+      }
+    },
+    {
+      "name": "Stamp",
+      "category": "Design",
+      "path": "Design/Stamp",
+      "figmaNodeId": "3:3321",
+      "weights": {
+        "regular": "3:3322",
+        "bold": "3:3324",
+        "fill": "3:3326"
+      }
+    },
+    {
+      "name": "Swatches",
+      "category": "Design",
+      "path": "Design/Swatches",
+      "figmaNodeId": "3:3328",
+      "weights": {
+        "regular": "3:3329",
+        "bold": "3:3331",
+        "fill": "3:3333"
+      }
+    },
+    {
+      "name": "TextAUnderline",
+      "category": "Design",
+      "path": "Design/TextAUnderline",
+      "figmaNodeId": "3:3335",
+      "weights": {
+        "regular": "3:3336",
+        "bold": "3:3338",
+        "fill": "3:3340"
+      }
+    },
+    {
+      "name": "Toggle",
+      "category": "Design",
+      "path": "Design/Toggle",
+      "figmaNodeId": "165:42102",
+      "weights": {
+        "regular": "165:42103",
+        "bold": "165:42105",
+        "fill": "165:42107"
+      }
+    },
+    {
+      "name": "Triangle",
+      "category": "Design",
+      "path": "Design/Triangle",
+      "figmaNodeId": "3:3342",
+      "weights": {
+        "regular": "3:3343",
+        "bold": "3:3345",
+        "fill": "3:3347"
+      }
+    },
+    {
+      "name": "Binary",
+      "category": "Development",
+      "path": "Development/Binary",
+      "figmaNodeId": "3:5667",
+      "weights": {
+        "regular": "3:5668",
+        "bold": "3:5670",
+        "fill": "3:5672"
+      }
+    },
+    {
+      "name": "BracketsCurly",
+      "category": "Development",
+      "path": "Development/BracketsCurly",
+      "figmaNodeId": "3:5632",
+      "weights": {
+        "regular": "3:5633",
+        "bold": "3:5635",
+        "fill": "3:5637"
+      }
+    },
+    {
+      "name": "Bug",
+      "category": "Development",
+      "path": "Development/Bug",
+      "figmaNodeId": "3:5674",
+      "weights": {
+        "regular": "3:5675",
+        "bold": "3:5677",
+        "fill": "3:5679"
+      }
+    },
+    {
+      "name": "BugBeetle",
+      "category": "Development",
+      "path": "Development/BugBeetle",
+      "figmaNodeId": "3:5681",
+      "weights": {
+        "regular": "3:5682",
+        "bold": "3:5684",
+        "fill": "3:5686"
+      }
+    },
+    {
+      "name": "BugDroid",
+      "category": "Development",
+      "path": "Development/BugDroid",
+      "figmaNodeId": "3:5688",
+      "weights": {
+        "regular": "3:5689",
+        "bold": "3:5691",
+        "fill": "3:5693"
+      }
+    },
+    {
+      "name": "CodeBlock",
+      "category": "Development",
+      "path": "Development/CodeBlock",
+      "figmaNodeId": "3:5695",
+      "weights": {
+        "regular": "3:5696",
+        "bold": "3:5698",
+        "fill": "3:5700"
+      }
+    },
+    {
+      "name": "CodeSimple",
+      "category": "Development",
+      "path": "Development/CodeSimple",
+      "figmaNodeId": "3:5639",
+      "weights": {
+        "regular": "3:5640",
+        "bold": "3:5642",
+        "fill": "3:5644"
+      }
+    },
+    {
+      "name": "Cpu",
+      "category": "Development",
+      "path": "Development/Cpu",
+      "figmaNodeId": "3:5646",
+      "weights": {
+        "regular": "3:5647",
+        "bold": "3:5649",
+        "fill": "3:5651"
+      }
+    },
+    {
+      "name": "Database",
+      "category": "Development",
+      "path": "Development/Database",
+      "figmaNodeId": "3:5653",
+      "weights": {
+        "regular": "3:5654",
+        "bold": "3:5656",
+        "fill": "3:5658"
+      }
+    },
+    {
+      "name": "GitBranch",
+      "category": "Development",
+      "path": "Development/GitBranch",
+      "figmaNodeId": "3:5702",
+      "weights": {
+        "regular": "3:5703",
+        "bold": "3:5705",
+        "fill": "3:5707"
+      }
+    },
+    {
+      "name": "GitCommit",
+      "category": "Development",
+      "path": "Development/GitCommit",
+      "figmaNodeId": "3:5709",
+      "weights": {
+        "regular": "3:5710",
+        "bold": "3:5712",
+        "fill": "3:5714"
+      }
+    },
+    {
+      "name": "GitDiff",
+      "category": "Development",
+      "path": "Development/GitDiff",
+      "figmaNodeId": "3:5716",
+      "weights": {
+        "regular": "3:5717",
+        "bold": "3:5719",
+        "fill": "3:5721"
+      }
+    },
+    {
+      "name": "GitFork",
+      "category": "Development",
+      "path": "Development/GitFork",
+      "figmaNodeId": "3:5723",
+      "weights": {
+        "regular": "3:5724",
+        "bold": "3:5726",
+        "fill": "3:5728"
+      }
+    },
+    {
+      "name": "GitMerge",
+      "category": "Development",
+      "path": "Development/GitMerge",
+      "figmaNodeId": "3:5730",
+      "weights": {
+        "regular": "3:5731",
+        "bold": "3:5733",
+        "fill": "3:5735"
+      }
+    },
+    {
+      "name": "GitPullRequest",
+      "category": "Development",
+      "path": "Development/GitPullRequest",
+      "figmaNodeId": "3:5737",
+      "weights": {
+        "regular": "3:5738",
+        "bold": "3:5740",
+        "fill": "3:5742"
+      }
+    },
+    {
+      "name": "GraphicsCard",
+      "category": "Development",
+      "path": "Development/GraphicsCard",
+      "figmaNodeId": "3:5744",
+      "weights": {
+        "regular": "3:5745",
+        "bold": "3:5747",
+        "fill": "3:5749"
+      }
+    },
+    {
+      "name": "Terminal",
+      "category": "Development",
+      "path": "Development/Terminal",
+      "figmaNodeId": "3:5660",
+      "weights": {
+        "regular": "3:5661",
+        "bold": "3:5663",
+        "fill": "3:5665"
+      }
+    },
+    {
+      "name": "TerminalWindow",
+      "category": "Development",
+      "path": "Development/TerminalWindow",
+      "figmaNodeId": "3:5751",
+      "weights": {
+        "regular": "3:5752",
+        "bold": "3:5754",
+        "fill": "3:5756"
+      }
+    },
+    {
+      "name": "TreeStructure",
+      "category": "Development",
+      "path": "Development/TreeStructure",
+      "figmaNodeId": "3:5758",
+      "weights": {
+        "regular": "3:5759",
+        "bold": "3:5761",
+        "fill": "3:5763"
+      }
+    },
+    {
+      "name": "Book",
+      "category": "Education",
+      "path": "Education/Book",
+      "figmaNodeId": "3:5960",
+      "weights": {
+        "regular": "3:5961",
+        "bold": "3:5963",
+        "fill": "3:5965"
+      }
+    },
+    {
+      "name": "BookOpen",
+      "category": "Education",
+      "path": "Education/BookOpen",
+      "figmaNodeId": "3:5967",
+      "weights": {
+        "regular": "3:5968",
+        "bold": "3:5970",
+        "fill": "3:5972"
+      }
+    },
+    {
+      "name": "BookmarkSimple",
+      "category": "Education",
+      "path": "Education/BookmarkSimple",
+      "figmaNodeId": "3:5974",
+      "weights": {
+        "regular": "3:5975",
+        "bold": "3:5977",
+        "fill": "3:5979"
+      }
+    },
+    {
+      "name": "Books",
+      "category": "Education",
+      "path": "Education/Books",
+      "figmaNodeId": "3:5988",
+      "weights": {
+        "regular": "3:5989",
+        "bold": "3:5991",
+        "fill": "3:5993"
+      }
+    },
+    {
+      "name": "Certificate",
+      "category": "Education",
+      "path": "Education/Certificate",
+      "figmaNodeId": "3:5995",
+      "weights": {
+        "regular": "3:5996",
+        "bold": "3:5998",
+        "fill": "3:6000"
+      }
+    },
+    {
+      "name": "Exam",
+      "category": "Education",
+      "path": "Education/Exam",
+      "figmaNodeId": "3:6002",
+      "weights": {
+        "regular": "3:6003",
+        "bold": "3:6005",
+        "fill": "3:6007"
+      }
+    },
+    {
+      "name": "GraduationCap",
+      "category": "Education",
+      "path": "Education/GraduationCap",
+      "figmaNodeId": "3:6009",
+      "weights": {
+        "regular": "3:6010",
+        "bold": "3:6012",
+        "fill": "3:6014"
+      }
+    },
+    {
+      "name": "Lectern",
+      "category": "Education",
+      "path": "Education/Lectern",
+      "figmaNodeId": "3:6016",
+      "weights": {
+        "regular": "3:6017",
+        "bold": "3:6019",
+        "fill": "3:6021"
+      }
+    },
+    {
+      "name": "Student",
+      "category": "Education",
+      "path": "Education/Student",
+      "figmaNodeId": "3:6023",
+      "weights": {
+        "regular": "3:6024",
+        "bold": "3:6026",
+        "fill": "3:6028"
+      }
+    },
+    {
+      "name": "Video",
+      "category": "Education",
+      "path": "Education/Video",
+      "figmaNodeId": "3:5981",
+      "weights": {
+        "regular": "3:5982",
+        "bold": "3:5984",
+        "fill": "3:5986"
+      }
+    },
+    {
+      "name": "Baseball",
+      "category": "Games",
+      "path": "Games/Baseball",
+      "figmaNodeId": "3:2628",
+      "weights": {
+        "regular": "3:2629",
+        "bold": "3:2631",
+        "fill": "3:2633"
+      }
+    },
+    {
+      "name": "BaseballHelmet",
+      "category": "Games",
+      "path": "Games/BaseballHelmet",
+      "figmaNodeId": "3:2635",
+      "weights": {
+        "regular": "3:2636",
+        "bold": "3:2638",
+        "fill": "3:2640"
+      }
+    },
+    {
+      "name": "Basketball",
+      "category": "Games",
+      "path": "Games/Basketball",
+      "figmaNodeId": "3:2642",
+      "weights": {
+        "regular": "3:2643",
+        "bold": "3:2645",
+        "fill": "3:2647"
+      }
+    },
+    {
+      "name": "BeachBall",
+      "category": "Games",
+      "path": "Games/BeachBall",
+      "figmaNodeId": "3:2649",
+      "weights": {
+        "regular": "3:2650",
+        "bold": "3:2652",
+        "fill": "3:2654"
+      }
+    },
+    {
+      "name": "Club",
+      "category": "Games",
+      "path": "Games/Club",
+      "figmaNodeId": "3:2656",
+      "weights": {
+        "regular": "3:2657",
+        "bold": "3:2659",
+        "fill": "3:2661"
+      }
+    },
+    {
+      "name": "Confetti",
+      "category": "Games",
+      "path": "Games/Confetti",
+      "figmaNodeId": "3:2663",
+      "weights": {
+        "regular": "3:2664",
+        "bold": "3:2666",
+        "fill": "3:2668"
+      }
+    },
+    {
+      "name": "CourtBasketball",
+      "category": "Games",
+      "path": "Games/CourtBasketball",
+      "figmaNodeId": "3:2670",
+      "weights": {
+        "regular": "3:2671",
+        "bold": "3:2673",
+        "fill": "3:2675"
+      }
+    },
+    {
+      "name": "CrownSimple",
+      "category": "Games",
+      "path": "Games/CrownSimple",
+      "figmaNodeId": "3:2677",
+      "weights": {
+        "regular": "3:2678",
+        "bold": "3:2680",
+        "fill": "3:2682"
+      }
+    },
+    {
+      "name": "CubeFocus",
+      "category": "Games",
+      "path": "Games/CubeFocus",
+      "figmaNodeId": "3:2684",
+      "weights": {
+        "regular": "3:2685",
+        "bold": "3:2687",
+        "fill": "3:2689"
+      }
+    },
+    {
+      "name": "Diamond",
+      "category": "Games",
+      "path": "Games/Diamond",
+      "figmaNodeId": "3:2691",
+      "weights": {
+        "regular": "3:2692",
+        "bold": "3:2694",
+        "fill": "3:2696"
+      }
+    },
+    {
+      "name": "DiceFive",
+      "category": "Games",
+      "path": "Games/DiceFive",
+      "figmaNodeId": "3:2698",
+      "weights": {
+        "regular": "3:2699",
+        "bold": "3:2701",
+        "fill": "3:2703"
+      }
+    },
+    {
+      "name": "Football",
+      "category": "Games",
+      "path": "Games/Football",
+      "figmaNodeId": "3:2705",
+      "weights": {
+        "regular": "3:2706",
+        "bold": "3:2708",
+        "fill": "3:2710"
+      }
+    },
+    {
+      "name": "FootballHelmet",
+      "category": "Games",
+      "path": "Games/FootballHelmet",
+      "figmaNodeId": "3:2712",
+      "weights": {
+        "regular": "3:2713",
+        "bold": "3:2715",
+        "fill": "3:2717"
+      }
+    },
+    {
+      "name": "Ghost",
+      "category": "Games",
+      "path": "Games/Ghost",
+      "figmaNodeId": "3:2719",
+      "weights": {
+        "regular": "3:2720",
+        "bold": "3:2722",
+        "fill": "3:2724"
+      }
+    },
+    {
+      "name": "Heart",
+      "category": "Games",
+      "path": "Games/Heart",
+      "figmaNodeId": "3:2726",
+      "weights": {
+        "regular": "3:2727",
+        "bold": "3:2729",
+        "fill": "3:2731"
+      }
+    },
+    {
+      "name": "HeartBreak",
+      "category": "Games",
+      "path": "Games/HeartBreak",
+      "figmaNodeId": "3:2733",
+      "weights": {
+        "regular": "3:2734",
+        "bold": "3:2736",
+        "fill": "3:2738"
+      }
+    },
+    {
+      "name": "HeartHalf",
+      "category": "Games",
+      "path": "Games/HeartHalf",
+      "figmaNodeId": "3:2740",
+      "weights": {
+        "regular": "3:2741",
+        "bold": "3:2743",
+        "fill": "3:2745"
+      }
+    },
+    {
+      "name": "Joystick",
+      "category": "Games",
+      "path": "Games/Joystick",
+      "figmaNodeId": "3:2747",
+      "weights": {
+        "regular": "3:2748",
+        "bold": "3:2750",
+        "fill": "3:2752"
+      }
+    },
+    {
+      "name": "Lego",
+      "category": "Games",
+      "path": "Games/Lego",
+      "figmaNodeId": "3:2754",
+      "weights": {
+        "regular": "3:2755",
+        "bold": "3:2757",
+        "fill": "3:2759"
+      }
+    },
+    {
+      "name": "MaskHappy",
+      "category": "Games",
+      "path": "Games/MaskHappy",
+      "figmaNodeId": "3:2761",
+      "weights": {
+        "regular": "3:2762",
+        "bold": "3:2764",
+        "fill": "3:2766"
+      }
+    },
+    {
+      "name": "MaskSad",
+      "category": "Games",
+      "path": "Games/MaskSad",
+      "figmaNodeId": "3:2768",
+      "weights": {
+        "regular": "3:2769",
+        "bold": "3:2771",
+        "fill": "3:2773"
+      }
+    },
+    {
+      "name": "Medal",
+      "category": "Games",
+      "path": "Games/Medal",
+      "figmaNodeId": "3:2775",
+      "weights": {
+        "regular": "3:2776",
+        "bold": "3:2778",
+        "fill": "3:2780"
+      }
+    },
+    {
+      "name": "MedalMilitary",
+      "category": "Games",
+      "path": "Games/MedalMilitary",
+      "figmaNodeId": "3:2782",
+      "weights": {
+        "regular": "3:2783",
+        "bold": "3:2785",
+        "fill": "3:2787"
+      }
+    },
+    {
+      "name": "PuzzlePiece",
+      "category": "Games",
+      "path": "Games/PuzzlePiece",
+      "figmaNodeId": "3:2789",
+      "weights": {
+        "regular": "3:2790",
+        "bold": "3:2792",
+        "fill": "3:2794"
+      }
+    },
+    {
+      "name": "Scroll",
+      "category": "Games",
+      "path": "Games/Scroll",
+      "figmaNodeId": "3:2796",
+      "weights": {
+        "regular": "3:2797",
+        "bold": "3:2799",
+        "fill": "3:2801"
+      }
+    },
+    {
+      "name": "Skull",
+      "category": "Games",
+      "path": "Games/Skull",
+      "figmaNodeId": "3:2803",
+      "weights": {
+        "regular": "3:2804",
+        "bold": "3:2806",
+        "fill": "3:2808"
+      }
+    },
+    {
+      "name": "Spiral",
+      "category": "Games",
+      "path": "Games/Spiral",
+      "figmaNodeId": "3:2810",
+      "weights": {
+        "regular": "3:2811",
+        "bold": "3:2813",
+        "fill": "3:2815"
+      }
+    },
+    {
+      "name": "Sword",
+      "category": "Games",
+      "path": "Games/Sword",
+      "figmaNodeId": "3:2817",
+      "weights": {
+        "regular": "3:2818",
+        "bold": "3:2820",
+        "fill": "3:2822"
+      }
+    },
+    {
+      "name": "TennisBall",
+      "category": "Games",
+      "path": "Games/TennisBall",
+      "figmaNodeId": "3:2824",
+      "weights": {
+        "regular": "3:2825",
+        "bold": "3:2827",
+        "fill": "3:2829"
+      }
+    },
+    {
+      "name": "Trophy",
+      "category": "Games",
+      "path": "Games/Trophy",
+      "figmaNodeId": "3:2831",
+      "weights": {
+        "regular": "3:2832",
+        "bold": "3:2834",
+        "fill": "3:2836"
+      }
+    },
+    {
+      "name": "VirtualReality",
+      "category": "Games",
+      "path": "Games/VirtualReality",
+      "figmaNodeId": "3:2838",
+      "weights": {
+        "regular": "3:2839",
+        "bold": "3:2841",
+        "fill": "3:2843"
+      }
+    },
+    {
+      "name": "Airplane",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Airplane",
+      "figmaNodeId": "3:1855",
+      "weights": {
+        "regular": "3:1856",
+        "bold": "3:1858",
+        "fill": "3:1860"
+      }
+    },
+    {
+      "name": "AirplaneInFlight",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/AirplaneInFlight",
+      "figmaNodeId": "3:1862",
+      "weights": {
+        "regular": "3:1863",
+        "bold": "3:1865",
+        "fill": "3:1867"
+      }
+    },
+    {
+      "name": "AirplaneLanding",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/AirplaneLanding",
+      "figmaNodeId": "3:1869",
+      "weights": {
+        "regular": "3:1870",
+        "bold": "3:1872",
+        "fill": "3:1874"
+      }
+    },
+    {
+      "name": "AirplaneTakeoff",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/AirplaneTakeoff",
+      "figmaNodeId": "3:1876",
+      "weights": {
+        "regular": "3:1877",
+        "bold": "3:1879",
+        "fill": "3:1881"
+      }
+    },
+    {
+      "name": "AirplaneTaxiing",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/AirplaneTaxiing",
+      "figmaNodeId": "3:1883",
+      "weights": {
+        "regular": "3:1884",
+        "bold": "3:1886",
+        "fill": "3:1888"
+      }
+    },
+    {
+      "name": "AirplaneTilt",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/AirplaneTilt",
+      "figmaNodeId": "3:1890",
+      "weights": {
+        "regular": "3:1891",
+        "bold": "3:1893",
+        "fill": "3:1895"
+      }
+    },
+    {
+      "name": "Anchor",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Anchor",
+      "figmaNodeId": "3:1897",
+      "weights": {
+        "regular": "3:1898",
+        "bold": "3:1900",
+        "fill": "3:1902"
+      }
+    },
+    {
+      "name": "Barricade",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Barricade",
+      "figmaNodeId": "3:1904",
+      "weights": {
+        "regular": "3:1905",
+        "bold": "3:1907",
+        "fill": "3:1909"
+      }
+    },
+    {
+      "name": "Bicycle",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Bicycle",
+      "figmaNodeId": "3:1911",
+      "weights": {
+        "regular": "3:1912",
+        "bold": "3:1914",
+        "fill": "3:1916"
+      }
+    },
+    {
+      "name": "Boat",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Boat",
+      "figmaNodeId": "3:1918",
+      "weights": {
+        "regular": "3:1919",
+        "bold": "3:1921",
+        "fill": "3:1923"
+      }
+    },
+    {
+      "name": "Bus",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Bus",
+      "figmaNodeId": "3:1925",
+      "weights": {
+        "regular": "3:1926",
+        "bold": "3:1928",
+        "fill": "3:1930"
+      }
+    },
+    {
+      "name": "CableCar",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/CableCar",
+      "figmaNodeId": "3:1932",
+      "weights": {
+        "regular": "3:1933",
+        "bold": "3:1935",
+        "fill": "3:1937"
+      }
+    },
+    {
+      "name": "Car",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Car",
+      "figmaNodeId": "3:1939",
+      "weights": {
+        "regular": "3:1940",
+        "bold": "3:1942",
+        "fill": "3:1944"
+      }
+    },
+    {
+      "name": "CarProfile",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/CarProfile",
+      "figmaNodeId": "3:1946",
+      "weights": {
+        "regular": "3:1947",
+        "bold": "3:1949",
+        "fill": "3:1951"
+      }
+    },
+    {
+      "name": "CarSimple",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/CarSimple",
+      "figmaNodeId": "3:1953",
+      "weights": {
+        "regular": "3:1954",
+        "bold": "3:1956",
+        "fill": "3:1958"
+      }
+    },
+    {
+      "name": "ChargingStation",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/ChargingStation",
+      "figmaNodeId": "3:1960",
+      "weights": {
+        "regular": "3:1961",
+        "bold": "3:1963",
+        "fill": "3:1965"
+      }
+    },
+    {
+      "name": "Church",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Church",
+      "figmaNodeId": "3:1967",
+      "weights": {
+        "regular": "3:1968",
+        "bold": "3:1970",
+        "fill": "3:1972"
+      }
+    },
+    {
+      "name": "Compass",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Compass",
+      "figmaNodeId": "3:1974",
+      "weights": {
+        "regular": "3:1975",
+        "bold": "3:1977",
+        "fill": "3:1979"
+      }
+    },
+    {
+      "name": "Crosshair",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Crosshair",
+      "figmaNodeId": "3:1981",
+      "weights": {
+        "regular": "3:1982",
+        "bold": "3:1984",
+        "fill": "3:1986"
+      }
+    },
+    {
+      "name": "CrosshairSimple",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/CrosshairSimple",
+      "figmaNodeId": "3:1988",
+      "weights": {
+        "regular": "3:1989",
+        "bold": "3:1991",
+        "fill": "3:1993"
+      }
+    },
+    {
+      "name": "EscalatorDown",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/EscalatorDown",
+      "figmaNodeId": "3:1995",
+      "weights": {
+        "regular": "3:1996",
+        "bold": "3:1998",
+        "fill": "3:2000"
+      }
+    },
+    {
+      "name": "EscalatorUp",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/EscalatorUp",
+      "figmaNodeId": "3:2002",
+      "weights": {
+        "regular": "3:2003",
+        "bold": "3:2005",
+        "fill": "3:2007"
+      }
+    },
+    {
+      "name": "Flag",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Flag",
+      "figmaNodeId": "3:2009",
+      "weights": {
+        "regular": "3:2010",
+        "bold": "3:2012",
+        "fill": "3:2014"
+      }
+    },
+    {
+      "name": "FlagBanner",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/FlagBanner",
+      "figmaNodeId": "3:2016",
+      "weights": {
+        "regular": "3:2017",
+        "bold": "3:2019",
+        "fill": "3:2021"
+      }
+    },
+    {
+      "name": "GasPump",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/GasPump",
+      "figmaNodeId": "3:2023",
+      "weights": {
+        "regular": "3:2024",
+        "bold": "3:2026",
+        "fill": "3:2028"
+      }
+    },
+    {
+      "name": "Globe",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Globe",
+      "figmaNodeId": "3:2030",
+      "weights": {
+        "regular": "3:2031",
+        "bold": "3:2033",
+        "fill": "3:2035"
+      }
+    },
+    {
+      "name": "GlobeHemisphereEast",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/GlobeHemisphereEast",
+      "figmaNodeId": "3:2037",
+      "weights": {
+        "regular": "3:2038",
+        "bold": "3:2040",
+        "fill": "3:2042"
+      }
+    },
+    {
+      "name": "GlobeHemisphereWest",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/GlobeHemisphereWest",
+      "figmaNodeId": "3:2044",
+      "weights": {
+        "regular": "3:2045",
+        "bold": "3:2047",
+        "fill": "3:2049"
+      }
+    },
+    {
+      "name": "GlobeSimple",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/GlobeSimple",
+      "figmaNodeId": "3:2051",
+      "weights": {
+        "regular": "3:2052",
+        "bold": "3:2054",
+        "fill": "3:2056"
+      }
+    },
+    {
+      "name": "GlobeStand",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/GlobeStand",
+      "figmaNodeId": "3:2058",
+      "weights": {
+        "regular": "3:2059",
+        "bold": "3:2061",
+        "fill": "3:2063"
+      }
+    },
+    {
+      "name": "Hospital",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Hospital",
+      "figmaNodeId": "3:2065",
+      "weights": {
+        "regular": "3:2066",
+        "bold": "3:2068",
+        "fill": "3:2070"
+      }
+    },
+    {
+      "name": "MapPinSimple",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/MapPinSimple",
+      "figmaNodeId": "3:2072",
+      "weights": {
+        "regular": "3:2073",
+        "bold": "3:2075",
+        "fill": "3:2077"
+      }
+    },
+    {
+      "name": "MapTrifold",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/MapTrifold",
+      "figmaNodeId": "3:2079",
+      "weights": {
+        "regular": "3:2080",
+        "bold": "3:2082",
+        "fill": "3:2084"
+      }
+    },
+    {
+      "name": "NavigationArrow",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/NavigationArrow",
+      "figmaNodeId": "3:2086",
+      "weights": {
+        "regular": "3:2087",
+        "bold": "3:2089",
+        "fill": "3:2091"
+      }
+    },
+    {
+      "name": "Path",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Path",
+      "figmaNodeId": "3:2093",
+      "weights": {
+        "regular": "3:2094",
+        "bold": "3:2096",
+        "fill": "3:2098"
+      }
+    },
+    {
+      "name": "Rocket",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Rocket",
+      "figmaNodeId": "3:2100",
+      "weights": {
+        "regular": "3:2101",
+        "bold": "3:2103",
+        "fill": "3:2105"
+      }
+    },
+    {
+      "name": "RocketLaunch",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/RocketLaunch",
+      "figmaNodeId": "3:2107",
+      "weights": {
+        "regular": "3:2108",
+        "bold": "3:2110",
+        "fill": "3:2112"
+      }
+    },
+    {
+      "name": "Suitcase",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Suitcase",
+      "figmaNodeId": "3:2114",
+      "weights": {
+        "regular": "3:2115",
+        "bold": "3:2117",
+        "fill": "3:2119"
+      }
+    },
+    {
+      "name": "SuitcaseSimple",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/SuitcaseSimple",
+      "figmaNodeId": "3:2121",
+      "weights": {
+        "regular": "3:2122",
+        "bold": "3:2124",
+        "fill": "3:2126"
+      }
+    },
+    {
+      "name": "Tent",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/Tent",
+      "figmaNodeId": "3:2128",
+      "weights": {
+        "regular": "3:2129",
+        "bold": "3:2131",
+        "fill": "3:2133"
+      }
+    },
+    {
+      "name": "TrafficCone",
+      "category": "Maps & Travel",
+      "path": "Maps & Travel/TrafficCone",
+      "figmaNodeId": "3:2135",
+      "weights": {
+        "regular": "3:2136",
+        "bold": "3:2138",
+        "fill": "3:2140"
+      }
+    },
+    {
+      "name": "ApproximateEquals",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ApproximateEquals",
+      "figmaNodeId": "3:3916",
+      "weights": {
+        "regular": "3:3917",
+        "bold": "3:3919",
+        "fill": "3:3921"
+      }
+    },
+    {
+      "name": "Bank",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Bank",
+      "figmaNodeId": "3:3923",
+      "weights": {
+        "regular": "3:3924",
+        "bold": "3:3926",
+        "fill": "3:3928"
+      }
+    },
+    {
+      "name": "Calculator",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Calculator",
+      "figmaNodeId": "3:3930",
+      "weights": {
+        "regular": "3:3931",
+        "bold": "3:3933",
+        "fill": "3:3935"
+      }
+    },
+    {
+      "name": "ChartBar",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartBar",
+      "figmaNodeId": "3:3846",
+      "weights": {
+        "regular": "3:3847",
+        "bold": "3:3849",
+        "fill": "3:3851"
+      }
+    },
+    {
+      "name": "ChartBarHorizontal",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartBarHorizontal",
+      "figmaNodeId": "3:3853",
+      "weights": {
+        "regular": "3:3854",
+        "bold": "3:3856",
+        "fill": "3:3858"
+      }
+    },
+    {
+      "name": "ChartLine",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartLine",
+      "figmaNodeId": "3:3937",
+      "weights": {
+        "regular": "3:3938",
+        "bold": "3:3940",
+        "fill": "3:3942"
+      }
+    },
+    {
+      "name": "ChartLineDown",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartLineDown",
+      "figmaNodeId": "3:3944",
+      "weights": {
+        "regular": "3:3945",
+        "bold": "3:3947",
+        "fill": "3:3949"
+      }
+    },
+    {
+      "name": "ChartLineUp",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartLineUp",
+      "figmaNodeId": "3:3951",
+      "weights": {
+        "regular": "3:3952",
+        "bold": "3:3954",
+        "fill": "3:3956"
+      }
+    },
+    {
+      "name": "ChartPieSlice",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartPieSlice",
+      "figmaNodeId": "3:3958",
+      "weights": {
+        "regular": "3:3959",
+        "bold": "3:3961",
+        "fill": "3:3963"
+      }
+    },
+    {
+      "name": "ChartScatter",
+      "category": "Math & Finances",
+      "path": "Math & Finances/ChartScatter",
+      "figmaNodeId": "3:3965",
+      "weights": {
+        "regular": "3:3966",
+        "bold": "3:3968",
+        "fill": "3:3970"
+      }
+    },
+    {
+      "name": "Divide",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Divide",
+      "figmaNodeId": "3:3972",
+      "weights": {
+        "regular": "3:3973",
+        "bold": "3:3975",
+        "fill": "3:3977"
+      }
+    },
+    {
+      "name": "Equals",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Equals",
+      "figmaNodeId": "3:3979",
+      "weights": {
+        "regular": "3:3980",
+        "bold": "3:3982",
+        "fill": "3:3984"
+      }
+    },
+    {
+      "name": "Function",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Function",
+      "figmaNodeId": "3:3986",
+      "weights": {
+        "regular": "3:3987",
+        "bold": "3:3989",
+        "fill": "3:3991"
+      }
+    },
+    {
+      "name": "Graph",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Graph",
+      "figmaNodeId": "3:3993",
+      "weights": {
+        "regular": "3:3994",
+        "bold": "3:3996",
+        "fill": "3:3998"
+      }
+    },
+    {
+      "name": "GreaterThan",
+      "category": "Math & Finances",
+      "path": "Math & Finances/GreaterThan",
+      "figmaNodeId": "3:4000",
+      "weights": {
+        "regular": "3:4001",
+        "bold": "3:4003",
+        "fill": "3:4005"
+      }
+    },
+    {
+      "name": "GreaterThanOrEqual",
+      "category": "Math & Finances",
+      "path": "Math & Finances/GreaterThanOrEqual",
+      "figmaNodeId": "3:4007",
+      "weights": {
+        "regular": "3:4008",
+        "bold": "3:4010",
+        "fill": "3:4012"
+      }
+    },
+    {
+      "name": "Infinity",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Infinity",
+      "figmaNodeId": "3:4014",
+      "weights": {
+        "regular": "3:4015",
+        "bold": "3:4017",
+        "fill": "3:4019"
+      }
+    },
+    {
+      "name": "LessThan",
+      "category": "Math & Finances",
+      "path": "Math & Finances/LessThan",
+      "figmaNodeId": "3:4021",
+      "weights": {
+        "regular": "3:4022",
+        "bold": "3:4024",
+        "fill": "3:4026"
+      }
+    },
+    {
+      "name": "LessThanOrEqual",
+      "category": "Math & Finances",
+      "path": "Math & Finances/LessThanOrEqual",
+      "figmaNodeId": "3:4028",
+      "weights": {
+        "regular": "3:4029",
+        "bold": "3:4031",
+        "fill": "3:4033"
+      }
+    },
+    {
+      "name": "MathOperations",
+      "category": "Math & Finances",
+      "path": "Math & Finances/MathOperations",
+      "figmaNodeId": "3:4035",
+      "weights": {
+        "regular": "3:4036",
+        "bold": "3:4038",
+        "fill": "3:4040"
+      }
+    },
+    {
+      "name": "Minus",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Minus",
+      "figmaNodeId": "3:3860",
+      "weights": {
+        "regular": "3:3861",
+        "bold": "3:3863",
+        "fill": "3:3865"
+      }
+    },
+    {
+      "name": "MinusCircle",
+      "category": "Math & Finances",
+      "path": "Math & Finances/MinusCircle",
+      "figmaNodeId": "3:3867",
+      "weights": {
+        "regular": "3:3868",
+        "bold": "3:3870",
+        "fill": "3:3872"
+      }
+    },
+    {
+      "name": "NotEquals",
+      "category": "Math & Finances",
+      "path": "Math & Finances/NotEquals",
+      "figmaNodeId": "3:4042",
+      "weights": {
+        "regular": "3:4043",
+        "bold": "3:4045",
+        "fill": "3:4047"
+      }
+    },
+    {
+      "name": "Percent",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Percent",
+      "figmaNodeId": "3:4049",
+      "weights": {
+        "regular": "3:4050",
+        "bold": "3:4052",
+        "fill": "3:4054"
+      }
+    },
+    {
+      "name": "Plus",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Plus",
+      "figmaNodeId": "3:3874",
+      "weights": {
+        "regular": "3:3875",
+        "bold": "3:3877",
+        "fill": "3:3879"
+      }
+    },
+    {
+      "name": "PlusCircle",
+      "category": "Math & Finances",
+      "path": "Math & Finances/PlusCircle",
+      "figmaNodeId": "3:3881",
+      "weights": {
+        "regular": "3:3882",
+        "bold": "3:3884",
+        "fill": "3:3886"
+      }
+    },
+    {
+      "name": "Sigma",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Sigma",
+      "figmaNodeId": "3:4056",
+      "weights": {
+        "regular": "3:4057",
+        "bold": "3:4059",
+        "fill": "3:4061"
+      }
+    },
+    {
+      "name": "Tilde",
+      "category": "Math & Finances",
+      "path": "Math & Finances/Tilde",
+      "figmaNodeId": "3:4063",
+      "weights": {
+        "regular": "3:4064",
+        "bold": "3:4066",
+        "fill": "3:4068"
+      }
+    },
+    {
+      "name": "TrendDown",
+      "category": "Math & Finances",
+      "path": "Math & Finances/TrendDown",
+      "figmaNodeId": "3:3888",
+      "weights": {
+        "regular": "3:3889",
+        "bold": "3:3891",
+        "fill": "3:3893"
+      }
+    },
+    {
+      "name": "TrendUp",
+      "category": "Math & Finances",
+      "path": "Math & Finances/TrendUp",
+      "figmaNodeId": "3:3895",
+      "weights": {
+        "regular": "3:3896",
+        "bold": "3:3898",
+        "fill": "3:3900"
+      }
+    },
+    {
+      "name": "X",
+      "category": "Math & Finances",
+      "path": "Math & Finances/X",
+      "figmaNodeId": "3:3902",
+      "weights": {
+        "regular": "3:3903",
+        "bold": "3:3905",
+        "fill": "3:3907"
+      }
+    },
+    {
+      "name": "XCircle",
+      "category": "Math & Finances",
+      "path": "Math & Finances/XCircle",
+      "figmaNodeId": "3:3909",
+      "weights": {
+        "regular": "3:3910",
+        "bold": "3:3912",
+        "fill": "3:3914"
+      }
+    },
+    {
+      "name": "Aperture",
+      "category": "Media",
+      "path": "Media/Aperture",
+      "figmaNodeId": "3:2320",
+      "weights": {
+        "regular": "3:2321",
+        "bold": "3:2323",
+        "fill": "3:2325"
+      }
+    },
+    {
+      "name": "ArticleNyTimes",
+      "category": "Media",
+      "path": "Media/ArticleNyTimes",
+      "figmaNodeId": "3:2327",
+      "weights": {
+        "regular": "3:2328",
+        "bold": "3:2330",
+        "fill": "3:2332"
+      }
+    },
+    {
+      "name": "Camera",
+      "category": "Media",
+      "path": "Media/Camera",
+      "figmaNodeId": "3:2145",
+      "weights": {
+        "regular": "3:2146",
+        "bold": "3:2148",
+        "fill": "3:2150"
+      }
+    },
+    {
+      "name": "CameraSlash",
+      "category": "Media",
+      "path": "Media/CameraSlash",
+      "figmaNodeId": "3:2334",
+      "weights": {
+        "regular": "3:2335",
+        "bold": "3:2337",
+        "fill": "3:2339"
+      }
+    },
+    {
+      "name": "ClosedCaptioning",
+      "category": "Media",
+      "path": "Media/ClosedCaptioning",
+      "figmaNodeId": "3:2152",
+      "weights": {
+        "regular": "3:2153",
+        "bold": "3:2155",
+        "fill": "3:2157"
+      }
+    },
+    {
+      "name": "CornersIn",
+      "category": "Media",
+      "path": "Media/CornersIn",
+      "figmaNodeId": "3:2341",
+      "weights": {
+        "regular": "3:2342",
+        "bold": "3:2344",
+        "fill": "3:2346"
+      }
+    },
+    {
+      "name": "CornersOut",
+      "category": "Media",
+      "path": "Media/CornersOut",
+      "figmaNodeId": "3:2159",
+      "weights": {
+        "regular": "3:2160",
+        "bold": "3:2162",
+        "fill": "3:2164"
+      }
+    },
+    {
+      "name": "Ear",
+      "category": "Media",
+      "path": "Media/Ear",
+      "figmaNodeId": "3:2348",
+      "weights": {
+        "regular": "3:2349",
+        "bold": "3:2351",
+        "fill": "3:2353"
+      }
+    },
+    {
+      "name": "EarSlash",
+      "category": "Media",
+      "path": "Media/EarSlash",
+      "figmaNodeId": "3:2355",
+      "weights": {
+        "regular": "3:2356",
+        "bold": "3:2358",
+        "fill": "3:2360"
+      }
+    },
+    {
+      "name": "EjectSimple",
+      "category": "Media",
+      "path": "Media/EjectSimple",
+      "figmaNodeId": "3:2362",
+      "weights": {
+        "regular": "3:2363",
+        "bold": "3:2365",
+        "fill": "3:2367"
+      }
+    },
+    {
+      "name": "Equalizer",
+      "category": "Media",
+      "path": "Media/Equalizer",
+      "figmaNodeId": "3:2369",
+      "weights": {
+        "regular": "3:2370",
+        "bold": "3:2372",
+        "fill": "3:2374"
+      }
+    },
+    {
+      "name": "Faders",
+      "category": "Media",
+      "path": "Media/Faders",
+      "figmaNodeId": "3:2376",
+      "weights": {
+        "regular": "3:2377",
+        "bold": "3:2379",
+        "fill": "3:2381"
+      }
+    },
+    {
+      "name": "FadersHorizontal",
+      "category": "Media",
+      "path": "Media/FadersHorizontal",
+      "figmaNodeId": "3:2383",
+      "weights": {
+        "regular": "3:2384",
+        "bold": "3:2386",
+        "fill": "3:2388"
+      }
+    },
+    {
+      "name": "FastForward",
+      "category": "Media",
+      "path": "Media/FastForward",
+      "figmaNodeId": "3:2166",
+      "weights": {
+        "regular": "3:2167",
+        "bold": "3:2169",
+        "fill": "3:2171"
+      }
+    },
+    {
+      "name": "FastForwardCircle",
+      "category": "Media",
+      "path": "Media/FastForwardCircle",
+      "figmaNodeId": "3:2173",
+      "weights": {
+        "regular": "3:2174",
+        "bold": "3:2176",
+        "fill": "3:2178"
+      }
+    },
+    {
+      "name": "FourK",
+      "category": "Media",
+      "path": "Media/FourK",
+      "figmaNodeId": "3:2390",
+      "weights": {
+        "regular": "3:2391",
+        "bold": "3:2393",
+        "fill": "3:2395"
+      }
+    },
+    {
+      "name": "Gif",
+      "category": "Media",
+      "path": "Media/Gif",
+      "figmaNodeId": "3:2397",
+      "weights": {
+        "regular": "3:2398",
+        "bold": "3:2400",
+        "fill": "3:2402"
+      }
+    },
+    {
+      "name": "Headphones",
+      "category": "Media",
+      "path": "Media/Headphones",
+      "figmaNodeId": "3:2180",
+      "weights": {
+        "regular": "3:2181",
+        "bold": "3:2183",
+        "fill": "3:2185"
+      }
+    },
+    {
+      "name": "HighDefinition",
+      "category": "Media",
+      "path": "Media/HighDefinition",
+      "figmaNodeId": "3:2404",
+      "weights": {
+        "regular": "3:2405",
+        "bold": "3:2407",
+        "fill": "3:2409"
+      }
+    },
+    {
+      "name": "ImageBroken",
+      "category": "Media",
+      "path": "Media/ImageBroken",
+      "figmaNodeId": "3:2411",
+      "weights": {
+        "regular": "3:2412",
+        "bold": "3:2414",
+        "fill": "3:2416"
+      }
+    },
+    {
+      "name": "ImageSquare",
+      "category": "Media",
+      "path": "Media/ImageSquare",
+      "figmaNodeId": "3:2187",
+      "weights": {
+        "regular": "3:2188",
+        "bold": "3:2190",
+        "fill": "3:2192"
+      }
+    },
+    {
+      "name": "ImagesSquare",
+      "category": "Media",
+      "path": "Media/ImagesSquare",
+      "figmaNodeId": "3:2194",
+      "weights": {
+        "regular": "3:2195",
+        "bold": "3:2197",
+        "fill": "3:2199"
+      }
+    },
+    {
+      "name": "Microphone",
+      "category": "Media",
+      "path": "Media/Microphone",
+      "figmaNodeId": "3:2201",
+      "weights": {
+        "regular": "3:2202",
+        "bold": "3:2204",
+        "fill": "3:2206"
+      }
+    },
+    {
+      "name": "MicrophoneSlash",
+      "category": "Media",
+      "path": "Media/MicrophoneSlash",
+      "figmaNodeId": "3:2208",
+      "weights": {
+        "regular": "3:2209",
+        "bold": "3:2211",
+        "fill": "3:2213"
+      }
+    },
+    {
+      "name": "MusicNoteSimple",
+      "category": "Media",
+      "path": "Media/MusicNoteSimple",
+      "figmaNodeId": "3:2418",
+      "weights": {
+        "regular": "3:2419",
+        "bold": "3:2421",
+        "fill": "3:2423"
+      }
+    },
+    {
+      "name": "MusicNotes",
+      "category": "Media",
+      "path": "Media/MusicNotes",
+      "figmaNodeId": "3:2425",
+      "weights": {
+        "regular": "3:2426",
+        "bold": "3:2428",
+        "fill": "3:2430"
+      }
+    },
+    {
+      "name": "Newspaper",
+      "category": "Media",
+      "path": "Media/Newspaper",
+      "figmaNodeId": "3:2432",
+      "weights": {
+        "regular": "3:2433",
+        "bold": "3:2435",
+        "fill": "3:2437"
+      }
+    },
+    {
+      "name": "Pause",
+      "category": "Media",
+      "path": "Media/Pause",
+      "figmaNodeId": "3:2215",
+      "weights": {
+        "regular": "3:2216",
+        "bold": "3:2218",
+        "fill": "3:2220"
+      }
+    },
+    {
+      "name": "PauseCircle",
+      "category": "Media",
+      "path": "Media/PauseCircle",
+      "figmaNodeId": "3:2222",
+      "weights": {
+        "regular": "3:2223",
+        "bold": "3:2225",
+        "fill": "3:2227"
+      }
+    },
+    {
+      "name": "Play",
+      "category": "Media",
+      "path": "Media/Play",
+      "figmaNodeId": "3:2229",
+      "weights": {
+        "regular": "3:2230",
+        "bold": "3:2232",
+        "fill": "3:2234"
+      }
+    },
+    {
+      "name": "PlayCircle",
+      "category": "Media",
+      "path": "Media/PlayCircle",
+      "figmaNodeId": "3:2236",
+      "weights": {
+        "regular": "3:2237",
+        "bold": "3:2239",
+        "fill": "3:2241"
+      }
+    },
+    {
+      "name": "Playlist",
+      "category": "Media",
+      "path": "Media/Playlist",
+      "figmaNodeId": "3:2439",
+      "weights": {
+        "regular": "3:2440",
+        "bold": "3:2442",
+        "fill": "3:2444"
+      }
+    },
+    {
+      "name": "Queue",
+      "category": "Media",
+      "path": "Media/Queue",
+      "figmaNodeId": "3:2446",
+      "weights": {
+        "regular": "3:2447",
+        "bold": "3:2449",
+        "fill": "3:2451"
+      }
+    },
+    {
+      "name": "Record",
+      "category": "Media",
+      "path": "Media/Record",
+      "figmaNodeId": "3:2453",
+      "weights": {
+        "regular": "3:2454",
+        "bold": "3:2456",
+        "fill": "3:2458"
+      }
+    },
+    {
+      "name": "Repeat",
+      "category": "Media",
+      "path": "Media/Repeat",
+      "figmaNodeId": "3:2243",
+      "weights": {
+        "regular": "3:2244",
+        "bold": "3:2246",
+        "fill": "3:2248"
+      }
+    },
+    {
+      "name": "Rewind",
+      "category": "Media",
+      "path": "Media/Rewind",
+      "figmaNodeId": "3:2250",
+      "weights": {
+        "regular": "3:2251",
+        "bold": "3:2253",
+        "fill": "3:2255"
+      }
+    },
+    {
+      "name": "RewindCircle",
+      "category": "Media",
+      "path": "Media/RewindCircle",
+      "figmaNodeId": "3:2257",
+      "weights": {
+        "regular": "3:2258",
+        "bold": "3:2260",
+        "fill": "3:2262"
+      }
+    },
+    {
+      "name": "Shuffle",
+      "category": "Media",
+      "path": "Media/Shuffle",
+      "figmaNodeId": "3:2460",
+      "weights": {
+        "regular": "3:2461",
+        "bold": "3:2463",
+        "fill": "3:2465"
+      }
+    },
+    {
+      "name": "SkipBack",
+      "category": "Media",
+      "path": "Media/SkipBack",
+      "figmaNodeId": "3:2264",
+      "weights": {
+        "regular": "3:2265",
+        "bold": "3:2267",
+        "fill": "3:2269"
+      }
+    },
+    {
+      "name": "SkipBackCircle",
+      "category": "Media",
+      "path": "Media/SkipBackCircle",
+      "figmaNodeId": "3:2271",
+      "weights": {
+        "regular": "3:2272",
+        "bold": "3:2274",
+        "fill": "3:2276"
+      }
+    },
+    {
+      "name": "SkipForward",
+      "category": "Media",
+      "path": "Media/SkipForward",
+      "figmaNodeId": "3:2278",
+      "weights": {
+        "regular": "3:2279",
+        "bold": "3:2281",
+        "fill": "3:2283"
+      }
+    },
+    {
+      "name": "SkipForwardCircle",
+      "category": "Media",
+      "path": "Media/SkipForwardCircle",
+      "figmaNodeId": "3:2285",
+      "weights": {
+        "regular": "3:2286",
+        "bold": "3:2288",
+        "fill": "3:2290"
+      }
+    },
+    {
+      "name": "Sliders",
+      "category": "Media",
+      "path": "Media/Sliders",
+      "figmaNodeId": "3:2292",
+      "weights": {
+        "regular": "3:2293",
+        "bold": "3:2295",
+        "fill": "3:2297"
+      }
+    },
+    {
+      "name": "SlidersHorizontal",
+      "category": "Media",
+      "path": "Media/SlidersHorizontal",
+      "figmaNodeId": "3:2299",
+      "weights": {
+        "regular": "3:2300",
+        "bold": "3:2302",
+        "fill": "3:2304"
+      }
+    },
+    {
+      "name": "Slideshow",
+      "category": "Media",
+      "path": "Media/Slideshow",
+      "figmaNodeId": "3:2467",
+      "weights": {
+        "regular": "3:2468",
+        "bold": "3:2470",
+        "fill": "3:2472"
+      }
+    },
+    {
+      "name": "SpeakerHigh",
+      "category": "Media",
+      "path": "Media/SpeakerHigh",
+      "figmaNodeId": "3:2306",
+      "weights": {
+        "regular": "3:2307",
+        "bold": "3:2309",
+        "fill": "3:2311"
+      }
+    },
+    {
+      "name": "SpeakerSimpleHigh",
+      "category": "Media",
+      "path": "Media/SpeakerSimpleHigh",
+      "figmaNodeId": "3:2474",
+      "weights": {
+        "regular": "3:2475",
+        "bold": "3:2477",
+        "fill": "3:2479"
+      }
+    },
+    {
+      "name": "SpeakerSimpleLow",
+      "category": "Media",
+      "path": "Media/SpeakerSimpleLow",
+      "figmaNodeId": "3:2481",
+      "weights": {
+        "regular": "3:2482",
+        "bold": "3:2484",
+        "fill": "3:2486"
+      }
+    },
+    {
+      "name": "SpeakerSimpleNone",
+      "category": "Media",
+      "path": "Media/SpeakerSimpleNone",
+      "figmaNodeId": "3:2488",
+      "weights": {
+        "regular": "3:2489",
+        "bold": "3:2491",
+        "fill": "3:2493"
+      }
+    },
+    {
+      "name": "SpeakerSimpleSlash",
+      "category": "Media",
+      "path": "Media/SpeakerSimpleSlash",
+      "figmaNodeId": "3:2313",
+      "weights": {
+        "regular": "3:2314",
+        "bold": "3:2316",
+        "fill": "3:2318"
+      }
+    },
+    {
+      "name": "SpeakerSimpleX",
+      "category": "Media",
+      "path": "Media/SpeakerSimpleX",
+      "figmaNodeId": "3:2495",
+      "weights": {
+        "regular": "3:2496",
+        "bold": "3:2498",
+        "fill": "3:2500"
+      }
+    },
+    {
+      "name": "StandardDefinition",
+      "category": "Media",
+      "path": "Media/StandardDefinition",
+      "figmaNodeId": "3:2503",
+      "weights": {
+        "regular": "3:2504",
+        "bold": "3:2506",
+        "fill": "3:2508"
+      }
+    },
+    {
+      "name": "Subtitles",
+      "category": "Media",
+      "path": "Media/Subtitles",
+      "figmaNodeId": "3:2510",
+      "weights": {
+        "regular": "3:2511",
+        "bold": "3:2513",
+        "fill": "3:2515"
+      }
+    },
+    {
+      "name": "TelevisionSimple",
+      "category": "Media",
+      "path": "Media/TelevisionSimple",
+      "figmaNodeId": "3:2517",
+      "weights": {
+        "regular": "3:2518",
+        "bold": "3:2520",
+        "fill": "3:2522"
+      }
+    },
+    {
+      "name": "VideoCamera",
+      "category": "Media",
+      "path": "Media/VideoCamera",
+      "figmaNodeId": "3:2524",
+      "weights": {
+        "regular": "3:2525",
+        "bold": "3:2527",
+        "fill": "3:2529"
+      }
+    },
+    {
+      "name": "Archive",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Archive",
+      "figmaNodeId": "3:4192",
+      "weights": {
+        "regular": "3:4193",
+        "bold": "3:4195",
+        "fill": "3:4197"
+      }
+    },
+    {
+      "name": "Briefcase",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Briefcase",
+      "figmaNodeId": "3:4073",
+      "weights": {
+        "regular": "3:4074",
+        "bold": "3:4076",
+        "fill": "3:4078"
+      }
+    },
+    {
+      "name": "Clipboard",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Clipboard",
+      "figmaNodeId": "3:4199",
+      "weights": {
+        "regular": "3:4200",
+        "bold": "3:4202",
+        "fill": "3:4204"
+      }
+    },
+    {
+      "name": "CopySimple",
+      "category": "Office & Editing",
+      "path": "Office & Editing/CopySimple",
+      "figmaNodeId": "3:4080",
+      "weights": {
+        "regular": "3:4081",
+        "bold": "3:4083",
+        "fill": "3:4085"
+      }
+    },
+    {
+      "name": "CursorText",
+      "category": "Office & Editing",
+      "path": "Office & Editing/CursorText",
+      "figmaNodeId": "3:4087",
+      "weights": {
+        "regular": "3:4088",
+        "bold": "3:4090",
+        "fill": "3:4092"
+      }
+    },
+    {
+      "name": "File",
+      "category": "Office & Editing",
+      "path": "Office & Editing/File",
+      "figmaNodeId": "3:4094",
+      "weights": {
+        "regular": "3:4095",
+        "bold": "3:4097",
+        "fill": "3:4099"
+      }
+    },
+    {
+      "name": "FileArchive",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileArchive",
+      "figmaNodeId": "3:4206",
+      "weights": {
+        "regular": "3:4207",
+        "bold": "3:4209",
+        "fill": "3:4211"
+      }
+    },
+    {
+      "name": "FileArrowDown",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileArrowDown",
+      "figmaNodeId": "3:4101",
+      "weights": {
+        "regular": "3:4102",
+        "bold": "3:4104",
+        "fill": "3:4106"
+      }
+    },
+    {
+      "name": "FileArrowUp",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileArrowUp",
+      "figmaNodeId": "3:4108",
+      "weights": {
+        "regular": "3:4109",
+        "bold": "3:4111",
+        "fill": "3:4113"
+      }
+    },
+    {
+      "name": "FileAudio",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileAudio",
+      "figmaNodeId": "3:4213",
+      "weights": {
+        "regular": "3:4214",
+        "bold": "3:4216",
+        "fill": "3:4218"
+      }
+    },
+    {
+      "name": "FileCode",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileCode",
+      "figmaNodeId": "3:4220",
+      "weights": {
+        "regular": "3:4221",
+        "bold": "3:4223",
+        "fill": "3:4225"
+      }
+    },
+    {
+      "name": "FileCss",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileCss",
+      "figmaNodeId": "3:4227",
+      "weights": {
+        "regular": "3:4228",
+        "bold": "3:4230",
+        "fill": "3:4232"
+      }
+    },
+    {
+      "name": "FileCsv",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileCsv",
+      "figmaNodeId": "3:4234",
+      "weights": {
+        "regular": "3:4235",
+        "bold": "3:4237",
+        "fill": "3:4239"
+      }
+    },
+    {
+      "name": "FileDashed",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileDashed",
+      "figmaNodeId": "3:4241",
+      "weights": {
+        "regular": "3:4242",
+        "bold": "3:4244",
+        "fill": "3:4246"
+      }
+    },
+    {
+      "name": "FileDoc",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileDoc",
+      "figmaNodeId": "3:4115",
+      "weights": {
+        "regular": "3:4116",
+        "bold": "3:4118",
+        "fill": "3:4120"
+      }
+    },
+    {
+      "name": "FileHtml",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileHtml",
+      "figmaNodeId": "3:4248",
+      "weights": {
+        "regular": "3:4249",
+        "bold": "3:4251",
+        "fill": "3:4253"
+      }
+    },
+    {
+      "name": "FileImage",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileImage",
+      "figmaNodeId": "3:4122",
+      "weights": {
+        "regular": "3:4123",
+        "bold": "3:4125",
+        "fill": "3:4127"
+      }
+    },
+    {
+      "name": "FileJpg",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileJpg",
+      "figmaNodeId": "3:4255",
+      "weights": {
+        "regular": "3:4256",
+        "bold": "3:4258",
+        "fill": "3:4260"
+      }
+    },
+    {
+      "name": "FileJs",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileJs",
+      "figmaNodeId": "3:4262",
+      "weights": {
+        "regular": "3:4263",
+        "bold": "3:4265",
+        "fill": "3:4267"
+      }
+    },
+    {
+      "name": "FilePdf",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FilePdf",
+      "figmaNodeId": "3:4269",
+      "weights": {
+        "regular": "3:4270",
+        "bold": "3:4272",
+        "fill": "3:4274"
+      }
+    },
+    {
+      "name": "FilePng",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FilePng",
+      "figmaNodeId": "3:4276",
+      "weights": {
+        "regular": "3:4277",
+        "bold": "3:4279",
+        "fill": "3:4281"
+      }
+    },
+    {
+      "name": "FilePy",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FilePy",
+      "figmaNodeId": "3:4283",
+      "weights": {
+        "regular": "3:4284",
+        "bold": "3:4286",
+        "fill": "3:4288"
+      }
+    },
+    {
+      "name": "FileSvg",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileSvg",
+      "figmaNodeId": "3:4290",
+      "weights": {
+        "regular": "3:4291",
+        "bold": "3:4293",
+        "fill": "3:4295"
+      }
+    },
+    {
+      "name": "FileText",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileText",
+      "figmaNodeId": "3:4129",
+      "weights": {
+        "regular": "3:4130",
+        "bold": "3:4132",
+        "fill": "3:4134"
+      }
+    },
+    {
+      "name": "FileTsx",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileTsx",
+      "figmaNodeId": "3:4297",
+      "weights": {
+        "regular": "3:4298",
+        "bold": "3:4300",
+        "fill": "3:4302"
+      }
+    },
+    {
+      "name": "FileTxt",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileTxt",
+      "figmaNodeId": "3:4304",
+      "weights": {
+        "regular": "3:4305",
+        "bold": "3:4307",
+        "fill": "3:4309"
+      }
+    },
+    {
+      "name": "FileX",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FileX",
+      "figmaNodeId": "3:4311",
+      "weights": {
+        "regular": "3:4312",
+        "bold": "3:4314",
+        "fill": "3:4316"
+      }
+    },
+    {
+      "name": "FolderOpen",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FolderOpen",
+      "figmaNodeId": "3:4318",
+      "weights": {
+        "regular": "3:4319",
+        "bold": "3:4321",
+        "fill": "3:4323"
+      }
+    },
+    {
+      "name": "FolderSimple",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FolderSimple",
+      "figmaNodeId": "3:4136",
+      "weights": {
+        "regular": "3:4137",
+        "bold": "3:4139",
+        "fill": "3:4141"
+      }
+    },
+    {
+      "name": "Funnel",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Funnel",
+      "figmaNodeId": "3:4325",
+      "weights": {
+        "regular": "3:4326",
+        "bold": "3:4328",
+        "fill": "3:4330"
+      }
+    },
+    {
+      "name": "FunnelSimple",
+      "category": "Office & Editing",
+      "path": "Office & Editing/FunnelSimple",
+      "figmaNodeId": "3:4143",
+      "weights": {
+        "regular": "3:4144",
+        "bold": "3:4146",
+        "fill": "3:4148"
+      }
+    },
+    {
+      "name": "Kanban",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Kanban",
+      "figmaNodeId": "3:4332",
+      "weights": {
+        "regular": "3:4333",
+        "bold": "3:4335",
+        "fill": "3:4337"
+      }
+    },
+    {
+      "name": "List",
+      "category": "Office & Editing",
+      "path": "Office & Editing/List",
+      "figmaNodeId": "3:4150",
+      "weights": {
+        "regular": "3:4151",
+        "bold": "3:4153",
+        "fill": "3:4155"
+      }
+    },
+    {
+      "name": "ListBullets",
+      "category": "Office & Editing",
+      "path": "Office & Editing/ListBullets",
+      "figmaNodeId": "3:4157",
+      "weights": {
+        "regular": "3:4158",
+        "bold": "3:4160",
+        "fill": "3:4162"
+      }
+    },
+    {
+      "name": "ListChecks",
+      "category": "Office & Editing",
+      "path": "Office & Editing/ListChecks",
+      "figmaNodeId": "3:4164",
+      "weights": {
+        "regular": "3:4165",
+        "bold": "3:4167",
+        "fill": "3:4169"
+      }
+    },
+    {
+      "name": "NoteBlank",
+      "category": "Office & Editing",
+      "path": "Office & Editing/NoteBlank",
+      "figmaNodeId": "3:4171",
+      "weights": {
+        "regular": "3:4172",
+        "bold": "3:4174",
+        "fill": "3:4176"
+      }
+    },
+    {
+      "name": "Paperclip",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Paperclip",
+      "figmaNodeId": "3:4339",
+      "weights": {
+        "regular": "3:4340",
+        "bold": "3:4342",
+        "fill": "3:4344"
+      }
+    },
+    {
+      "name": "PaperclipHorizontal",
+      "category": "Office & Editing",
+      "path": "Office & Editing/PaperclipHorizontal",
+      "figmaNodeId": "3:4346",
+      "weights": {
+        "regular": "3:4347",
+        "bold": "3:4349",
+        "fill": "3:4351"
+      }
+    },
+    {
+      "name": "PresentationChart",
+      "category": "Office & Editing",
+      "path": "Office & Editing/PresentationChart",
+      "figmaNodeId": "3:4353",
+      "weights": {
+        "regular": "3:4354",
+        "bold": "3:4356",
+        "fill": "3:4358"
+      }
+    },
+    {
+      "name": "Printer",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Printer",
+      "figmaNodeId": "3:4360",
+      "weights": {
+        "regular": "3:4361",
+        "bold": "3:4363",
+        "fill": "3:4365"
+      }
+    },
+    {
+      "name": "PushPin",
+      "category": "Office & Editing",
+      "path": "Office & Editing/PushPin",
+      "figmaNodeId": "3:4367",
+      "weights": {
+        "regular": "3:4368",
+        "bold": "3:4370",
+        "fill": "3:4372"
+      }
+    },
+    {
+      "name": "PushPinSimple",
+      "category": "Office & Editing",
+      "path": "Office & Editing/PushPinSimple",
+      "figmaNodeId": "3:4374",
+      "weights": {
+        "regular": "3:4375",
+        "bold": "3:4377",
+        "fill": "3:4379"
+      }
+    },
+    {
+      "name": "PushPinSimpleSlash",
+      "category": "Office & Editing",
+      "path": "Office & Editing/PushPinSimpleSlash",
+      "figmaNodeId": "3:4381",
+      "weights": {
+        "regular": "3:4382",
+        "bold": "3:4384",
+        "fill": "3:4386"
+      }
+    },
+    {
+      "name": "SortAscending",
+      "category": "Office & Editing",
+      "path": "Office & Editing/SortAscending",
+      "figmaNodeId": "3:4388",
+      "weights": {
+        "regular": "3:4389",
+        "bold": "3:4391",
+        "fill": "3:4393"
+      }
+    },
+    {
+      "name": "SortDescending",
+      "category": "Office & Editing",
+      "path": "Office & Editing/SortDescending",
+      "figmaNodeId": "3:4395",
+      "weights": {
+        "regular": "3:4396",
+        "bold": "3:4398",
+        "fill": "3:4400"
+      }
+    },
+    {
+      "name": "TextAa",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextAa",
+      "figmaNodeId": "3:4402",
+      "weights": {
+        "regular": "3:4403",
+        "bold": "3:4405",
+        "fill": "3:4407"
+      }
+    },
+    {
+      "name": "TextAlignCenter",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextAlignCenter",
+      "figmaNodeId": "3:4409",
+      "weights": {
+        "regular": "3:4410",
+        "bold": "3:4412",
+        "fill": "3:4414"
+      }
+    },
+    {
+      "name": "TextAlignJustify",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextAlignJustify",
+      "figmaNodeId": "3:4416",
+      "weights": {
+        "regular": "3:4417",
+        "bold": "3:4419",
+        "fill": "3:4421"
+      }
+    },
+    {
+      "name": "TextAlignLeft",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextAlignLeft",
+      "figmaNodeId": "3:4423",
+      "weights": {
+        "regular": "3:4424",
+        "bold": "3:4426",
+        "fill": "3:4428"
+      }
+    },
+    {
+      "name": "TextAlignRight",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextAlignRight",
+      "figmaNodeId": "3:4430",
+      "weights": {
+        "regular": "3:4431",
+        "bold": "3:4433",
+        "fill": "3:4435"
+      }
+    },
+    {
+      "name": "TextColumns",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextColumns",
+      "figmaNodeId": "3:4437",
+      "weights": {
+        "regular": "3:4438",
+        "bold": "3:4440",
+        "fill": "3:4442"
+      }
+    },
+    {
+      "name": "TextStrikethrough",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextStrikethrough",
+      "figmaNodeId": "3:4444",
+      "weights": {
+        "regular": "3:4445",
+        "bold": "3:4447",
+        "fill": "3:4449"
+      }
+    },
+    {
+      "name": "TextSubscript",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextSubscript",
+      "figmaNodeId": "3:4451",
+      "weights": {
+        "regular": "3:4452",
+        "bold": "3:4454",
+        "fill": "3:4456"
+      }
+    },
+    {
+      "name": "TextSuperscript",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextSuperscript",
+      "figmaNodeId": "3:4458",
+      "weights": {
+        "regular": "3:4459",
+        "bold": "3:4461",
+        "fill": "3:4463"
+      }
+    },
+    {
+      "name": "TextT",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextT",
+      "figmaNodeId": "3:4178",
+      "weights": {
+        "regular": "3:4179",
+        "bold": "3:4181",
+        "fill": "3:4183"
+      }
+    },
+    {
+      "name": "TextUnderline",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TextUnderline",
+      "figmaNodeId": "3:4465",
+      "weights": {
+        "regular": "3:4466",
+        "bold": "3:4468",
+        "fill": "3:4470"
+      }
+    },
+    {
+      "name": "Textbox",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Textbox",
+      "figmaNodeId": "3:4472",
+      "weights": {
+        "regular": "3:4473",
+        "bold": "3:4475",
+        "fill": "3:4477"
+      }
+    },
+    {
+      "name": "TrashSimple",
+      "category": "Office & Editing",
+      "path": "Office & Editing/TrashSimple",
+      "figmaNodeId": "3:4185",
+      "weights": {
+        "regular": "3:4186",
+        "bold": "3:4188",
+        "fill": "3:4190"
+      }
+    },
+    {
+      "name": "Tray",
+      "category": "Office & Editing",
+      "path": "Office & Editing/Tray",
+      "figmaNodeId": "3:4479",
+      "weights": {
+        "regular": "3:4480",
+        "bold": "3:4482",
+        "fill": "3:4484"
+      }
+    },
+    {
+      "name": "Baby",
+      "category": "People",
+      "path": "People/Baby",
+      "figmaNodeId": "3:5482",
+      "weights": {
+        "regular": "3:5483",
+        "bold": "3:5485",
+        "fill": "3:5487"
+      }
+    },
+    {
+      "name": "Eyes",
+      "category": "People",
+      "path": "People/Eyes",
+      "figmaNodeId": "3:5503",
+      "weights": {
+        "regular": "3:5504",
+        "bold": "3:5506",
+        "fill": "3:5508"
+      }
+    },
+    {
+      "name": "Footprints",
+      "category": "People",
+      "path": "People/Footprints",
+      "figmaNodeId": "3:5524",
+      "weights": {
+        "regular": "3:5525",
+        "bold": "3:5527",
+        "fill": "3:5529"
+      }
+    },
+    {
+      "name": "GenderFemale",
+      "category": "People",
+      "path": "People/GenderFemale",
+      "figmaNodeId": "3:5559",
+      "weights": {
+        "regular": "3:5560",
+        "bold": "3:5562",
+        "fill": "3:5564"
+      }
+    },
+    {
+      "name": "GenderIntersex",
+      "category": "People",
+      "path": "People/GenderIntersex",
+      "figmaNodeId": "3:5321",
+      "weights": {
+        "regular": "3:5322",
+        "bold": "3:5324",
+        "fill": "3:5326"
+      }
+    },
+    {
+      "name": "GenderMale",
+      "category": "People",
+      "path": "People/GenderMale",
+      "figmaNodeId": "3:5328",
+      "weights": {
+        "regular": "3:5329",
+        "bold": "3:5331",
+        "fill": "3:5333"
+      }
+    },
+    {
+      "name": "Hand",
+      "category": "People",
+      "path": "People/Hand",
+      "figmaNodeId": "3:5580",
+      "weights": {
+        "regular": "3:5581",
+        "bold": "3:5583",
+        "fill": "3:5585"
+      }
+    },
+    {
+      "name": "HandGrabbing",
+      "category": "People",
+      "path": "People/HandGrabbing",
+      "figmaNodeId": "3:5601",
+      "weights": {
+        "regular": "3:5602",
+        "bold": "3:5604",
+        "fill": "3:5606"
+      }
+    },
+    {
+      "name": "HandPalm",
+      "category": "People",
+      "path": "People/HandPalm",
+      "figmaNodeId": "3:5608",
+      "weights": {
+        "regular": "3:5609",
+        "bold": "3:5611",
+        "fill": "3:5613"
+      }
+    },
+    {
+      "name": "HandPeace",
+      "category": "People",
+      "path": "People/HandPeace",
+      "figmaNodeId": "3:5363",
+      "weights": {
+        "regular": "3:5364",
+        "bold": "3:5366",
+        "fill": "3:5368"
+      }
+    },
+    {
+      "name": "HandWaving",
+      "category": "People",
+      "path": "People/HandWaving",
+      "figmaNodeId": "3:5377",
+      "weights": {
+        "regular": "3:5378",
+        "bold": "3:5380",
+        "fill": "3:5382"
+      }
+    },
+    {
+      "name": "HandsClapping",
+      "category": "People",
+      "path": "People/HandsClapping",
+      "figmaNodeId": "3:5412",
+      "weights": {
+        "regular": "3:5413",
+        "bold": "3:5415",
+        "fill": "3:5417"
+      }
+    },
+    {
+      "name": "HandsPraying",
+      "category": "People",
+      "path": "People/HandsPraying",
+      "figmaNodeId": "3:5426",
+      "weights": {
+        "regular": "3:5427",
+        "bold": "3:5429",
+        "fill": "3:5431"
+      }
+    },
+    {
+      "name": "Handshake",
+      "category": "People",
+      "path": "People/Handshake",
+      "figmaNodeId": "3:5447",
+      "weights": {
+        "regular": "3:5448",
+        "bold": "3:5450",
+        "fill": "3:5452"
+      }
+    },
+    {
+      "name": "IdentificationBadge",
+      "category": "People",
+      "path": "People/IdentificationBadge",
+      "figmaNodeId": "3:5475",
+      "weights": {
+        "regular": "3:5476",
+        "bold": "3:5478",
+        "fill": "3:5480"
+      }
+    },
+    {
+      "name": "IdentificationCard",
+      "category": "People",
+      "path": "People/IdentificationCard",
+      "figmaNodeId": "3:5510",
+      "weights": {
+        "regular": "3:5511",
+        "bold": "3:5513",
+        "fill": "3:5515"
+      }
+    },
+    {
+      "name": "PersonArmsSpread",
+      "category": "People",
+      "path": "People/PersonArmsSpread",
+      "figmaNodeId": "3:5538",
+      "weights": {
+        "regular": "3:5539",
+        "bold": "3:5541",
+        "fill": "3:5543"
+      }
+    },
+    {
+      "name": "PersonSimple",
+      "category": "People",
+      "path": "People/PersonSimple",
+      "figmaNodeId": "3:5552",
+      "weights": {
+        "regular": "3:5553",
+        "bold": "3:5555",
+        "fill": "3:5557"
+      }
+    },
+    {
+      "name": "PersonSimpleHike",
+      "category": "People",
+      "path": "People/PersonSimpleHike",
+      "figmaNodeId": "3:5566",
+      "weights": {
+        "regular": "3:5567",
+        "bold": "3:5569",
+        "fill": "3:5571"
+      }
+    },
+    {
+      "name": "PersonSimpleRun",
+      "category": "People",
+      "path": "People/PersonSimpleRun",
+      "figmaNodeId": "3:5594",
+      "weights": {
+        "regular": "3:5595",
+        "bold": "3:5597",
+        "fill": "3:5599"
+      }
+    },
+    {
+      "name": "PersonSimpleSwim",
+      "category": "People",
+      "path": "People/PersonSimpleSwim",
+      "figmaNodeId": "3:5622",
+      "weights": {
+        "regular": "3:5623",
+        "bold": "3:5625",
+        "fill": "3:5627"
+      }
+    },
+    {
+      "name": "PersonSimpleTaiChi",
+      "category": "People",
+      "path": "People/PersonSimpleTaiChi",
+      "figmaNodeId": "3:5356",
+      "weights": {
+        "regular": "3:5357",
+        "bold": "3:5359",
+        "fill": "3:5361"
+      }
+    },
+    {
+      "name": "PersonSimpleThrow",
+      "category": "People",
+      "path": "People/PersonSimpleThrow",
+      "figmaNodeId": "3:5391",
+      "weights": {
+        "regular": "3:5392",
+        "bold": "3:5394",
+        "fill": "3:5396"
+      }
+    },
+    {
+      "name": "PersonSimpleWalk",
+      "category": "People",
+      "path": "People/PersonSimpleWalk",
+      "figmaNodeId": "3:5398",
+      "weights": {
+        "regular": "3:5399",
+        "bold": "3:5401",
+        "fill": "3:5403"
+      }
+    },
+    {
+      "name": "Smiley",
+      "category": "People",
+      "path": "People/Smiley",
+      "figmaNodeId": "3:5433",
+      "weights": {
+        "regular": "3:5434",
+        "bold": "3:5436",
+        "fill": "3:5438"
+      }
+    },
+    {
+      "name": "SmileyAngry",
+      "category": "People",
+      "path": "People/SmileyAngry",
+      "figmaNodeId": "3:5454",
+      "weights": {
+        "regular": "3:5455",
+        "bold": "3:5457",
+        "fill": "3:5459"
+      }
+    },
+    {
+      "name": "SmileyBlank",
+      "category": "People",
+      "path": "People/SmileyBlank",
+      "figmaNodeId": "3:5461",
+      "weights": {
+        "regular": "3:5462",
+        "bold": "3:5464",
+        "fill": "3:5466"
+      }
+    },
+    {
+      "name": "SmileyMeh",
+      "category": "People",
+      "path": "People/SmileyMeh",
+      "figmaNodeId": "3:5489",
+      "weights": {
+        "regular": "3:5490",
+        "bold": "3:5492",
+        "fill": "3:5494"
+      }
+    },
+    {
+      "name": "SmileyMelting",
+      "category": "People",
+      "path": "People/SmileyMelting",
+      "figmaNodeId": "3:5517",
+      "weights": {
+        "regular": "3:5518",
+        "bold": "3:5520",
+        "fill": "3:5522"
+      }
+    },
+    {
+      "name": "SmileyNervous",
+      "category": "People",
+      "path": "People/SmileyNervous",
+      "figmaNodeId": "3:5545",
+      "weights": {
+        "regular": "3:5546",
+        "bold": "3:5548",
+        "fill": "3:5550"
+      }
+    },
+    {
+      "name": "SmileySad",
+      "category": "People",
+      "path": "People/SmileySad",
+      "figmaNodeId": "3:5573",
+      "weights": {
+        "regular": "3:5574",
+        "bold": "3:5576",
+        "fill": "3:5578"
+      }
+    },
+    {
+      "name": "SmileySticker",
+      "category": "People",
+      "path": "People/SmileySticker",
+      "figmaNodeId": "3:5587",
+      "weights": {
+        "regular": "3:5588",
+        "bold": "3:5590",
+        "fill": "3:5592"
+      }
+    },
+    {
+      "name": "SmileyWink",
+      "category": "People",
+      "path": "People/SmileyWink",
+      "figmaNodeId": "3:5615",
+      "weights": {
+        "regular": "3:5616",
+        "bold": "3:5618",
+        "fill": "3:5620"
+      }
+    },
+    {
+      "name": "SmileyXEyes",
+      "category": "People",
+      "path": "People/SmileyXEyes",
+      "figmaNodeId": "3:5370",
+      "weights": {
+        "regular": "3:5371",
+        "bold": "3:5373",
+        "fill": "3:5375"
+      }
+    },
+    {
+      "name": "User",
+      "category": "People",
+      "path": "People/User",
+      "figmaNodeId": "3:5335",
+      "weights": {
+        "regular": "3:5336",
+        "bold": "3:5338",
+        "fill": "3:5340"
+      }
+    },
+    {
+      "name": "UserList",
+      "category": "People",
+      "path": "People/UserList",
+      "figmaNodeId": "3:5384",
+      "weights": {
+        "regular": "3:5385",
+        "bold": "3:5387",
+        "fill": "3:5389"
+      }
+    },
+    {
+      "name": "UserMinus",
+      "category": "People",
+      "path": "People/UserMinus",
+      "figmaNodeId": "3:5405",
+      "weights": {
+        "regular": "3:5406",
+        "bold": "3:5408",
+        "fill": "3:5410"
+      }
+    },
+    {
+      "name": "UserPlus",
+      "category": "People",
+      "path": "People/UserPlus",
+      "figmaNodeId": "3:5419",
+      "weights": {
+        "regular": "3:5420",
+        "bold": "3:5422",
+        "fill": "3:5424"
+      }
+    },
+    {
+      "name": "Users",
+      "category": "People",
+      "path": "People/Users",
+      "figmaNodeId": "3:5440",
+      "weights": {
+        "regular": "3:5441",
+        "bold": "3:5443",
+        "fill": "3:5445"
+      }
+    },
+    {
+      "name": "UsersFour",
+      "category": "People",
+      "path": "People/UsersFour",
+      "figmaNodeId": "3:5468",
+      "weights": {
+        "regular": "3:5469",
+        "bold": "3:5471",
+        "fill": "3:5473"
+      }
+    },
+    {
+      "name": "UsersThree",
+      "category": "People",
+      "path": "People/UsersThree",
+      "figmaNodeId": "3:5349",
+      "weights": {
+        "regular": "3:5350",
+        "bold": "3:5352",
+        "fill": "3:5354"
+      }
+    },
+    {
+      "name": "Wheelchair",
+      "category": "People",
+      "path": "People/Wheelchair",
+      "figmaNodeId": "3:5496",
+      "weights": {
+        "regular": "3:5497",
+        "bold": "3:5499",
+        "fill": "3:5501"
+      }
+    },
+    {
+      "name": "WheelchairMotion",
+      "category": "People",
+      "path": "People/WheelchairMotion",
+      "figmaNodeId": "3:5531",
+      "weights": {
+        "regular": "3:5532",
+        "bold": "3:5534",
+        "fill": "3:5536"
+      }
+    },
+    {
+      "name": "Biohazard",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Biohazard",
+      "figmaNodeId": "3:5859",
+      "weights": {
+        "regular": "3:5860",
+        "bold": "3:5862",
+        "fill": "3:5864"
+      }
+    },
+    {
+      "name": "Detective",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Detective",
+      "figmaNodeId": "3:5866",
+      "weights": {
+        "regular": "3:5867",
+        "bold": "3:5869",
+        "fill": "3:5871"
+      }
+    },
+    {
+      "name": "ExclamationMark",
+      "category": "Security & Warning",
+      "path": "Security & Warning/ExclamationMark",
+      "figmaNodeId": "3:5768",
+      "weights": {
+        "regular": "3:5769",
+        "bold": "3:5771",
+        "fill": "3:5773"
+      }
+    },
+    {
+      "name": "FingerprintSimple",
+      "category": "Security & Warning",
+      "path": "Security & Warning/FingerprintSimple",
+      "figmaNodeId": "3:5775",
+      "weights": {
+        "regular": "3:5776",
+        "bold": "3:5778",
+        "fill": "3:5780"
+      }
+    },
+    {
+      "name": "Info",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Info",
+      "figmaNodeId": "3:5782",
+      "weights": {
+        "regular": "3:5783",
+        "bold": "3:5785",
+        "fill": "3:5787"
+      }
+    },
+    {
+      "name": "Key",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Key",
+      "figmaNodeId": "3:5873",
+      "weights": {
+        "regular": "3:5874",
+        "bold": "3:5876",
+        "fill": "3:5878"
+      }
+    },
+    {
+      "name": "Keyhole",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Keyhole",
+      "figmaNodeId": "3:5880",
+      "weights": {
+        "regular": "3:5881",
+        "bold": "3:5883",
+        "fill": "3:5885"
+      }
+    },
+    {
+      "name": "LockKey",
+      "category": "Security & Warning",
+      "path": "Security & Warning/LockKey",
+      "figmaNodeId": "3:5789",
+      "weights": {
+        "regular": "3:5790",
+        "bold": "3:5792",
+        "fill": "3:5794"
+      }
+    },
+    {
+      "name": "LockKeyOpen",
+      "category": "Security & Warning",
+      "path": "Security & Warning/LockKeyOpen",
+      "figmaNodeId": "3:5887",
+      "weights": {
+        "regular": "3:5888",
+        "bold": "3:5890",
+        "fill": "3:5892"
+      }
+    },
+    {
+      "name": "LockSimple",
+      "category": "Security & Warning",
+      "path": "Security & Warning/LockSimple",
+      "figmaNodeId": "3:5796",
+      "weights": {
+        "regular": "3:5797",
+        "bold": "3:5799",
+        "fill": "3:5801"
+      }
+    },
+    {
+      "name": "LockSimpleOpen",
+      "category": "Security & Warning",
+      "path": "Security & Warning/LockSimpleOpen",
+      "figmaNodeId": "3:5894",
+      "weights": {
+        "regular": "3:5895",
+        "bold": "3:5897",
+        "fill": "3:5899"
+      }
+    },
+    {
+      "name": "Password",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Password",
+      "figmaNodeId": "3:5803",
+      "weights": {
+        "regular": "3:5804",
+        "bold": "3:5806",
+        "fill": "3:5808"
+      }
+    },
+    {
+      "name": "Prohibit",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Prohibit",
+      "figmaNodeId": "3:5810",
+      "weights": {
+        "regular": "3:5811",
+        "bold": "3:5813",
+        "fill": "3:5815"
+      }
+    },
+    {
+      "name": "Question",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Question",
+      "figmaNodeId": "3:5817",
+      "weights": {
+        "regular": "3:5818",
+        "bold": "3:5820",
+        "fill": "3:5822"
+      }
+    },
+    {
+      "name": "QuestionMark",
+      "category": "Security & Warning",
+      "path": "Security & Warning/QuestionMark",
+      "figmaNodeId": "3:5824",
+      "weights": {
+        "regular": "3:5825",
+        "bold": "3:5827",
+        "fill": "3:5829"
+      }
+    },
+    {
+      "name": "SealCheck",
+      "category": "Security & Warning",
+      "path": "Security & Warning/SealCheck",
+      "figmaNodeId": "3:5831",
+      "weights": {
+        "regular": "3:5832",
+        "bold": "3:5834",
+        "fill": "3:5836"
+      }
+    },
+    {
+      "name": "SealPercent",
+      "category": "Security & Warning",
+      "path": "Security & Warning/SealPercent",
+      "figmaNodeId": "3:5901",
+      "weights": {
+        "regular": "3:5902",
+        "bold": "3:5904",
+        "fill": "3:5906"
+      }
+    },
+    {
+      "name": "SealWarning",
+      "category": "Security & Warning",
+      "path": "Security & Warning/SealWarning",
+      "figmaNodeId": "3:5908",
+      "weights": {
+        "regular": "3:5909",
+        "bold": "3:5911",
+        "fill": "3:5913"
+      }
+    },
+    {
+      "name": "SecurityCamera",
+      "category": "Security & Warning",
+      "path": "Security & Warning/SecurityCamera",
+      "figmaNodeId": "3:5915",
+      "weights": {
+        "regular": "3:5916",
+        "bold": "3:5918",
+        "fill": "3:5920"
+      }
+    },
+    {
+      "name": "Shield",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Shield",
+      "figmaNodeId": "3:5922",
+      "weights": {
+        "regular": "3:5923",
+        "bold": "3:5925",
+        "fill": "3:5927"
+      }
+    },
+    {
+      "name": "ShieldCheck",
+      "category": "Security & Warning",
+      "path": "Security & Warning/ShieldCheck",
+      "figmaNodeId": "3:5838",
+      "weights": {
+        "regular": "3:5839",
+        "bold": "3:5841",
+        "fill": "3:5843"
+      }
+    },
+    {
+      "name": "ShieldSlash",
+      "category": "Security & Warning",
+      "path": "Security & Warning/ShieldSlash",
+      "figmaNodeId": "3:5929",
+      "weights": {
+        "regular": "3:5930",
+        "bold": "3:5932",
+        "fill": "3:5934"
+      }
+    },
+    {
+      "name": "ShieldWarning",
+      "category": "Security & Warning",
+      "path": "Security & Warning/ShieldWarning",
+      "figmaNodeId": "3:5936",
+      "weights": {
+        "regular": "3:5937",
+        "bold": "3:5939",
+        "fill": "3:5941"
+      }
+    },
+    {
+      "name": "Siren",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Siren",
+      "figmaNodeId": "3:5943",
+      "weights": {
+        "regular": "3:5944",
+        "bold": "3:5946",
+        "fill": "3:5948"
+      }
+    },
+    {
+      "name": "Wall",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Wall",
+      "figmaNodeId": "3:5950",
+      "weights": {
+        "regular": "3:5951",
+        "bold": "3:5953",
+        "fill": "3:5955"
+      }
+    },
+    {
+      "name": "Warning",
+      "category": "Security & Warning",
+      "path": "Security & Warning/Warning",
+      "figmaNodeId": "3:5845",
+      "weights": {
+        "regular": "3:5846",
+        "bold": "3:5848",
+        "fill": "3:5850"
+      }
+    },
+    {
+      "name": "WarningCircle",
+      "category": "Security & Warning",
+      "path": "Security & Warning/WarningCircle",
+      "figmaNodeId": "3:5852",
+      "weights": {
+        "regular": "3:5853",
+        "bold": "3:5855",
+        "fill": "3:5857"
+      }
+    },
+    {
+      "name": "Backspace",
+      "category": "System Devices",
+      "path": "System Devices/Backspace",
+      "figmaNodeId": "3:3352",
+      "weights": {
+        "regular": "3:3353",
+        "bold": "3:3355",
+        "fill": "3:3357"
+      }
+    },
+    {
+      "name": "BatteryCharging",
+      "category": "System Devices",
+      "path": "System Devices/BatteryCharging",
+      "figmaNodeId": "3:3577",
+      "weights": {
+        "regular": "3:3578",
+        "bold": "3:3580",
+        "fill": "3:3582"
+      }
+    },
+    {
+      "name": "BatteryChargingVertical",
+      "category": "System Devices",
+      "path": "System Devices/BatteryChargingVertical",
+      "figmaNodeId": "3:3584",
+      "weights": {
+        "regular": "3:3585",
+        "bold": "3:3587",
+        "fill": "3:3589"
+      }
+    },
+    {
+      "name": "BatteryEmpty",
+      "category": "System Devices",
+      "path": "System Devices/BatteryEmpty",
+      "figmaNodeId": "3:3591",
+      "weights": {
+        "regular": "3:3592",
+        "bold": "3:3594",
+        "fill": "3:3596"
+      }
+    },
+    {
+      "name": "BatteryFull",
+      "category": "System Devices",
+      "path": "System Devices/BatteryFull",
+      "figmaNodeId": "3:3598",
+      "weights": {
+        "regular": "3:3599",
+        "bold": "3:3601",
+        "fill": "3:3603"
+      }
+    },
+    {
+      "name": "BellRinging",
+      "category": "System Devices",
+      "path": "System Devices/BellRinging",
+      "figmaNodeId": "3:3605",
+      "weights": {
+        "regular": "3:3606",
+        "bold": "3:3608",
+        "fill": "3:3610"
+      }
+    },
+    {
+      "name": "BellSimple",
+      "category": "System Devices",
+      "path": "System Devices/BellSimple",
+      "figmaNodeId": "3:3359",
+      "weights": {
+        "regular": "3:3360",
+        "bold": "3:3362",
+        "fill": "3:3364"
+      }
+    },
+    {
+      "name": "BellSimpleSlash",
+      "category": "System Devices",
+      "path": "System Devices/BellSimpleSlash",
+      "figmaNodeId": "3:3612",
+      "weights": {
+        "regular": "3:3613",
+        "bold": "3:3615",
+        "fill": "3:3617"
+      }
+    },
+    {
+      "name": "Bluetooth",
+      "category": "System Devices",
+      "path": "System Devices/Bluetooth",
+      "figmaNodeId": "3:3619",
+      "weights": {
+        "regular": "3:3620",
+        "bold": "3:3622",
+        "fill": "3:3624"
+      }
+    },
+    {
+      "name": "Browser",
+      "category": "System Devices",
+      "path": "System Devices/Browser",
+      "figmaNodeId": "3:3626",
+      "weights": {
+        "regular": "3:3627",
+        "bold": "3:3629",
+        "fill": "3:3631"
+      }
+    },
+    {
+      "name": "CellSignalFull",
+      "category": "System Devices",
+      "path": "System Devices/CellSignalFull",
+      "figmaNodeId": "3:3633",
+      "weights": {
+        "regular": "3:3634",
+        "bold": "3:3636",
+        "fill": "3:3638"
+      }
+    },
+    {
+      "name": "Check",
+      "category": "System Devices",
+      "path": "System Devices/Check",
+      "figmaNodeId": "3:3366",
+      "weights": {
+        "regular": "3:3367",
+        "bold": "3:3369",
+        "fill": "3:3371"
+      }
+    },
+    {
+      "name": "CheckCircle",
+      "category": "System Devices",
+      "path": "System Devices/CheckCircle",
+      "figmaNodeId": "3:3373",
+      "weights": {
+        "regular": "3:3374",
+        "bold": "3:3376",
+        "fill": "3:3378"
+      }
+    },
+    {
+      "name": "CheckFat",
+      "category": "System Devices",
+      "path": "System Devices/CheckFat",
+      "figmaNodeId": "3:3640",
+      "weights": {
+        "regular": "3:3641",
+        "bold": "3:3643",
+        "fill": "3:3645"
+      }
+    },
+    {
+      "name": "Checks",
+      "category": "System Devices",
+      "path": "System Devices/Checks",
+      "figmaNodeId": "3:3380",
+      "weights": {
+        "regular": "3:3381",
+        "bold": "3:3383",
+        "fill": "3:3385"
+      }
+    },
+    {
+      "name": "CloudArrowDown",
+      "category": "System Devices",
+      "path": "System Devices/CloudArrowDown",
+      "figmaNodeId": "3:3387",
+      "weights": {
+        "regular": "3:3388",
+        "bold": "3:3390",
+        "fill": "3:3392"
+      }
+    },
+    {
+      "name": "CloudArrowUp",
+      "category": "System Devices",
+      "path": "System Devices/CloudArrowUp",
+      "figmaNodeId": "3:3394",
+      "weights": {
+        "regular": "3:3395",
+        "bold": "3:3397",
+        "fill": "3:3399"
+      }
+    },
+    {
+      "name": "CloudCheck",
+      "category": "System Devices",
+      "path": "System Devices/CloudCheck",
+      "figmaNodeId": "3:3401",
+      "weights": {
+        "regular": "3:3402",
+        "bold": "3:3404",
+        "fill": "3:3406"
+      }
+    },
+    {
+      "name": "CloudSlash",
+      "category": "System Devices",
+      "path": "System Devices/CloudSlash",
+      "figmaNodeId": "3:3408",
+      "weights": {
+        "regular": "3:3409",
+        "bold": "3:3411",
+        "fill": "3:3413"
+      }
+    },
+    {
+      "name": "Command",
+      "category": "System Devices",
+      "path": "System Devices/Command",
+      "figmaNodeId": "3:3415",
+      "weights": {
+        "regular": "3:3416",
+        "bold": "3:3418",
+        "fill": "3:3420"
+      }
+    },
+    {
+      "name": "Cursor",
+      "category": "System Devices",
+      "path": "System Devices/Cursor",
+      "figmaNodeId": "3:3647",
+      "weights": {
+        "regular": "3:3648",
+        "bold": "3:3650",
+        "fill": "3:3652"
+      }
+    },
+    {
+      "name": "CursorClick",
+      "category": "System Devices",
+      "path": "System Devices/CursorClick",
+      "figmaNodeId": "3:3654",
+      "weights": {
+        "regular": "3:3655",
+        "bold": "3:3657",
+        "fill": "3:3659"
+      }
+    },
+    {
+      "name": "Desktop",
+      "category": "System Devices",
+      "path": "System Devices/Desktop",
+      "figmaNodeId": "3:3661",
+      "weights": {
+        "regular": "3:3662",
+        "bold": "3:3664",
+        "fill": "3:3666"
+      }
+    },
+    {
+      "name": "DeviceMobileCamera",
+      "category": "System Devices",
+      "path": "System Devices/DeviceMobileCamera",
+      "figmaNodeId": "3:3422",
+      "weights": {
+        "regular": "3:3423",
+        "bold": "3:3425",
+        "fill": "3:3427"
+      }
+    },
+    {
+      "name": "DeviceTabletCamera",
+      "category": "System Devices",
+      "path": "System Devices/DeviceTabletCamera",
+      "figmaNodeId": "3:3668",
+      "weights": {
+        "regular": "3:3669",
+        "bold": "3:3671",
+        "fill": "3:3673"
+      }
+    },
+    {
+      "name": "Devices",
+      "category": "System Devices",
+      "path": "System Devices/Devices",
+      "figmaNodeId": "3:3675",
+      "weights": {
+        "regular": "3:3676",
+        "bold": "3:3678",
+        "fill": "3:3680"
+      }
+    },
+    {
+      "name": "DotsSix",
+      "category": "System Devices",
+      "path": "System Devices/DotsSix",
+      "figmaNodeId": "3:3429",
+      "weights": {
+        "regular": "3:3430",
+        "bold": "3:3432",
+        "fill": "3:3434"
+      }
+    },
+    {
+      "name": "DotsSixVertical",
+      "category": "System Devices",
+      "path": "System Devices/DotsSixVertical",
+      "figmaNodeId": "3:3436",
+      "weights": {
+        "regular": "3:3437",
+        "bold": "3:3439",
+        "fill": "3:3441"
+      }
+    },
+    {
+      "name": "DotsThree",
+      "category": "System Devices",
+      "path": "System Devices/DotsThree",
+      "figmaNodeId": "3:3443",
+      "weights": {
+        "regular": "3:3444",
+        "bold": "3:3446",
+        "fill": "3:3448"
+      }
+    },
+    {
+      "name": "DotsThreeCircle",
+      "category": "System Devices",
+      "path": "System Devices/DotsThreeCircle",
+      "figmaNodeId": "3:3682",
+      "weights": {
+        "regular": "3:3683",
+        "bold": "3:3685",
+        "fill": "3:3687"
+      }
+    },
+    {
+      "name": "DotsThreeCircleVertical",
+      "category": "System Devices",
+      "path": "System Devices/DotsThreeCircleVertical",
+      "figmaNodeId": "3:3689",
+      "weights": {
+        "regular": "3:3690",
+        "bold": "3:3692",
+        "fill": "3:3694"
+      }
+    },
+    {
+      "name": "DotsThreeOutline",
+      "category": "System Devices",
+      "path": "System Devices/DotsThreeOutline",
+      "figmaNodeId": "3:3450",
+      "weights": {
+        "regular": "3:3451",
+        "bold": "3:3453",
+        "fill": "3:3455"
+      }
+    },
+    {
+      "name": "DotsThreeOutlineVertical",
+      "category": "System Devices",
+      "path": "System Devices/DotsThreeOutlineVertical",
+      "figmaNodeId": "3:3457",
+      "weights": {
+        "regular": "3:3458",
+        "bold": "3:3460",
+        "fill": "3:3462"
+      }
+    },
+    {
+      "name": "DotsThreeVertical",
+      "category": "System Devices",
+      "path": "System Devices/DotsThreeVertical",
+      "figmaNodeId": "3:3464",
+      "weights": {
+        "regular": "3:3465",
+        "bold": "3:3467",
+        "fill": "3:3469"
+      }
+    },
+    {
+      "name": "Download",
+      "category": "System Devices",
+      "path": "System Devices/Download",
+      "figmaNodeId": "3:3471",
+      "weights": {
+        "regular": "3:3472",
+        "bold": "3:3474",
+        "fill": "3:3476"
+      }
+    },
+    {
+      "name": "DownloadSimple",
+      "category": "System Devices",
+      "path": "System Devices/DownloadSimple",
+      "figmaNodeId": "3:3478",
+      "weights": {
+        "regular": "3:3479",
+        "bold": "3:3481",
+        "fill": "3:3483"
+      }
+    },
+    {
+      "name": "Gauge",
+      "category": "System Devices",
+      "path": "System Devices/Gauge",
+      "figmaNodeId": "3:3485",
+      "weights": {
+        "regular": "3:3486",
+        "bold": "3:3488",
+        "fill": "3:3490"
+      }
+    },
+    {
+      "name": "GearSix",
+      "category": "System Devices",
+      "path": "System Devices/GearSix",
+      "figmaNodeId": "3:3492",
+      "weights": {
+        "regular": "3:3493",
+        "bold": "3:3495",
+        "fill": "3:3497"
+      }
+    },
+    {
+      "name": "HandSwipeLeft",
+      "category": "System Devices",
+      "path": "System Devices/HandSwipeLeft",
+      "figmaNodeId": "3:3696",
+      "weights": {
+        "regular": "3:3697",
+        "bold": "3:3699",
+        "fill": "3:3701"
+      }
+    },
+    {
+      "name": "HandSwipeRight",
+      "category": "System Devices",
+      "path": "System Devices/HandSwipeRight",
+      "figmaNodeId": "3:3703",
+      "weights": {
+        "regular": "3:3704",
+        "bold": "3:3706",
+        "fill": "3:3708"
+      }
+    },
+    {
+      "name": "HandTap",
+      "category": "System Devices",
+      "path": "System Devices/HandTap",
+      "figmaNodeId": "3:3710",
+      "weights": {
+        "regular": "3:3711",
+        "bold": "3:3713",
+        "fill": "3:3715"
+      }
+    },
+    {
+      "name": "HardDrives",
+      "category": "System Devices",
+      "path": "System Devices/HardDrives",
+      "figmaNodeId": "3:3499",
+      "weights": {
+        "regular": "3:3500",
+        "bold": "3:3502",
+        "fill": "3:3504"
+      }
+    },
+    {
+      "name": "Keyboard",
+      "category": "System Devices",
+      "path": "System Devices/Keyboard",
+      "figmaNodeId": "3:3717",
+      "weights": {
+        "regular": "3:3718",
+        "bold": "3:3720",
+        "fill": "3:3722"
+      }
+    },
+    {
+      "name": "Laptop",
+      "category": "System Devices",
+      "path": "System Devices/Laptop",
+      "figmaNodeId": "3:3724",
+      "weights": {
+        "regular": "3:3725",
+        "bold": "3:3727",
+        "fill": "3:3729"
+      }
+    },
+    {
+      "name": "Lightbulb",
+      "category": "System Devices",
+      "path": "System Devices/Lightbulb",
+      "figmaNodeId": "3:3507",
+      "weights": {
+        "regular": "3:3508",
+        "bold": "3:3510",
+        "fill": "3:3512"
+      }
+    },
+    {
+      "name": "Lightning",
+      "category": "System Devices",
+      "path": "System Devices/Lightning",
+      "figmaNodeId": "3:3514",
+      "weights": {
+        "regular": "3:3515",
+        "bold": "3:3517",
+        "fill": "3:3519"
+      }
+    },
+    {
+      "name": "LightningSlash",
+      "category": "System Devices",
+      "path": "System Devices/LightningSlash",
+      "figmaNodeId": "3:3731",
+      "weights": {
+        "regular": "3:3732",
+        "bold": "3:3734",
+        "fill": "3:3736"
+      }
+    },
+    {
+      "name": "Link",
+      "category": "System Devices",
+      "path": "System Devices/Link",
+      "figmaNodeId": "3:3521",
+      "weights": {
+        "regular": "3:3522",
+        "bold": "3:3524",
+        "fill": "3:3526"
+      }
+    },
+    {
+      "name": "LinkSimple",
+      "category": "System Devices",
+      "path": "System Devices/LinkSimple",
+      "figmaNodeId": "3:3528",
+      "weights": {
+        "regular": "3:3529",
+        "bold": "3:3531",
+        "fill": "3:3533"
+      }
+    },
+    {
+      "name": "LinkSimpleBreak",
+      "category": "System Devices",
+      "path": "System Devices/LinkSimpleBreak",
+      "figmaNodeId": "3:3738",
+      "weights": {
+        "regular": "3:3739",
+        "bold": "3:3741",
+        "fill": "3:3743"
+      }
+    },
+    {
+      "name": "LinkSimpleHorizontal",
+      "category": "System Devices",
+      "path": "System Devices/LinkSimpleHorizontal",
+      "figmaNodeId": "3:3745",
+      "weights": {
+        "regular": "3:3746",
+        "bold": "3:3748",
+        "fill": "3:3750"
+      }
+    },
+    {
+      "name": "LinkSimpleHorizontalBreak",
+      "category": "System Devices",
+      "path": "System Devices/LinkSimpleHorizontalBreak",
+      "figmaNodeId": "3:3752",
+      "weights": {
+        "regular": "3:3753",
+        "bold": "3:3755",
+        "fill": "3:3757"
+      }
+    },
+    {
+      "name": "MagnifyingGlass",
+      "category": "System Devices",
+      "path": "System Devices/MagnifyingGlass",
+      "figmaNodeId": "3:3535",
+      "weights": {
+        "regular": "3:3536",
+        "bold": "3:3538",
+        "fill": "3:3540"
+      }
+    },
+    {
+      "name": "Monitor",
+      "category": "System Devices",
+      "path": "System Devices/Monitor",
+      "figmaNodeId": "3:3759",
+      "weights": {
+        "regular": "3:3760",
+        "bold": "3:3762",
+        "fill": "3:3764"
+      }
+    },
+    {
+      "name": "MouseScroll",
+      "category": "System Devices",
+      "path": "System Devices/MouseScroll",
+      "figmaNodeId": "3:3766",
+      "weights": {
+        "regular": "3:3767",
+        "bold": "3:3769",
+        "fill": "3:3771"
+      }
+    },
+    {
+      "name": "MouseSimple",
+      "category": "System Devices",
+      "path": "System Devices/MouseSimple",
+      "figmaNodeId": "3:3773",
+      "weights": {
+        "regular": "3:3774",
+        "bold": "3:3776",
+        "fill": "3:3778"
+      }
+    },
+    {
+      "name": "Network",
+      "category": "System Devices",
+      "path": "System Devices/Network",
+      "figmaNodeId": "3:3780",
+      "weights": {
+        "regular": "3:3781",
+        "bold": "3:3783",
+        "fill": "3:3785"
+      }
+    },
+    {
+      "name": "NetworkSlash",
+      "category": "System Devices",
+      "path": "System Devices/NetworkSlash",
+      "figmaNodeId": "3:3787",
+      "weights": {
+        "regular": "3:3788",
+        "bold": "3:3790",
+        "fill": "3:3792"
+      }
+    },
+    {
+      "name": "Option",
+      "category": "System Devices",
+      "path": "System Devices/Option",
+      "figmaNodeId": "3:3542",
+      "weights": {
+        "regular": "3:3543",
+        "bold": "3:3545",
+        "fill": "3:3547"
+      }
+    },
+    {
+      "name": "Plug",
+      "category": "System Devices",
+      "path": "System Devices/Plug",
+      "figmaNodeId": "3:3794",
+      "weights": {
+        "regular": "3:3795",
+        "bold": "3:3797",
+        "fill": "3:3799"
+      }
+    },
+    {
+      "name": "Plugs",
+      "category": "System Devices",
+      "path": "System Devices/Plugs",
+      "figmaNodeId": "3:3801",
+      "weights": {
+        "regular": "3:3802",
+        "bold": "3:3804",
+        "fill": "3:3806"
+      }
+    },
+    {
+      "name": "Power",
+      "category": "System Devices",
+      "path": "System Devices/Power",
+      "figmaNodeId": "3:3808",
+      "weights": {
+        "regular": "3:3809",
+        "bold": "3:3811",
+        "fill": "3:3813"
+      }
+    },
+    {
+      "name": "QrCode",
+      "category": "System Devices",
+      "path": "System Devices/QrCode",
+      "figmaNodeId": "3:3815",
+      "weights": {
+        "regular": "3:3816",
+        "bold": "3:3818",
+        "fill": "3:3820"
+      }
+    },
+    {
+      "name": "SignIn",
+      "category": "System Devices",
+      "path": "System Devices/SignIn",
+      "figmaNodeId": "3:3549",
+      "weights": {
+        "regular": "3:3550",
+        "bold": "3:3552",
+        "fill": "3:3554"
+      }
+    },
+    {
+      "name": "SignOut",
+      "category": "System Devices",
+      "path": "System Devices/SignOut",
+      "figmaNodeId": "3:3556",
+      "weights": {
+        "regular": "3:3557",
+        "bold": "3:3559",
+        "fill": "3:3561"
+      }
+    },
+    {
+      "name": "Upload",
+      "category": "System Devices",
+      "path": "System Devices/Upload",
+      "figmaNodeId": "3:3563",
+      "weights": {
+        "regular": "3:3564",
+        "bold": "3:3566",
+        "fill": "3:3568"
+      }
+    },
+    {
+      "name": "UploadSimple",
+      "category": "System Devices",
+      "path": "System Devices/UploadSimple",
+      "figmaNodeId": "3:3570",
+      "weights": {
+        "regular": "3:3571",
+        "bold": "3:3573",
+        "fill": "3:3575"
+      }
+    },
+    {
+      "name": "Vibrate",
+      "category": "System Devices",
+      "path": "System Devices/Vibrate",
+      "figmaNodeId": "3:3822",
+      "weights": {
+        "regular": "3:3823",
+        "bold": "3:3825",
+        "fill": "3:3827"
+      }
+    },
+    {
+      "name": "WifiHigh",
+      "category": "System Devices",
+      "path": "System Devices/WifiHigh",
+      "figmaNodeId": "3:3829",
+      "weights": {
+        "regular": "3:3830",
+        "bold": "3:3832",
+        "fill": "3:3834"
+      }
+    },
+    {
+      "name": "WifiSlash",
+      "category": "System Devices",
+      "path": "System Devices/WifiSlash",
+      "figmaNodeId": "3:3836",
+      "weights": {
+        "regular": "3:3837",
+        "bold": "3:3839",
+        "fill": "3:3841"
+      }
+    },
+    {
+      "name": "Alarm",
+      "category": "Time",
+      "path": "Time/Alarm",
+      "figmaNodeId": "3:2548",
+      "weights": {
+        "regular": "3:2549",
+        "bold": "3:2551",
+        "fill": "3:2553"
+      }
+    },
+    {
+      "name": "Calendar",
+      "category": "Time",
+      "path": "Time/Calendar",
+      "figmaNodeId": "3:2555",
+      "weights": {
+        "regular": "3:2556",
+        "bold": "3:2558",
+        "fill": "3:2560"
+      }
+    },
+    {
+      "name": "CalendarBlank",
+      "category": "Time",
+      "path": "Time/CalendarBlank",
+      "figmaNodeId": "3:2534",
+      "weights": {
+        "regular": "3:2535",
+        "bold": "3:2537",
+        "fill": "3:2539"
+      }
+    },
+    {
+      "name": "CalendarCheck",
+      "category": "Time",
+      "path": "Time/CalendarCheck",
+      "figmaNodeId": "3:2562",
+      "weights": {
+        "regular": "3:2563",
+        "bold": "3:2565",
+        "fill": "3:2567"
+      }
+    },
+    {
+      "name": "CalendarDots",
+      "category": "Time",
+      "path": "Time/CalendarDots",
+      "figmaNodeId": "3:2569",
+      "weights": {
+        "regular": "3:2570",
+        "bold": "3:2572",
+        "fill": "3:2574"
+      }
+    },
+    {
+      "name": "CalendarX",
+      "category": "Time",
+      "path": "Time/CalendarX",
+      "figmaNodeId": "3:2576",
+      "weights": {
+        "regular": "3:2577",
+        "bold": "3:2579",
+        "fill": "3:2581"
+      }
+    },
+    {
+      "name": "Clock",
+      "category": "Time",
+      "path": "Time/Clock",
+      "figmaNodeId": "3:2541",
+      "weights": {
+        "regular": "3:2542",
+        "bold": "3:2544",
+        "fill": "3:2546"
+      }
+    },
+    {
+      "name": "ClockClockwise",
+      "category": "Time",
+      "path": "Time/ClockClockwise",
+      "figmaNodeId": "3:2583",
+      "weights": {
+        "regular": "3:2584",
+        "bold": "3:2586",
+        "fill": "3:2588"
+      }
+    },
+    {
+      "name": "ClockCountdown",
+      "category": "Time",
+      "path": "Time/ClockCountdown",
+      "figmaNodeId": "3:2590",
+      "weights": {
+        "regular": "3:2591",
+        "bold": "3:2593",
+        "fill": "3:2595"
+      }
+    },
+    {
+      "name": "ClockCounterClockwise",
+      "category": "Time",
+      "path": "Time/ClockCounterClockwise",
+      "figmaNodeId": "3:2597",
+      "weights": {
+        "regular": "3:2598",
+        "bold": "3:2600",
+        "fill": "3:2602"
+      }
+    },
+    {
+      "name": "HourglassSimple",
+      "category": "Time",
+      "path": "Time/HourglassSimple",
+      "figmaNodeId": "3:2604",
+      "weights": {
+        "regular": "3:2605",
+        "bold": "3:2607",
+        "fill": "3:2609"
+      }
+    },
+    {
+      "name": "Timer",
+      "category": "Time",
+      "path": "Time/Timer",
+      "figmaNodeId": "3:2611",
+      "weights": {
+        "regular": "3:2612",
+        "bold": "3:2614",
+        "fill": "3:2616"
+      }
+    },
+    {
+      "name": "Watch",
+      "category": "Time",
+      "path": "Time/Watch",
+      "figmaNodeId": "3:2618",
+      "weights": {
+        "regular": "3:2619",
+        "bold": "3:2621",
+        "fill": "3:2623"
+      }
+    },
+    {
+      "name": "Bone",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Bone",
+      "figmaNodeId": "3:1345",
+      "weights": {
+        "regular": "3:1346",
+        "bold": "3:1348",
+        "fill": "3:1350"
+      }
+    },
+    {
+      "name": "Cloud",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Cloud",
+      "figmaNodeId": "3:1352",
+      "weights": {
+        "regular": "3:1353",
+        "bold": "3:1355",
+        "fill": "3:1357"
+      }
+    },
+    {
+      "name": "CloudFog",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudFog",
+      "figmaNodeId": "3:1359",
+      "weights": {
+        "regular": "3:1360",
+        "bold": "3:1362",
+        "fill": "3:1364"
+      }
+    },
+    {
+      "name": "CloudLightning",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudLightning",
+      "figmaNodeId": "3:1366",
+      "weights": {
+        "regular": "3:1367",
+        "bold": "3:1369",
+        "fill": "3:1371"
+      }
+    },
+    {
+      "name": "CloudMoon",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudMoon",
+      "figmaNodeId": "3:1373",
+      "weights": {
+        "regular": "3:1374",
+        "bold": "3:1376",
+        "fill": "3:1378"
+      }
+    },
+    {
+      "name": "CloudRain",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudRain",
+      "figmaNodeId": "3:1380",
+      "weights": {
+        "regular": "3:1381",
+        "bold": "3:1383",
+        "fill": "3:1385"
+      }
+    },
+    {
+      "name": "CloudSnow",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudSnow",
+      "figmaNodeId": "3:1387",
+      "weights": {
+        "regular": "3:1388",
+        "bold": "3:1390",
+        "fill": "3:1392"
+      }
+    },
+    {
+      "name": "CloudSun",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/CloudSun",
+      "figmaNodeId": "3:1394",
+      "weights": {
+        "regular": "3:1395",
+        "bold": "3:1397",
+        "fill": "3:1399"
+      }
+    },
+    {
+      "name": "Drop",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Drop",
+      "figmaNodeId": "3:1401",
+      "weights": {
+        "regular": "3:1402",
+        "bold": "3:1404",
+        "fill": "3:1406"
+      }
+    },
+    {
+      "name": "DropSimple",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/DropSimple",
+      "figmaNodeId": "3:1408",
+      "weights": {
+        "regular": "3:1409",
+        "bold": "3:1411",
+        "fill": "3:1413"
+      }
+    },
+    {
+      "name": "Fire",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Fire",
+      "figmaNodeId": "3:1415",
+      "weights": {
+        "regular": "3:1416",
+        "bold": "3:1418",
+        "fill": "3:1420"
+      }
+    },
+    {
+      "name": "FireSimple",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/FireSimple",
+      "figmaNodeId": "3:1422",
+      "weights": {
+        "regular": "3:1423",
+        "bold": "3:1425",
+        "fill": "3:1427"
+      }
+    },
+    {
+      "name": "Flame",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Flame",
+      "figmaNodeId": "3:1429",
+      "weights": {
+        "regular": "3:1430",
+        "bold": "3:1432",
+        "fill": "3:1434"
+      }
+    },
+    {
+      "name": "Leaf",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Leaf",
+      "figmaNodeId": "3:1436",
+      "weights": {
+        "regular": "3:1437",
+        "bold": "3:1439",
+        "fill": "3:1441"
+      }
+    },
+    {
+      "name": "Moon",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Moon",
+      "figmaNodeId": "3:1443",
+      "weights": {
+        "regular": "3:1444",
+        "bold": "3:1446",
+        "fill": "3:1448"
+      }
+    },
+    {
+      "name": "Mountains",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Mountains",
+      "figmaNodeId": "3:1450",
+      "weights": {
+        "regular": "3:1451",
+        "bold": "3:1453",
+        "fill": "3:1455"
+      }
+    },
+    {
+      "name": "PawPrint",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/PawPrint",
+      "figmaNodeId": "3:1457",
+      "weights": {
+        "regular": "3:1458",
+        "bold": "3:1460",
+        "fill": "3:1462"
+      }
+    },
+    {
+      "name": "Planet",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Planet",
+      "figmaNodeId": "3:1464",
+      "weights": {
+        "regular": "3:1465",
+        "bold": "3:1467",
+        "fill": "3:1469"
+      }
+    },
+    {
+      "name": "Plant",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Plant",
+      "figmaNodeId": "3:1471",
+      "weights": {
+        "regular": "3:1472",
+        "bold": "3:1474",
+        "fill": "3:1476"
+      }
+    },
+    {
+      "name": "Sparkle",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Sparkle",
+      "figmaNodeId": "3:1478",
+      "weights": {
+        "regular": "3:1479",
+        "bold": "3:1481",
+        "fill": "3:1483"
+      }
+    },
+    {
+      "name": "StarFour",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/StarFour",
+      "figmaNodeId": "3:1485",
+      "weights": {
+        "regular": "3:1486",
+        "bold": "3:1488",
+        "fill": "3:1490"
+      }
+    },
+    {
+      "name": "Sun",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Sun",
+      "figmaNodeId": "3:1492",
+      "weights": {
+        "regular": "3:1493",
+        "bold": "3:1495",
+        "fill": "3:1497"
+      }
+    },
+    {
+      "name": "ThermometerSimple",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/ThermometerSimple",
+      "figmaNodeId": "3:1499",
+      "weights": {
+        "regular": "3:1500",
+        "bold": "3:1502",
+        "fill": "3:1504"
+      }
+    },
+    {
+      "name": "TreeEvergreen",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/TreeEvergreen",
+      "figmaNodeId": "3:1506",
+      "weights": {
+        "regular": "3:1507",
+        "bold": "3:1509",
+        "fill": "3:1511"
+      }
+    },
+    {
+      "name": "UmbrellaSimple",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/UmbrellaSimple",
+      "figmaNodeId": "3:1513",
+      "weights": {
+        "regular": "3:1514",
+        "bold": "3:1516",
+        "fill": "3:1518"
+      }
+    },
+    {
+      "name": "Waves",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Waves",
+      "figmaNodeId": "3:1520",
+      "weights": {
+        "regular": "3:1521",
+        "bold": "3:1523",
+        "fill": "3:1525"
+      }
+    },
+    {
+      "name": "Wind",
+      "category": "Weather & Nature",
+      "path": "Weather & Nature/Wind",
+      "figmaNodeId": "3:1527",
+      "weights": {
+        "regular": "3:1528",
+        "bold": "3:1530",
+        "fill": "3:1532"
+      }
+    }
+  ]
+}

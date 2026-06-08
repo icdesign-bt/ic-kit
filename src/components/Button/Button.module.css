@@ -1,0 +1,664 @@
+/* Shared button base */
+.root {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  font-family: var(--font-family-sans);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.root:focus-visible {
+  outline: 2px solid var(--btn-focus-ring);
+  outline-offset: 2px;
+}
+
+.root:disabled,
+.root[aria-disabled='true'] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: wait;
+  pointer-events: none;
+}
+
+.loading:disabled,
+.loading[aria-disabled='true'] {
+  opacity: 1;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: inherit;
+}
+
+.loading .label {
+  visibility: hidden;
+}
+
+.loadingCenter .label {
+  visibility: hidden;
+}
+
+.processing {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+/* Sizes — text buttons */
+.sizeSm {
+  padding: 0.125rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+.sizeMd {
+  padding: 0.375rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
+
+.sizeLg {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.sizeXlg {
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+/* Icon-only sizes */
+.iconSizeXsm {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.iconSizeSm {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border-radius: 6px;
+}
+
+.iconSizeMd {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.iconSizeLg {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.iconSizeXlg {
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border-radius: 12px;
+}
+
+/* Contained */
+.containedPrimary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-fg);
+  border-color: transparent;
+}
+
+.containedSecondary {
+  background: var(--btn-secondary-bg);
+  color: var(--btn-secondary-fg);
+  border-color: transparent;
+}
+
+.containedNeutral {
+  background: var(--btn-neutral-bg);
+  color: var(--btn-neutral-fg);
+  border-color: transparent;
+}
+
+.containedSuccess {
+  background: var(--btn-success-bg);
+  color: var(--btn-success-fg);
+  border-color: transparent;
+}
+
+.containedWarning {
+  background: var(--btn-warning-bg);
+  color: var(--btn-warning-fg);
+  border-color: transparent;
+}
+
+.containedError {
+  background: var(--btn-error-bg);
+  color: var(--btn-error-fg);
+  border-color: transparent;
+}
+
+/* Tonal */
+.tonalPrimary {
+  background: var(--btn-primary-tonal-bg);
+  color: var(--btn-primary-tonal-fg);
+  border-color: transparent;
+}
+
+.tonalSecondary {
+  background: var(--btn-secondary-tonal-bg);
+  color: var(--btn-secondary-tonal-fg);
+  border-color: transparent;
+}
+
+.tonalNeutral {
+  background: var(--btn-neutral-tonal-bg);
+  color: var(--btn-neutral-tonal-fg);
+  border-color: transparent;
+}
+
+.tonalSuccess {
+  background: var(--btn-success-tonal-bg);
+  color: var(--btn-success-tonal-fg);
+  border-color: transparent;
+}
+
+.tonalWarning {
+  background: var(--btn-warning-tonal-bg);
+  color: var(--btn-warning-tonal-fg);
+  border-color: transparent;
+}
+
+.tonalError {
+  background: var(--btn-error-tonal-bg);
+  color: var(--btn-error-tonal-fg);
+  border-color: transparent;
+}
+
+/* Outlined */
+.outlinedPrimary {
+  background: transparent;
+  border-color: var(--btn-primary-bg);
+  color: var(--btn-primary-bg);
+}
+
+.outlinedSecondary {
+  background: transparent;
+  border-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-bg);
+}
+
+.outlinedNeutral {
+  background: transparent;
+  border-color: var(--outlines-border);
+  color: var(--text-main-on-surface);
+}
+
+.outlinedSuccess {
+  background: transparent;
+  border-color: var(--btn-success-bg);
+  color: var(--btn-success-bg);
+}
+
+.outlinedWarning {
+  background: transparent;
+  border-color: var(--btn-warning-bg);
+  color: var(--btn-warning-bg);
+}
+
+.outlinedError {
+  background: transparent;
+  border-color: var(--btn-error-bg);
+  color: var(--btn-error-bg);
+}
+
+/* Text */
+.textPrimary {
+  background: transparent;
+  border-color: transparent;
+  color: var(--btn-primary-bg);
+}
+
+.textSecondary {
+  background: transparent;
+  border-color: transparent;
+  color: var(--btn-secondary-bg);
+}
+
+.textNeutral {
+  background: transparent;
+  border-color: transparent;
+  color: var(--text-main-on-surface);
+}
+
+.textSuccess {
+  background: transparent;
+  border-color: transparent;
+  color: var(--btn-success-bg);
+}
+
+.textWarning {
+  background: transparent;
+  border-color: transparent;
+  color: var(--btn-warning-bg);
+}
+
+.textError {
+  background: transparent;
+  border-color: transparent;
+  color: var(--btn-error-bg);
+}
+
+@media (hover: hover) {
+  .containedPrimary:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-primary-hover);
+  }
+
+  .containedSecondary:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-secondary-hover);
+  }
+
+  .containedNeutral:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-neutral-hover);
+  }
+
+  .containedSuccess:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-success-hover);
+  }
+
+  .containedWarning:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-warning-hover);
+  }
+
+  .containedError:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-error-hover);
+  }
+
+  .tonalPrimary:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-primary-tonal-hover);
+  }
+
+  .outlinedPrimary:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-primary-tonal-bg);
+    color: var(--btn-primary-tonal-fg);
+    border-color: var(--btn-primary-hover);
+  }
+
+  .textPrimary:hover:not(:disabled):not([aria-disabled='true']) {
+    background: var(--btn-primary-tonal-bg);
+  }
+}
+
+/* Processing dots */
+.processingDots {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.2rem;
+  min-height: 1em;
+}
+
+.processingDot {
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 50%;
+  background: currentColor;
+  animation: btnProcessingBounce 0.5s ease-in-out infinite;
+}
+
+.processingDot:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.processingDot:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes btnProcessingBounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+
+  30% {
+    transform: translateY(-0.18rem);
+    opacity: 1;
+  }
+}
+
+/* Toggle button */
+.toggle {
+  composes: root;
+}
+
+.toggleSelected {
+  background: var(--btn-primary-tonal-bg);
+  color: var(--btn-primary-tonal-fg);
+  border-color: transparent;
+}
+
+.toggleSelectedNeutral {
+  background: var(--btn-neutral-tonal-bg);
+  color: var(--btn-neutral-tonal-fg);
+  border-color: transparent;
+}
+
+.toggleNeutral {
+  background: transparent;
+  border-color: transparent;
+  color: var(--text-main-on-surface);
+}
+
+/* Button group — Figma 6171:6738, states 172:18708 */
+.group {
+  display: inline-flex;
+  align-items: stretch;
+  isolation: isolate;
+}
+
+.groupSegment {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: -1px;
+  border: none;
+  border-radius: 0;
+  font-family: var(--font-family-sans);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  flex: 1 1 auto;
+  min-width: 0;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.groupSegment:focus-visible {
+  outline: 2px solid var(--btn-focus-ring);
+  outline-offset: -2px;
+  z-index: 3;
+}
+
+.groupSegmentLast {
+  margin-right: 0;
+}
+
+.group:not([data-variant='outlined']) .groupSegment:not(.groupSegmentLast) {
+  border-right: 1px solid var(--btn-group-divider);
+}
+
+.groupSegmentSelected {
+  z-index: 2;
+}
+
+/* Sizes — label bold scale from Figma */
+.groupSizeSm .groupSegment {
+  min-height: 1.5rem;
+  padding: 0.125rem 0.5rem;
+  font-size: var(--font-size-label-md);
+  line-height: var(--line-height-label-md);
+}
+
+.groupSizeSm .groupSegmentFirst {
+  border-radius: 6px 0 0 6px;
+}
+
+.groupSizeSm .groupSegmentLast {
+  border-radius: 0 6px 6px 0;
+}
+
+.groupSizeMd .groupSegment {
+  min-height: 2rem;
+  padding: 0.375rem 0.75rem;
+  font-size: var(--font-size-label-lg);
+  line-height: var(--line-height-label-lg);
+}
+
+.groupSizeMd .groupSegmentFirst {
+  border-radius: 8px 0 0 8px;
+}
+
+.groupSizeMd .groupSegmentLast {
+  border-radius: 0 8px 8px 0;
+}
+
+.groupSizeLg .groupSegment {
+  min-height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: var(--font-size-label-lg);
+  line-height: var(--line-height-label-lg);
+}
+
+.groupSizeLg .groupSegmentFirst {
+  border-radius: 10px 0 0 10px;
+}
+
+.groupSizeLg .groupSegmentLast {
+  border-radius: 0 10px 10px 0;
+}
+
+.groupSizeXlg .groupSegment {
+  min-height: 3rem;
+  padding: 0.75rem 1.25rem;
+  font-size: var(--font-size-label-xlg);
+  line-height: var(--line-height-label-xlg);
+}
+
+.groupSizeXlg .groupSegmentFirst {
+  border-radius: 12px 0 0 12px;
+}
+
+.groupSizeXlg .groupSegmentLast {
+  border-radius: 0 12px 12px 0;
+}
+
+/* Contained */
+.group[data-variant='contained'][data-color='primary'] .groupSegment {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-fg);
+}
+
+.group[data-variant='contained'][data-color='primary'] .groupSegment:hover {
+  background: var(--btn-primary-hover);
+}
+
+.group[data-variant='contained'][data-color='primary'] .groupSegmentSelected {
+  background: var(--btn-group-selected-contained);
+  color: var(--btn-primary-fg);
+}
+
+.group[data-variant='contained'][data-color='secondary'] .groupSegment {
+  background: var(--btn-secondary-bg);
+  color: var(--btn-secondary-fg);
+}
+
+.group[data-variant='contained'][data-color='secondary'] .groupSegment:hover {
+  background: var(--btn-secondary-hover);
+}
+
+.group[data-variant='contained'][data-color='secondary'] .groupSegmentSelected {
+  background: var(--btn-secondary-hover);
+}
+
+.group[data-variant='contained'][data-color='neutral'] .groupSegment {
+  background: var(--btn-neutral-bg);
+  color: var(--btn-neutral-fg);
+}
+
+.group[data-variant='contained'][data-color='neutral'] .groupSegment:hover {
+  background: var(--btn-neutral-hover);
+}
+
+.group[data-variant='contained'][data-color='neutral'] .groupSegmentSelected {
+  background: var(--btn-neutral-hover);
+}
+
+/* Tonal */
+.group[data-variant='tonal'][data-color='primary'] .groupSegment {
+  background: var(--btn-primary-tonal-bg);
+  color: var(--btn-primary-tonal-fg);
+}
+
+.group[data-variant='tonal'][data-color='primary'] .groupSegment:hover {
+  background: var(--btn-primary-tonal-hover);
+}
+
+.group[data-variant='tonal'][data-color='primary'] .groupSegmentSelected {
+  background: var(--btn-group-selected-tonal);
+  color: var(--btn-primary-tonal-fg);
+}
+
+.group[data-variant='tonal'][data-color='secondary'] .groupSegment {
+  background: var(--btn-secondary-tonal-bg);
+  color: var(--btn-secondary-tonal-fg);
+}
+
+.group[data-variant='tonal'][data-color='secondary'] .groupSegment:hover {
+  background: var(--btn-secondary-tonal-hover);
+}
+
+.group[data-variant='tonal'][data-color='secondary'] .groupSegmentSelected {
+  background: var(--btn-secondary-tonal-hover);
+}
+
+.group[data-variant='tonal'][data-color='neutral'] .groupSegment {
+  background: var(--btn-neutral-tonal-bg);
+  color: var(--btn-neutral-tonal-fg);
+}
+
+.group[data-variant='tonal'][data-color='neutral'] .groupSegment:hover {
+  background: var(--btn-neutral-tonal-hover);
+}
+
+.group[data-variant='tonal'][data-color='neutral'] .groupSegmentSelected {
+  background: var(--btn-neutral-tonal-hover);
+}
+
+/* Outlined */
+.group[data-variant='outlined'] .groupSegment {
+  background: transparent;
+  border: 1px solid;
+  margin-right: -1px;
+}
+
+.group[data-variant='outlined'][data-color='primary'] .groupSegment {
+  border-color: var(--btn-primary-bg);
+  color: var(--btn-primary-bg);
+}
+
+.group[data-variant='outlined'][data-color='primary'] .groupSegment:hover {
+  background: var(--btn-primary-tonal-hover);
+  border-color: var(--btn-primary-hover);
+  color: var(--btn-primary-hover);
+}
+
+.group[data-variant='outlined'][data-color='primary'] .groupSegmentSelected {
+  background: var(--btn-group-selected-outlined);
+  border-color: var(--btn-primary-hover);
+  color: var(--btn-primary-hover);
+}
+
+.group[data-variant='outlined'][data-color='secondary'] .groupSegment {
+  border-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-bg);
+}
+
+.group[data-variant='outlined'][data-color='secondary'] .groupSegment:hover,
+.group[data-variant='outlined'][data-color='secondary'] .groupSegmentSelected {
+  background: var(--btn-secondary-tonal-hover);
+  border-color: var(--btn-secondary-hover);
+  color: var(--btn-secondary-hover);
+}
+
+.group[data-variant='outlined'][data-color='neutral'] .groupSegment {
+  border-color: var(--outlines-border);
+  color: var(--text-main-on-surface);
+}
+
+.group[data-variant='outlined'][data-color='neutral'] .groupSegment:hover,
+.group[data-variant='outlined'][data-color='neutral'] .groupSegmentSelected {
+  background: var(--btn-neutral-tonal-hover);
+  border-color: var(--btn-neutral-hover);
+  color: var(--text-main-on-surface);
+}
+
+/* Split button */
+.split {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.splitSizeSm {
+  border-radius: 6px;
+}
+
+.splitSizeLg {
+  border-radius: 10px;
+}
+
+.splitAction {
+  composes: root;
+  border-radius: 0;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-right: none;
+}
+
+.splitTrigger {
+  composes: root;
+  border-radius: 0;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-left: 2px solid var(--btn-group-divider);
+}
+
+.splitOutlined .splitTrigger {
+  border-left-color: var(--btn-primary-bg);
+}
+
+.splitTonal .splitTrigger,
+.splitTonal .splitAction {
+  border-color: transparent;
+}

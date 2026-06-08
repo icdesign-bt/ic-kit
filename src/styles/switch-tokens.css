@@ -1,0 +1,25 @@
+/* Semantic aliases for Switch — map to KURS DS tokens */
+:root {
+  --switch-gap: 12px;
+  --switch-padding: 2px;
+  --switch-border-width: 1px;
+  --switch-radius: 9999px;
+  --switch-border: var(--outlines-border);
+  --switch-track-off: var(--neutral-tonal);
+  --switch-handle: var(--surfaces-surface-1);
+  --switch-handle-shadow: 0 0 6px var(--shadows-low-orbit), 0 2px 4px var(--shadows-medium-orbit);
+  --switch-hover-halo: var(--action-hover);
+  --switch-focus-ring: var(--outlines-focused);
+
+  --switch-sm-width: 32px;
+  --switch-sm-height: 16px;
+  --switch-sm-handle: 12px;
+
+  --switch-md-width: 40px;
+  --switch-md-height: 20px;
+  --switch-md-handle: 16px;
+
+  --switch-lg-width: 48px;
+  --switch-lg-height: 24px;
+  --switch-lg-handle: 20px;
+}

@@ -1,0 +1,38 @@
+/* Semantic aliases for Checkbox / Radio — map to KURS DS tokens */
+:root {
+  --selection-label-gap: 4px;
+  --selection-focus-ring: var(--outlines-focused);
+
+  --selection-border: var(--primary-main);
+  --selection-border-hover: var(--primary-main-hover);
+  --selection-fill: var(--primary-main);
+  --selection-fill-hover: var(--primary-main-hover);
+  --selection-icon: var(--primary-main-contrast-text);
+  --selection-surface: var(--surfaces-surface-1);
+
+  --selection-disabled-bg: var(--action-disabled-background);
+  --selection-disabled-border: var(--action-disabled);
+  --selection-disabled-icon: var(--action-disabled);
+
+  --selection-hover-halo: var(--surfaces-surface-toner);
+
+  --checkbox-sm-size: 16px;
+  --checkbox-md-size: 20px;
+  --checkbox-lg-size: 24px;
+  --checkbox-sm-radius: 2px;
+  --checkbox-md-radius: 4px;
+  --checkbox-lg-radius: 4px;
+  --checkbox-sm-gap: 6px;
+  --checkbox-md-gap: 8px;
+  --checkbox-lg-gap: 12px;
+
+  --radio-sm-size: 16px;
+  --radio-md-size: 20px;
+  --radio-lg-size: 24px;
+  --radio-sm-dot: 8px;
+  --radio-md-dot: 10px;
+  --radio-lg-dot: 12px;
+  --radio-sm-halo: 24px;
+  --radio-md-halo: 32px;
+  --radio-lg-halo: 40px;
+}

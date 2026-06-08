@@ -1,0 +1,84 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Guides/Quick start" />
+
+# Подключение в Vite + React за 5 минут
+
+Коллегам для вайбкодинга **Storybook не нужен** — достаточно пакета `ic-kit` и одного CSS-файла.
+
+## 1. Установка
+
+```bash
+npm i github:icdesign-bt/ic-kit#v0.1.0
+```
+
+Подробнее: [docs/installation.md](../../docs/installation.md) · шаблон [examples/vite-starter](../../examples/vite-starter/).
+
+Локальная разработка кита:
+
+```bash
+npm run build
+# в соседнем проекте:
+npm i ../ic-kit
+```
+
+## 2. Стили и шрифт
+
+В точке входа приложения (`main.tsx`):
+
+```tsx
+import 'ic-kit/styles.css';
+```
+
+Файл подтягивает Moscow Sans W, токены и базовые стили компонентов.
+
+## 3. Бренд и тема
+
+На корневом элементе (или `document.documentElement`):
+
+```tsx
+useEffect(() => {
+  document.documentElement.dataset.brand = 'ic';   // или 'codd'
+  document.documentElement.dataset.theme = 'light'; // или 'dark'
+}, []);
+```
+
+Без `data-brand` / `data-theme` используется палитра **ИЦ light**.
+
+## 4. Импорт компонентов
+
+```tsx
+import { Button, Input, Checkbox, Alert } from 'ic-kit';
+
+export function App() {
+  return (
+    <>
+      <Input label="Email" placeholder="name@example.com" fullWidth />
+      <Button variant="contained" color="primary">
+        Отправить
+      </Button>
+    </>
+  );
+}
+```
+
+Полный список экспортов — `src/components/index.ts` в репозитории кита.
+
+## 5. Иконки
+
+```tsx
+import { Icon } from 'ic-kit';
+
+<Icon path="Arrows/CaretDown" size={20} />
+```
+
+Каталог путей: `tokens/icon-catalog.json` или story **Foundations → Icons**.
+
+## 6. TypeScript
+
+Типы поставляются с пакетом (`dist/index.d.ts`). Peer dependencies: `react` и `react-dom` ^18 или ^19.
+
+## Дальше
+
+- Сборка формы из полей — story **Guides → Form composition**
+- Полная инструкция — [installation.md](https://github.com/icdesign-bt/ic-kit/blob/main/docs/installation.md)

@@ -1,0 +1,14 @@
+/* Tooltip layout tokens — Figma tooltip/* variables */
+:root {
+  --tooltip-gap: 12px;
+  --tooltip-padding: 8px;
+  --tooltip-radius: 4px;
+  --tooltip-max-width: 160px;
+  --tooltip-min-width: 80px;
+  --tooltip-pointer-size: 12px;
+  --tooltip-offset: 8px;
+  --tooltip-shadow: 0 0 3px var(--shadows-low-orbit), 0 2px 2px var(--shadows-medium-orbit);
+
+  --tooltip-bg: var(--surfaces-surface-1);
+  --tooltip-fg: var(--color-text-primary);
+}
