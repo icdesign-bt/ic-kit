@@ -5,10 +5,9 @@ import type { StorybookConfig } from '@storybook/react-vite';
 const storybookDir = dirname(fileURLToPath(import.meta.url));
 
 const config: StorybookConfig = {
-  // Introduction первым — иначе glob **/*.mdx открывает Foundations/Spacing по алфавиту пути
+  // Introduction первым — landing по умолчанию в sidebar/docs
   stories: [
     '../stories/Introduction.mdx',
-    '../stories/Foundations/**/*.mdx',
     '../stories/Foundations/**/*.stories.@(ts|tsx)',
     '../stories/Components/**/*.stories.@(ts|tsx)',
     '../stories/Guides/**/*.mdx',
