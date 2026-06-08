@@ -198,7 +198,6 @@ npm i github:icdesign-bt/ic-kit#v0.2.0
 
 ## См. также
 
-- [README](../README.md) — обзор
+- [README на GitHub](https://github.com/icdesign-bt/ic-kit/blob/main/README.md) — установка и обзор
 - [Introduction в Storybook](https://icdesign-bt.github.io/ic-kit/?path=/docs/introduction--docs)
-- [Guides → Quick start](https://icdesign-bt.github.io/ic-kit/?path=/docs/guides-quick-start--docs)
 - [Foundations → Icons в Storybook](https://icdesign-bt.github.io/ic-kit/?path=/story/foundations-icons--gallery) — каталог иконок

@@ -4,65 +4,37 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # ic-kit
 
-**UI Kit** дизайн-системы [KURS v2](https://www.figma.com/design/XFvebxoecl7DX4Oxm9GVJO/KURS-v2.-Components) — готовые React-компоненты, токены, шрифт и иконки для прототипов в стиле **ИЦ** и **ЦОДД**.
+**UI Kit** дизайн-системы [KURS v2](https://www.figma.com/design/XFvebxoecl7DX4Oxm9GVJO/KURS-v2.-Components) — React-компоненты, токены, шрифт Moscow Sans W и иконки для прототипов в стиле **ИЦ** и **ЦОДД**.
 
-Эта страница — каталог компонентов. Для работы в своём проекте Storybook **не обязателен**: достаточно установить пакет и подключить стили.
+Эта витрина — каталог компонентов и foundations. Чтобы подключить кит в свой Vite-проект, Storybook **не нужен** — см. документацию в репозитории:
+
+- [README](https://github.com/icdesign-bt/ic-kit/blob/main/README.md) — установка, бренды, prompt для Cursor
+- [installation.md](https://github.com/icdesign-bt/ic-kit/blob/main/docs/installation.md) — troubleshooting, обновление версии, шаблон `examples/vite-starter`
 
 ## Для кого
 
-- **Сотрудники ИЦ**, которые собирают прототипы и демо в Vite + React или в Cursor (вайбкодинг)
-- **Дизайнеры и PM**, которые хотят посмотреть, как выглядят компоненты DS в коде
+- **Сотрудники ИЦ** — прототипы и демо в Vite + React или Cursor (вайбкодинг)
+- **Дизайнеры и PM** — посмотреть, как компоненты DS выглядят в коде
 
-Кит рассчитан на **прототипы**, не на production-приложения.
+Кит для **прототипов**, не для production.
 
-## Как подключить к себе
+## Что смотреть здесь
 
-**1. Установка** (нужны Node.js ≥ 20 и React 18/19):
+| Раздел | Зачем |
+|--------|--------|
+| **Foundations** | Цвета, типографика, [иконки](?path=/story/foundations-icons--gallery) |
+| **Components** | Все компоненты с состояниями и примерами |
+| **Guides** | [Form composition](?path=/story/guides-form-composition--contact-form) — пример сборки формы |
 
-```bash
-npm i github:icdesign-bt/ic-kit#v0.1.0
-```
+В toolbar переключайте **Brand** (ИЦ / ЦОДД) и **Theme** (light / dark) — stories обновятся под выбранную палитру.
 
-**2. Стили** в `main.tsx`:
+## Что в пакете
 
-```tsx
-import 'ic-kit/styles.css';
-```
-
-**3. Бренд и тема** (по умолчанию — ИЦ, светлая):
-
-```tsx
-document.documentElement.dataset.brand = 'ic';    // 'ic' | 'codd'
-document.documentElement.dataset.theme = 'light'; // 'light' | 'dark'
-```
-
-**4. Компоненты:**
-
-```tsx
-import { Button, Input, Checkbox } from 'ic-kit';
-```
-
-Готовый шаблон: [examples/vite-starter](https://github.com/icdesign-bt/ic-kit/tree/main/examples/vite-starter).  
-Пошаговая инструкция: [Guides → Quick start](?path=/docs/guides-quick-start--docs) и [installation.md](https://github.com/icdesign-bt/ic-kit/blob/main/docs/installation.md).
-
-## Что есть в витрине
-
-| Раздел | Зачем открывать |
-|--------|-----------------|
-| **Foundations** | Цвета, типографика, иконки |
-| **Components** | Все компоненты с примерами и состояниями |
-| **Guides** | Подключение в проект, сборка формы |
-
-В тулбаре Storybook переключайте **Brand** (ИЦ / ЦОДД) и **Theme** (light / dark) — все stories обновятся под выбранную палитру.
-
-## Что входит в пакет
-
-- **26 компонентов** — кнопки, поля ввода, Select, Dialog, Tabs, Alert, Badge и др.
-- **Токены** — CSS-переменные для цветов, отступов, типографики
-- **Шрифт Moscow Sans W** — подключается через `ic-kit/styles.css`
+- Компоненты — Button, TextField, Select, Dialog, Tabs, Alert, Badge, Icon и др. (раздел **Components**)
+- Токены — CSS-переменные для цветов, отступов, типографики
 - **661 иконка** — `<Icon path="Category/Name" />`
 
-Макеты и описания в Figma: [KURS.Storybook](https://www.figma.com/design/wy9jtzeCE5LWQp3KIueIMM/KURS.Storybook?node-id=3-1215).
+Макеты в Figma: [KURS.Storybook](https://www.figma.com/design/wy9jtzeCE5LWQp3KIueIMM/KURS.Storybook?node-id=3-1215).
 
 ## Ссылки
 
