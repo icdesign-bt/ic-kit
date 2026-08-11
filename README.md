@@ -16,7 +16,7 @@ UI Kit дизайн-системы **KURS v2**: React-компоненты, то
 ## Установка в свой проект
 
 ```bash
-npm i github:icdesign-bt/ic-kit#v0.1.0
+npm i github:icdesign-bt/ic-kit#v0.1.1
 ```
 
 ```tsx
@@ -65,7 +65,7 @@ npm run dev              # http://localhost:6006
 
 ```
 UI Kit ic-kit (KURS v2). Прототипы, не prod.
-Установка: npm i github:icdesign-bt/ic-kit#v0.1.0
+Установка: npm i github:icdesign-bt/ic-kit#v0.1.1
 import 'ic-kit/styles.css'; import { Button, Input, … } from 'ic-kit';
 Бренд/тема: dataset.brand = 'ic'|'codd'; dataset.theme = 'light'|'dark';
 Иконки: <Icon path="Category/Name" size={20} />

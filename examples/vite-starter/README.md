@@ -21,7 +21,7 @@ npm run dev
 В `package.json` замените зависимость:
 
 ```json
-"ic-kit": "github:icdesign-bt/ic-kit#v0.1.0"
+"ic-kit": "github:icdesign-bt/ic-kit#v0.1.1"
 ```
 
 Подробнее — [docs/installation.md](../../docs/installation.md).

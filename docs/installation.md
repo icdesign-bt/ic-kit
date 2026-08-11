@@ -29,7 +29,7 @@ document.documentElement.dataset.theme = 'light'; // 'light' | 'dark'
 |----------|---------|--------|
 | Локальная витрина + разработка кита | `git clone` + `npm install` + `npm run dev` | команда DS, доработка компонентов |
 | Прототип из шаблона | `examples/vite-starter/` | новый Vite-проект за 2 минуты |
-| Git dependency | `npm i github:icdesign-bt/ic-kit#v0.1.0` | вайбкодинг / прототип в Vite + React |
+| Git dependency | `npm i github:icdesign-bt/ic-kit#v0.1.1` | вайбкодинг / прототип в Vite + React |
 | Соседняя папка (без git) | `npm i ../ic-kit` | локальная разработка двух репо |
 
 ---
@@ -62,10 +62,10 @@ cd my-app
 
 ### 2.2 Установите ic-kit
 
-С тега релиза (рекомендуется после `v0.1.0`):
+С тега релиза (рекомендуется после `v0.1.1`):
 
 ```bash
-npm i github:icdesign-bt/ic-kit#v0.1.0
+npm i github:icdesign-bt/ic-kit#v0.1.1
 ```
 
 С ветки `main` (последний коммит):
@@ -145,7 +145,7 @@ npm run dev          # http://localhost:5173
 Для отдельного репозитория замените в `package.json`:
 
 ```json
-"ic-kit": "github:icdesign-bt/ic-kit#v0.1.0"
+"ic-kit": "github:icdesign-bt/ic-kit#v0.1.1"
 ```
 
 ---
