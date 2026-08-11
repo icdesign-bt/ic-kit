@@ -20,7 +20,7 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: `KURS v2 Chip. Figma: [6143:10328](${FIGMA_COMPONENT}?node-id=6143-10328), docs: [126:165172](${FIGMA_DOCS}?node-id=126-165172).`,
+        component: `KURS v2 Chip. By default — label only (no caret). Pass \`startIcon\` explicitly for filter/select chips. Figma: [6143:10328](${FIGMA_COMPONENT}?node-id=6143-10328), docs: [126:165172](${FIGMA_DOCS}?node-id=126-165172).`,
       },
     },
   },
@@ -50,24 +50,16 @@ type Story = StoryObj<typeof Chip>;
 
 export const Default: Story = {
   render: () => (
-    <Chip
-      size="md"
-      variant="tonal"
-      color="primary"
-      shape="rounded"
-      label="Label"
-      startIcon={CaretDownMd}
-      onClose={() => undefined}
-    />
+    <Chip size="md" variant="tonal" color="primary" shape="rounded" label="active" />
   ),
 };
 
 export const Sizes: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
-      <Chip size="md" variant="tonal" color="primary" label="Label" startIcon={CaretDownMd} onClose={() => undefined} />
-      <Chip size="sm" variant="tonal" color="primary" label="Label" startIcon={CaretDownSm} onClose={() => undefined} />
-      <Chip size="xsm" variant="tonal" color="primary" label="Label" startIcon={CaretDownXsm} onClose={() => undefined} />
+      <Chip size="md" variant="tonal" color="primary" label="Label" />
+      <Chip size="sm" variant="tonal" color="primary" label="Label" />
+      <Chip size="xsm" variant="tonal" color="primary" label="Label" />
     </div>
   ),
 };
@@ -76,15 +68,7 @@ export const Variants: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
       {VARIANTS.map((variant) => (
-        <Chip
-          key={variant}
-          size="md"
-          variant={variant}
-          color="primary"
-          label="Label"
-          startIcon={CaretDownMd}
-          onClose={() => undefined}
-        />
+        <Chip key={variant} size="md" variant={variant} color="primary" label="Label" />
       ))}
     </div>
   ),
@@ -94,15 +78,7 @@ export const Colors: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
       {COLORS.map((color) => (
-        <Chip
-          key={color}
-          size="md"
-          variant="tonal"
-          color={color}
-          label="Label"
-          startIcon={CaretDownMd}
-          onClose={() => undefined}
-        />
+        <Chip key={color} size="md" variant="tonal" color={color} label="Label" />
       ))}
     </div>
   ),
@@ -111,45 +87,67 @@ export const Colors: Story = {
 export const Shapes: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-      <Chip size="md" variant="tonal" color="primary" shape="rounded" label="Rounded" startIcon={false} />
-      <Chip size="md" variant="tonal" color="primary" shape="square" label="Square" startIcon={false} />
+      <Chip size="md" variant="tonal" color="primary" shape="rounded" label="Rounded" />
+      <Chip size="md" variant="tonal" color="primary" shape="square" label="Square" />
     </div>
   ),
 };
 
-export const WithoutIcons: Story = {
-  name: 'Without Icons',
+export const Status: Story = {
+  name: 'Status (no icon)',
   render: () => (
-    <Chip size="md" variant="tonal" color="primary" label="Label" startIcon={false} />
+    <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+      <Chip size="sm" variant="tonal" color="success" label="active" />
+      <Chip size="sm" variant="tonal" color="neutral" label="12 sessions" />
+      <Chip size="sm" variant="tonal" color="error" label="error" />
+    </div>
   ),
 };
 
-export const Dismissible: Story = {
-  render: () => (
-    <Chip
-      size="md"
-      variant="tonal"
-      color="primary"
-      label="Label"
-      startIcon={CaretDownMd}
-      onClose={() => undefined}
-    />
-  ),
-};
-
-export const Disabled: Story = {
+export const Filter: Story = {
+  name: 'Filter (caret opt-in)',
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
       <Chip
         size="md"
         variant="tonal"
         color="primary"
-        label="Label"
+        label="Filter"
         startIcon={CaretDownMd}
-        onClose={() => undefined}
+        onClick={() => undefined}
+      />
+      <Chip size="sm" variant="tonal" color="primary" label="Filter" startIcon={CaretDownSm} onClick={() => undefined} />
+      <Chip
+        size="xsm"
+        variant="tonal"
+        color="primary"
+        label="Filter"
+        startIcon={CaretDownXsm}
+        onClick={() => undefined}
+      />
+    </div>
+  ),
+};
+
+export const Dismissible: Story = {
+  render: () => (
+    <Chip size="md" variant="tonal" color="primary" label="Label" onClose={() => undefined} />
+  ),
+};
+
+export const Disabled: Story = {
+  render: () => (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
+      <Chip size="md" variant="tonal" color="primary" label="Label" onClose={() => undefined} disabled />
+      <Chip size="md" variant="tonal" color="primary" label="Label" disabled />
+      <Chip
+        size="md"
+        variant="tonal"
+        color="primary"
+        label="Filter"
+        startIcon={CaretDownMd}
         disabled
       />
-      <Chip size="md" variant="tonal" color="primary" label="Label" startIcon={false} disabled />
     </div>
   ),
 };

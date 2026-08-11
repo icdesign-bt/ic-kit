@@ -28,12 +28,6 @@ const COLOR_CLASS: Record<ChipColor, string> = {
   error: styles.colorError,
 };
 
-const START_ICON_SIZE: Record<ChipSize, number> = {
-  xsm: 12,
-  sm: 16,
-  md: 20,
-};
-
 export type ChipProps = Omit<HTMLAttributes<HTMLElement>, 'color' | 'children'> & {
   size?: ChipSize;
   variant?: ChipVariant;
@@ -41,6 +35,7 @@ export type ChipProps = Omit<HTMLAttributes<HTMLElement>, 'color' | 'children'> 
   shape?: ChipShape;
   label?: ReactNode;
   children?: ReactNode;
+  /** Start icon. Omitted/`undefined`/`false` — no icon. Pass a ReactNode (e.g. CaretDown) for filter/select chips. */
   startIcon?: ReactNode | false;
   onClose?: () => void;
   disabled?: boolean;
@@ -48,22 +43,19 @@ export type ChipProps = Omit<HTMLAttributes<HTMLElement>, 'color' | 'children'> 
 };
 
 function ChipContent({
-  size,
   startIcon,
   content,
 }: {
-  size: ChipSize;
   startIcon?: ReactNode | false;
   content: ReactNode;
 }) {
-  const showStartIcon = startIcon !== false;
-  const startIconSize = START_ICON_SIZE[size];
+  const showStartIcon = Boolean(startIcon);
 
   return (
     <>
       {showStartIcon ? (
         <span className={styles.startIcon} aria-hidden>
-          {startIcon ?? <Icon path="Arrows & Directions/CaretDown" size={startIconSize} weight="fill" />}
+          {startIcon}
         </span>
       ) : null}
       <span className={styles.label}>{content}</span>
@@ -112,11 +104,11 @@ export function Chip({
             disabled={disabled}
             onClick={onClick}
           >
-            <ChipContent size={size} startIcon={startIcon} content={content} />
+            <ChipContent startIcon={startIcon} content={content} />
           </button>
         ) : (
           <span className={styles.body}>
-            <ChipContent size={size} startIcon={startIcon} content={content} />
+            <ChipContent startIcon={startIcon} content={content} />
           </span>
         )}
         <button
@@ -147,7 +139,7 @@ export function Chip({
         onClick={onClick}
         {...(rest as HTMLAttributes<HTMLButtonElement>)}
       >
-        <ChipContent size={size} startIcon={startIcon} content={content} />
+        <ChipContent startIcon={startIcon} content={content} />
       </button>
     );
   }
@@ -158,7 +150,7 @@ export function Chip({
       data-disabled={disabled ? 'true' : undefined}
       {...rest}
     >
-      <ChipContent size={size} startIcon={startIcon} content={content} />
+      <ChipContent startIcon={startIcon} content={content} />
     </span>
   );
 }
