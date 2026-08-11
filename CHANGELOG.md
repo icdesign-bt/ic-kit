@@ -10,6 +10,11 @@
 
 - **Chip:** по умолчанию больше не показывает caret (`CaretDown`). Иконка только при явном `startIcon={<Icon … />}`. `startIcon={false}` по-прежнему без иконки (совместимость). Для filter/select chip передавайте caret явно.
 
+### Migration
+
+- Кто ждал caret по умолчанию — передайте `startIcon` явно (например `CaretDown`).
+- После апдейта у статусных Chip можно убрать массовые `startIcon={false}`.
+
 ## [0.1.0] — 2026-06-08
 
 Первый релиз UI Kit KURS v2 для вайбкодинга и прототипов (сотрудники ИЦ).
@@ -28,3 +33,7 @@
 - Moscow Sans W в `src/assets/fonts/`
 - Каталог иконок `tokens/icon-catalog.json`
 - LICENSE, CONTRIBUTING, `docs/installation.md`
+
+[Unreleased]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/icdesign-bt/ic-kit/releases/tag/v0.1.0
