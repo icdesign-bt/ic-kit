@@ -1,9 +1,12 @@
 <script>
   (function () {
+    // Use replaceState (not location.replace): Safari cancels in-flight module
+    // imports on navigation and throws "Importing a module script failed."
     if (!window.location.search.includes('path=')) {
-      var path = window.location.pathname;
-      if (!path.endsWith('/')) path += '/';
-      window.location.replace(path + '?path=/story/introduction--docs');
+      var url = new URL(window.location.href);
+      if (!url.pathname.endsWith('/')) url.pathname += '/';
+      url.searchParams.set('path', '/story/introduction--docs');
+      history.replaceState(null, '', url.toString());
     }
   })();
 </script>

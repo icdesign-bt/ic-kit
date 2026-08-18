@@ -21,7 +21,25 @@ const config: StorybookConfig = {
   },
   docs: {},
   async viteFinal(viteConfig) {
-    viteConfig.base = process.env.STORYBOOK_BASE_PATH ?? '/';
+    // Relative base is more reliable on GitHub Pages + Safari than absolute `/ic-kit/`.
+    viteConfig.base = process.env.STORYBOOK_BASE_PATH ?? './';
+
+    viteConfig.build ??= {};
+    // Avoid shared preload helper living only on the iframe entry (circular import → Safari fail).
+    viteConfig.build.modulePreload = false;
+    viteConfig.build.rollupOptions ??= {};
+    const prev = viteConfig.build.rollupOptions.output;
+    const prevObj = Array.isArray(prev) ? prev[0] : prev;
+    viteConfig.build.rollupOptions.output = {
+      ...prevObj,
+      manualChunks(id) {
+        if (id.includes('vite/preload-helper')) return 'vite-preload-helper';
+        const inherited = prevObj?.manualChunks;
+        if (typeof inherited === 'function') return inherited(id);
+        return undefined;
+      },
+    };
+
     return viteConfig;
   },
 };

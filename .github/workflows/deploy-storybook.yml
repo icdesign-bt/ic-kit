@@ -31,7 +31,8 @@ jobs:
         run: npm run build:storybook
         env:
           STORYBOOK: '1'
-          STORYBOOK_BASE_PATH: /${{ github.event.repository.name }}/
+          # Relative base — Safari + GH Pages project site
+          STORYBOOK_BASE_PATH: ./
 
       - name: Ensure .nojekyll
         run: touch storybook-static/.nojekyll
