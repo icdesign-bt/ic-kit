@@ -20,7 +20,7 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: `KURS v2 Chip. By default — label only (no caret). Pass \`startIcon\` explicitly for filter/select chips. Figma: [6143:10328](${FIGMA_COMPONENT}?node-id=6143-10328), docs: [126:165172](${FIGMA_DOCS}?node-id=126-165172).`,
+        component: `KURS v2 Chip. By default — label only (no caret). Pass \`startIcon\` explicitly for filter/select chips. Hover/focus styles apply only when interactive (\`onClick\` or \`href\`), like Material chips. Figma: [6143:10328](${FIGMA_COMPONENT}?node-id=6143-10328), docs: [126:165172](${FIGMA_DOCS}?node-id=126-165172).`,
       },
     },
   },
@@ -41,6 +41,8 @@ const meta = {
       control: 'select',
       options: ['rounded', 'square'],
     },
+    href: { control: 'text' },
+    onClick: { action: 'click' },
   },
 } as Meta<typeof Chip>;
 
@@ -94,12 +96,31 @@ export const Shapes: Story = {
 };
 
 export const Status: Story = {
-  name: 'Status (no icon)',
+  name: 'Status (no hover)',
   render: () => (
     <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
       <Chip size="sm" variant="tonal" color="success" label="active" />
       <Chip size="sm" variant="tonal" color="neutral" label="12 sessions" />
       <Chip size="sm" variant="tonal" color="error" label="error" />
+    </div>
+  ),
+};
+
+export const Interactive: Story = {
+  name: 'Interactive (hover)',
+  render: () => (
+    <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
+      <Chip size="md" variant="contained" color="primary" label="Contained" onClick={() => undefined} />
+      <Chip size="md" variant="tonal" color="primary" label="Action" onClick={() => undefined} />
+      <Chip size="md" variant="outlined" color="primary" label="Link" href="#" />
+      <Chip
+        size="md"
+        variant="tonal"
+        color="primary"
+        label="Filter"
+        startIcon={CaretDownMd}
+        onClick={() => undefined}
+      />
     </div>
   ),
 };
@@ -130,8 +151,19 @@ export const Filter: Story = {
 };
 
 export const Dismissible: Story = {
+  name: 'Dismissible (close only)',
   render: () => (
-    <Chip size="md" variant="tonal" color="primary" label="Label" onClose={() => undefined} />
+    <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
+      <Chip size="md" variant="tonal" color="primary" label="Tag" onClose={() => undefined} />
+      <Chip
+        size="md"
+        variant="tonal"
+        color="primary"
+        label="Clickable + close"
+        onClick={() => undefined}
+        onClose={() => undefined}
+      />
+    </div>
   ),
 };
 
