@@ -33,6 +33,9 @@ jobs:
           STORYBOOK: '1'
           STORYBOOK_BASE_PATH: /${{ github.event.repository.name }}/
 
+      - name: Ensure .nojekyll
+        run: touch storybook-static/.nojekyll
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: storybook-static
