@@ -5,12 +5,11 @@ import type { StorybookConfig } from '@storybook/react-vite';
 const storybookDir = dirname(fileURLToPath(import.meta.url));
 
 const config: StorybookConfig = {
-  // Introduction первым — landing по умолчанию в sidebar/docs
+  // Introduction первым — landing по умолчанию в sidebar
   stories: [
-    '../stories/Introduction.mdx',
+    '../stories/Introduction.stories.@(ts|tsx)',
     '../stories/Foundations/**/*.stories.@(ts|tsx)',
     '../stories/Components/**/*.stories.@(ts|tsx)',
-    '../stories/Guides/**/*.mdx',
     '../stories/Guides/**/*.stories.@(ts|tsx)',
   ],
   addons: ['@storybook/addon-toolbars', '@storybook/addon-docs'],
