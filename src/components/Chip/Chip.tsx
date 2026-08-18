@@ -1,4 +1,4 @@
-import type { HTMLAttributes, MouseEventHandler, ReactNode } from 'react';
+import type { AnchorHTMLAttributes, HTMLAttributes, MouseEventHandler, ReactNode } from 'react';
 import { Icon } from '../Icon';
 import type { ChipColor, ChipShape, ChipSize, ChipVariant } from './types';
 import styles from './Chip.module.css';
@@ -40,6 +40,10 @@ export type ChipProps = Omit<HTMLAttributes<HTMLElement>, 'color' | 'children'> 
   onClose?: () => void;
   disabled?: boolean;
   onClick?: MouseEventHandler<HTMLElement>;
+  /** When set, chip renders as a link and is interactive (hover/focus). */
+  href?: string;
+  target?: AnchorHTMLAttributes<HTMLAnchorElement>['target'];
+  rel?: AnchorHTMLAttributes<HTMLAnchorElement>['rel'];
 };
 
 function ChipContent({
@@ -63,6 +67,31 @@ function ChipContent({
   );
 }
 
+function buildClassName({
+  size,
+  shape,
+  variant,
+  color,
+  className,
+}: {
+  size: ChipSize;
+  shape: ChipShape;
+  variant: ChipVariant;
+  color: ChipColor;
+  className?: string;
+}) {
+  return [
+    styles.root,
+    SIZE_CLASS[size],
+    SHAPE_CLASS[shape],
+    VARIANT_CLASS[variant],
+    COLOR_CLASS[color],
+    className,
+  ]
+    .filter(Boolean)
+    .join(' ');
+}
+
 export function Chip({
   size = 'md',
   variant = 'tonal',
@@ -73,39 +102,34 @@ export function Chip({
   startIcon,
   onClose,
   onClick,
+  href,
+  target,
+  rel,
   className,
   disabled,
   ...rest
 }: ChipProps) {
   const content = children ?? label ?? 'Label';
-
-  const classes = [
-    styles.root,
-    SIZE_CLASS[size],
-    SHAPE_CLASS[shape],
-    VARIANT_CLASS[variant],
-    COLOR_CLASS[color],
-    className,
-  ]
-    .filter(Boolean)
-    .join(' ');
+  // Like Material chips: hover only when the chip itself is an action/link.
+  const interactive = Boolean(onClick || href);
+  const classes = buildClassName({ size, shape, variant, color, className });
+  const rootState = {
+    className: classes,
+    'data-disabled': disabled ? 'true' : undefined,
+    'data-interactive': interactive ? 'true' : undefined,
+  } as const;
 
   if (onClose) {
     return (
-      <span
-        className={classes}
-        data-disabled={disabled ? 'true' : undefined}
-        {...rest}
-      >
+      <span {...rootState} {...rest}>
         {onClick ? (
-          <button
-            type="button"
-            className={styles.body}
-            disabled={disabled}
-            onClick={onClick}
-          >
+          <button type="button" className={styles.body} disabled={disabled} onClick={onClick}>
             <ChipContent startIcon={startIcon} content={content} />
           </button>
+        ) : href && !disabled ? (
+          <a className={styles.body} href={href} target={target} rel={rel}>
+            <ChipContent startIcon={startIcon} content={content} />
+          </a>
         ) : (
           <span className={styles.body}>
             <ChipContent startIcon={startIcon} content={content} />
@@ -127,15 +151,27 @@ export function Chip({
     );
   }
 
-  const interactive = Boolean(onClick);
+  if (href && !disabled) {
+    return (
+      <a
+        {...rootState}
+        href={href}
+        target={target}
+        rel={rel}
+        onClick={onClick as MouseEventHandler<HTMLAnchorElement> | undefined}
+        {...(rest as AnchorHTMLAttributes<HTMLAnchorElement>)}
+      >
+        <ChipContent startIcon={startIcon} content={content} />
+      </a>
+    );
+  }
 
   if (interactive) {
     return (
       <button
         type="button"
-        className={classes}
+        {...rootState}
         disabled={disabled}
-        data-disabled={disabled ? 'true' : undefined}
         onClick={onClick}
         {...(rest as HTMLAttributes<HTMLButtonElement>)}
       >
@@ -145,11 +181,7 @@ export function Chip({
   }
 
   return (
-    <span
-      className={classes}
-      data-disabled={disabled ? 'true' : undefined}
-      {...rest}
-    >
+    <span {...rootState} {...rest}>
       <ChipContent startIcon={startIcon} content={content} />
     </span>
   );

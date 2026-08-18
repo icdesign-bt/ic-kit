@@ -229,22 +229,26 @@ export function MultiSelect({
           >
             <span className={styles.content}>
               {visibleTags.map((option) => (
-                <Chip
+                <span
                   key={option.value}
-                  size="sm"
-                  variant="tonal"
-                  color="neutral"
-                  shape="square"
-                  startIcon={false}
-                  label={option.label}
-                  disabled={disabled}
-                  onClose={
-                    disabled || readOnly
-                      ? undefined
-                      : () => removeOption(option.value)
-                  }
                   onClick={(event) => event.stopPropagation()}
-                />
+                  onMouseDown={(event) => event.stopPropagation()}
+                >
+                  <Chip
+                    size="sm"
+                    variant="tonal"
+                    color="neutral"
+                    shape="square"
+                    startIcon={false}
+                    label={option.label}
+                    disabled={disabled}
+                    onClose={
+                      disabled || readOnly
+                        ? undefined
+                        : () => removeOption(option.value)
+                    }
+                  />
+                </span>
               ))}
               {hiddenCount > 0 ? (
                 <span className={styles.overflowCount}>+{hiddenCount}</span>

@@ -10,7 +10,8 @@
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-bold);
   white-space: nowrap;
-  cursor: pointer;
+  cursor: default;
+  text-decoration: none;
   transition:
     background-color 0.15s ease,
     border-color 0.15s ease,
@@ -25,13 +26,19 @@
   cursor: not-allowed;
 }
 
-.root:not(:disabled):not([data-disabled='true']):hover {
+/* Hover only for actionable chips (onClick / href) — Material-style */
+.root[data-interactive='true']:not(:disabled):not([data-disabled='true']) {
+  cursor: pointer;
+}
+
+.root[data-interactive='true']:not(:disabled):not([data-disabled='true']):hover {
   background: var(--chip-bg-hover, var(--chip-bg));
-  border-color: var(--chip-border-hover, var(--chip-border));
+  /* Always fall back to transparent — unset --chip-border makes border-color → currentColor (visible ring). */
+  border-color: var(--chip-border-hover, var(--chip-border, transparent));
   color: var(--chip-fg-hover, var(--chip-fg));
 }
 
-.root:focus-visible {
+.root[data-interactive='true']:focus-visible {
   outline: 3px solid var(--outlines-focused);
   outline-offset: 2px;
 }
@@ -68,54 +75,70 @@
   border-radius: var(--chip-square-radius);
 }
 
-/* Contained */
+/* Contained — fill shade on hover, no stroke (Figma: primary/main → main-hover) */
 .variantContained.colorPrimary {
   --chip-bg: var(--primary-main);
   --chip-fg: var(--primary-main-contrast-text);
   --chip-bg-hover: var(--primary-main-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantContained.colorNeutral {
   --chip-bg: var(--neutral-main);
   --chip-fg: var(--neutral-main-contrast-text);
   --chip-bg-hover: var(--neutral-main-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantContained.colorSuccess {
   --chip-bg: var(--success-main);
   --chip-fg: var(--success-main-contrast-text);
   --chip-bg-hover: var(--success-main-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantContained.colorError {
   --chip-bg: var(--error-main);
   --chip-fg: var(--error-main-contrast-text);
   --chip-bg-hover: var(--error-main-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
-/* Tonal */
+/* Tonal — same: shade only, no stroke */
 .variantTonal.colorPrimary {
   --chip-bg: var(--primary-tonal);
   --chip-fg: var(--primary-tonal-contrast-text);
   --chip-bg-hover: var(--primary-tonal-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantTonal.colorNeutral {
   --chip-bg: var(--neutral-tonal);
   --chip-fg: var(--neutral-tonal-contrast-text);
   --chip-bg-hover: var(--neutral-tonal-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantTonal.colorSuccess {
   --chip-bg: var(--success-tonal);
   --chip-fg: var(--success-tonal-contrast-text);
   --chip-bg-hover: var(--success-tonal-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 .variantTonal.colorError {
   --chip-bg: var(--error-tonal);
   --chip-fg: var(--error-tonal-contrast-text);
   --chip-bg-hover: var(--error-tonal-hover);
+  --chip-border: transparent;
+  --chip-border-hover: transparent;
 }
 
 /* Outlined */
@@ -159,6 +182,7 @@
 .variantText.colorPrimary {
   --chip-bg: transparent;
   --chip-border: transparent;
+  --chip-border-hover: transparent;
   --chip-fg: var(--primary-main);
   --chip-bg-hover: var(--primary-tonal);
   --chip-fg-hover: var(--primary-tonal-contrast-text);
@@ -167,6 +191,7 @@
 .variantText.colorNeutral {
   --chip-bg: transparent;
   --chip-border: transparent;
+  --chip-border-hover: transparent;
   --chip-fg: var(--neutral-main);
   --chip-bg-hover: var(--neutral-tonal);
   --chip-fg-hover: var(--neutral-tonal-contrast-text);
@@ -175,6 +200,7 @@
 .variantText.colorSuccess {
   --chip-bg: transparent;
   --chip-border: transparent;
+  --chip-border-hover: transparent;
   --chip-fg: var(--success-main);
   --chip-bg-hover: var(--success-tonal);
   --chip-fg-hover: var(--success-tonal-contrast-text);
@@ -183,6 +209,7 @@
 .variantText.colorError {
   --chip-bg: transparent;
   --chip-border: transparent;
+  --chip-border-hover: transparent;
   --chip-fg: var(--error-main);
   --chip-bg-hover: var(--error-tonal);
   --chip-fg-hover: var(--error-tonal-contrast-text);
@@ -200,6 +227,7 @@
   font: inherit;
   cursor: inherit;
   line-height: inherit;
+  text-decoration: none;
 }
 
 .body:disabled {
