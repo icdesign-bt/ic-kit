@@ -113,10 +113,23 @@ export function Select({
     }
   };
 
-  const caretIcon = (
-    <span className={cn(styles.selectCaret, open && styles.selectCaretUp)} aria-hidden>
-      <Icon path="Arrows & Directions/CaretDown" size={16} />
-    </span>
+  const caretAction = (
+    <button
+      type="button"
+      className={styles.iconAction}
+      aria-label={open ? 'Свернуть список' : 'Развернуть список'}
+      tabIndex={-1}
+      disabled={disabled || readOnly}
+      onMouseDown={(event) => event.preventDefault()}
+      onClick={(event) => {
+        event.stopPropagation();
+        toggle();
+      }}
+    >
+      <span className={cn(styles.selectCaret, open && styles.selectCaretUp)} aria-hidden>
+        <Icon path="Arrows & Directions/CaretDown" size={16} />
+      </span>
+    </button>
   );
 
   return (
@@ -140,7 +153,7 @@ export function Select({
         readOnly={readOnly}
         focused={open || focused}
         startIcon={startIcon}
-        endAction={caretIcon}
+        endAction={caretAction}
       >
         <button
           type="button"
