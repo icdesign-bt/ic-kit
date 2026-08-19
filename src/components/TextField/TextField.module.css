@@ -11,6 +11,11 @@
   max-width: none;
 }
 
+.controlWrap {
+  position: relative;
+  width: 100%;
+}
+
 .label {
   display: flex;
   align-items: center;
@@ -263,6 +268,7 @@
 .menu {
   position: absolute;
   top: calc(100% + var(--tf-stack-gap));
+  bottom: auto;
   left: 0;
   right: 0;
   z-index: 100;
@@ -273,6 +279,11 @@
   box-shadow: var(--tf-menu-shadow);
   margin: 0;
   overflow: hidden;
+}
+
+.menu[data-placement='top'] {
+  top: auto;
+  bottom: calc(100% + var(--tf-stack-gap));
 }
 
 .menuBody {

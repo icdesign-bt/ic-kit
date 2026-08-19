@@ -43,7 +43,7 @@ export function Select({
   menuFooter,
 }: SelectProps) {
   const { fieldId, labelId, helperId } = useFieldIds(id);
-  const { open, toggle, close, rootRef } = useDropdown(disabled || readOnly);
+  const { open, toggle, close, rootRef, placement } = useDropdown(disabled || readOnly);
   const [uncontrolledValue, setUncontrolledValue] = useState(defaultValue ?? '');
   const [activeIndex, setActiveIndex] = useState(-1);
   const [focused, setFocused] = useState(false);
@@ -183,6 +183,7 @@ export function Select({
           activeIndex={activeIndex}
           onSelect={handleSelect}
           footer={menuFooter}
+          placement={placement}
         />
       ) : null}
     </TextFieldRoot>

@@ -35,7 +35,9 @@ export function TextFieldRoot({
           {labelAction ? <span className={styles.labelAction}>{labelAction}</span> : null}
         </div>
       ) : null}
-      <div ref={controlRef}>{children}</div>
+      <div ref={controlRef} className={styles.controlWrap}>
+        {children}
+      </div>
       {helperText ? (
         <p
           id={helperId}

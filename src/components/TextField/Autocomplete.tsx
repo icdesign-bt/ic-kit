@@ -59,7 +59,7 @@ export function Autocomplete({
   clearable = true,
 }: AutocompleteProps) {
   const { fieldId, labelId, helperId } = useFieldIds(id);
-  const { open, setOpen, close, rootRef } = useDropdown(disabled || readOnly);
+  const { open, setOpen, close, rootRef, placement } = useDropdown(disabled || readOnly);
   const [uncontrolledValue, setUncontrolledValue] = useState(defaultValue ?? '');
   const [uncontrolledInput, setUncontrolledInput] = useState(defaultInputValue);
   const [activeIndex, setActiveIndex] = useState(-1);
@@ -214,6 +214,7 @@ export function Autocomplete({
           activeIndex={activeIndex}
           onSelect={handleSelect}
           footer={menuFooter}
+          placement={placement}
         />
       ) : null}
     </TextFieldRoot>

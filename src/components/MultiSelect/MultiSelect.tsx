@@ -54,7 +54,7 @@ export function MultiSelect({
   maxVisibleTags = 1,
 }: MultiSelectProps) {
   const { fieldId, labelId, helperId } = useFieldIds(id);
-  const { open, toggle, close, rootRef } = useDropdown(disabled || readOnly);
+  const { open, toggle, close, rootRef, placement } = useDropdown(disabled || readOnly);
   const [uncontrolledValue, setUncontrolledValue] = useState<string[]>(defaultValue ?? []);
   const [activeIndex, setActiveIndex] = useState(-1);
 
@@ -267,6 +267,7 @@ export function MultiSelect({
           activeIndex={activeIndex}
           onToggle={toggleOption}
           footer={menuFooter}
+          placement={placement}
         />
       ) : null}
     </TextFieldRoot>
