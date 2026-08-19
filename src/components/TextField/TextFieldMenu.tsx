@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import type { TextFieldOption } from './types';
+import type { DropdownPlacement } from './useDropdown';
 import styles from './TextField.module.css';
 
 export type TextFieldMenuProps = {
@@ -9,6 +10,8 @@ export type TextFieldMenuProps = {
   onSelect: (option: TextFieldOption) => void;
   footer?: ReactNode;
   id?: string;
+  /** Where the menu opens relative to the field. Default: bottom. */
+  placement?: DropdownPlacement;
 };
 
 export function TextFieldMenu({
@@ -18,9 +21,10 @@ export function TextFieldMenu({
   onSelect,
   footer,
   id,
+  placement = 'bottom',
 }: TextFieldMenuProps) {
   return (
-    <div className={styles.menu} data-name="menu">
+    <div className={styles.menu} data-name="menu" data-placement={placement}>
       <div className={styles.menuBody}>
         <ul className={styles.menuList} role="listbox" id={id}>
           {options.map((option, index) => (

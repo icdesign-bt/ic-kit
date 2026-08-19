@@ -65,3 +65,28 @@ export const States: Story = {
     </div>
   ),
 };
+
+export const OpensUpward: Story = {
+  name: 'Opens upward (near bottom)',
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'When there is not enough space below the field, the menu opens upward (`data-placement="top"`).',
+      },
+    },
+  },
+  render: () => (
+    <div
+      style={{
+        minHeight: '70vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+        maxWidth: 320,
+      }}
+    >
+      <SelectDemo />
+    </div>
+  ),
+};

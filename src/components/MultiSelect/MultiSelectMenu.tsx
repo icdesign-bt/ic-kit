@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { Checkbox } from '../Checkbox';
 import type { TextFieldOption } from '../TextField/types';
+import type { DropdownPlacement } from '../TextField/useDropdown';
 import tfStyles from '../TextField/TextField.module.css';
 import styles from './MultiSelect.module.css';
 
@@ -11,6 +12,7 @@ export type MultiSelectMenuProps = {
   onToggle: (option: TextFieldOption) => void;
   footer?: ReactNode;
   id?: string;
+  placement?: DropdownPlacement;
 };
 
 export function MultiSelectMenu({
@@ -20,9 +22,10 @@ export function MultiSelectMenu({
   onToggle,
   footer,
   id,
+  placement = 'bottom',
 }: MultiSelectMenuProps) {
   return (
-    <div className={tfStyles.menu} data-name="menu">
+    <div className={tfStyles.menu} data-name="menu" data-placement={placement}>
       <div className={tfStyles.menuBody}>
         <ul
           className={tfStyles.menuList}
