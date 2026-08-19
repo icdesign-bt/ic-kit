@@ -4,6 +4,17 @@
 
 ## [Unreleased]
 
+## [0.1.2] — 2026-08-19
+
+### Fixed
+
+- **Select:** клик по шеврону снова открывает/закрывает меню (как у MultiSelect).
+- **Chip:** hover/focus только у интерактивных чипов (`onClick` / `href`); у contained/tonal на hover меняется заливка, без ложной обводки.
+
+### Added
+
+- **Chip:** опциональный `href` для link-чипов.
+
 ## [0.1.1] — 2026-08-11
 
 ### Changed
@@ -34,6 +45,7 @@
 - Каталог иконок `tokens/icon-catalog.json`
 - LICENSE, CONTRIBUTING, `docs/installation.md`
 
-[Unreleased]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/icdesign-bt/ic-kit/releases/tag/v0.1.0
