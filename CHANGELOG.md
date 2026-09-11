@@ -4,6 +4,16 @@
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-09-11
+
+### Added
+
+- **Select / MultiSelect / Autocomplete:** меню автоматически открывается вверх, если снизу не хватает места (`data-placement="top"`).
+
+### Fixed
+
+- **MultiSelect:** клик по чекбоксу или лейблу в выпадающем списке стабильно переключает опцию (раньше `li.onClick` и `Checkbox.onChange` срабатывали вместе и отменяли друг друга).
+
 ## [0.1.2] — 2026-08-19
 
 ### Fixed
@@ -32,7 +42,7 @@
 
 ### Added
 
-- **Компоненты:** Button (family), TextField, TextArea, Select, MultiSelect, Autocomplete, DatePicker, Checkbox, Radio, Switch, Slider, Alert, Dialog, Snackbar, Tips, Tabs, Avatar, Chip, Tooltip, Progress, Spinner, Badge, Breadcrumbs, Pagination, EmptyState, Skeleton, Text, Icon
+- **Компоненты:** Button (family), TextField, TextArea, Select, MultiSelect, Autocomplete, DatePicker, Checkbox, Radio, Switch, Slider, Alert, Dialog, Snackbar, Tips, Tabs, Avatar, Chip, Tooltip, Progress, Spinner, Badge, Breadcrumbs, Pagination, EmptyState, Skeleton, Search, Icon
 - **Токены:** ИЦ/ЦОДД × light/dark, typography, component tokens
 - **Storybook:** Foundations, Components, Guides; деплой [GitHub Pages](https://icdesign-bt.github.io/ic-kit/)
 - **Установка:** `docs/installation.md`, `examples/vite-starter`, git dependency `github:icdesign-bt/ic-kit`
@@ -45,7 +55,8 @@
 - Каталог иконок `tokens/icon-catalog.json`
 - LICENSE, CONTRIBUTING, `docs/installation.md`
 
-[Unreleased]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/icdesign-bt/ic-kit/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/icdesign-bt/ic-kit/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/icdesign-bt/ic-kit/releases/tag/v0.1.0
