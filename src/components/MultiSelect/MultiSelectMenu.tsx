@@ -15,6 +15,10 @@ export type MultiSelectMenuProps = {
   placement?: DropdownPlacement;
 };
 
+/**
+ * Menu rows use the kit Checkbox as the only toggle surface.
+ * Do not put onClick on the <li> — it double-fires with Checkbox onChange and cancels the toggle.
+ */
 export function MultiSelectMenu({
   options,
   value,
@@ -35,26 +39,31 @@ export function MultiSelectMenu({
         >
           {options.map((option, index) => {
             const selected = value.includes(option.value);
+
             return (
               <li
                 key={option.value}
                 role="option"
                 aria-selected={selected}
+                aria-disabled={option.disabled || undefined}
                 data-active={index === activeIndex ? 'true' : undefined}
                 data-disabled={option.disabled ? 'true' : undefined}
                 className={styles.menuCheckboxItem}
-                onMouseDown={(event) => event.preventDefault()}
-                onClick={() => {
-                  if (!option.disabled) onToggle(option);
+                onMouseDown={(event) => {
+                  // Keep focus on the trigger; avoid closing via blur.
+                  event.preventDefault();
                 }}
               >
                 <Checkbox
+                  className={styles.menuCheckbox}
                   size="sm"
                   label={option.label}
                   checked={selected}
                   disabled={option.disabled}
                   tabIndex={-1}
-                  onChange={() => onToggle(option)}
+                  onChange={() => {
+                    if (!option.disabled) onToggle(option);
+                  }}
                 />
               </li>
             );

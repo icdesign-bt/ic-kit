@@ -79,8 +79,8 @@ export function MultiSelect({
 
   const toggleOption = useCallback(
     (option: TextFieldOption) => {
-      const exists = value.includes(option.value);
-      const next = exists
+      if (option.disabled) return;
+      const next = value.includes(option.value)
         ? value.filter((item) => item !== option.value)
         : [...value, option.value];
       setValue(next);

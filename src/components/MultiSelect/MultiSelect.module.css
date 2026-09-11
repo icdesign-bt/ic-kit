@@ -75,11 +75,11 @@
 
 .menuCheckboxItem {
   display: flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 4px 0;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
   border-radius: 6px;
-  cursor: pointer;
+  list-style: none;
 }
 
 .menuCheckboxItem[data-disabled='true'] {
@@ -87,6 +87,16 @@
   pointer-events: none;
 }
 
-.menuCheckboxItem[data-active='true'] {
-  background: var(--tf-menu-item-active-bg, var(--surfaces-surface-toner));
+.menuCheckbox {
+  flex: 1;
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.menuCheckboxItem:hover:not([data-disabled='true']) .menuCheckbox,
+.menuCheckboxItem[data-active='true'] .menuCheckbox {
+  background: var(--tf-menu-item-hover);
 }
