@@ -25,7 +25,7 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: `KURS v2 MultiSelect. Figma: [3390:30343](${FIGMA_COMPONENT}?node-id=3390-30343), docs: [159:19773](${FIGMA_DOCS}?node-id=159-19773).`,
+        component: `KURS v2 MultiSelect. Dropdown rows use the kit \`Checkbox\` — click the box or the label to toggle. Figma: [3390:30343](${FIGMA_COMPONENT}?node-id=3390-30343), docs: [159:19773](${FIGMA_DOCS}?node-id=159-19773).`,
       },
     },
   },
